@@ -3,7 +3,7 @@ import contentList from './content.json'
 import { projects } from './projects'
 
 /** content.json is an array so it can be edited in the CMS; index it here. */
-const content = Object.fromEntries(contentList.map((c) => [c.id, c]))
+const content = Object.fromEntries(contentList.content.map((c) => [c.id, c]))
 
 /** Intrinsic aspect ratios keyed by "folder/NN.ext". */
 const ratios = {}

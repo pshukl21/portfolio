@@ -1,558 +1,560 @@
-[
-  {
-    "id": "layerremix",
-    "folder": "layerremix",
-    "sequence": true,
-    "compact": true,
-    "groups": [
-      {
-        "title": "Where scrapped PSDs become finished art",
-        "note": "Landing page. Upload unfinished PSDs, download the actual working file, remix and publish your version.",
-        "folder": null,
-        "files": [
-          "01.webp"
-        ]
-      },
-      {
-        "title": "Upload your unfinished PSD",
-        "note": "The real preview comes straight from the file's own embedded thumbnail — no separate image upload, so it can never be misleading.",
-        "folder": null,
-        "files": [
-          "02.webp"
-        ]
-      },
-      {
-        "title": "Download someone else's real PSD",
-        "note": "Every download is the actual layered source file, not a flattened preview.",
-        "folder": null,
-        "files": [
-          "03.webp"
-        ]
-      },
-      {
-        "title": "Fix what needs work, then publish it",
-        "note": "Describe exactly what changed, and the remix joins the original's lineage — credited, versioned, forkable.",
-        "folder": null,
-        "files": [
-          "04.webp"
-        ]
-      },
-      {
-        "title": "Watch the whole history unfold",
-        "note": "Every fork is versioned and connected back to the original: a visual lineage of who built what, and when.",
-        "folder": null,
-        "files": [
-          "05.webp"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "nba",
-    "folder": null,
-    "sequence": false,
-    "compact": false,
-    "groups": [
-      {
-        "title": "Dallas Mavericks — All-Star voting",
-        "note": "Anthony Davis and Cooper Flagg voting graphics, created at the Mavericks' request.",
-        "folder": "dallas-mavericks",
-        "files": [
-          "01.webp",
-          "02.webp"
-        ]
-      },
-      {
-        "title": "Dallas Mavericks — downtown billboard",
-        "note": "Art featured on the official Mavericks billboard in downtown Dallas.",
-        "folder": "dallas-mavericks",
-        "files": [
-          "03.webp",
-          "04.webp"
-        ]
-      },
-      {
-        "title": "Houston Rockets",
-        "note": "Art featured on the official Houston Rockets Instagram.",
-        "folder": "nba",
-        "files": [
-          "02.webp",
-          "03.webp"
-        ]
-      },
-      {
-        "title": "Indiana Pacers",
-        "note": "Billboard in Minot, North Dakota.",
-        "folder": "nba",
-        "files": [
-          "06.webp"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "illini",
-    "folder": "illini-mens-basketball",
-    "sequence": false,
-    "compact": false,
-    "groups": [
-      {
-        "title": "Kylan Boswell welcome graphic",
-        "note": "Custom recruiting welcome graphic for his visit to Champaign.",
-        "folder": null,
-        "files": [
-          "01.webp"
-        ]
-      },
-      {
-        "title": "Jersey retirement banner",
-        "note": "",
-        "folder": null,
-        "files": [
-          "02.webp"
-        ]
-      },
-      {
-        "title": "ESPN notification graphic",
-        "note": "",
-        "folder": null,
-        "files": [
-          "03.webp"
-        ]
-      },
-      {
-        "title": "March Madness graphic",
-        "note": "",
-        "folder": null,
-        "files": [
-          "04.webp"
-        ]
-      },
-      {
-        "title": "Recruiting templates",
-        "note": "Templated system used for 30+ recruits — the staff could turn around a personalised graphic without rebuilding it each time.",
-        "folder": null,
-        "files": [
-          "05.webp",
-          "06.webp",
-          "07.webp"
-        ]
-      },
-      {
-        "title": "Jersey swaps",
-        "note": "One of 10+ jersey swaps created for recruits.",
-        "folder": null,
-        "files": [
-          "08.webp"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "back-to-the-wild",
-    "folder": "back-to-the-wild",
-    "sequence": false,
-    "compact": false,
-    "groups": [
-      {
-        "title": "Key art and thumbnail",
-        "note": "The Turtle Rescuers of Belize, episode 5. Hosted by Sam Potter.",
-        "folder": null,
-        "files": [
-          "01.webp"
-        ]
-      },
-      {
-        "title": "Emmy ceremony",
-        "note": "",
-        "folder": null,
-        "files": [
-          "02.webp"
-        ]
-      },
-      {
-        "title": "The award",
-        "note": "Northern California Area Emmy, Outstanding Achievement, Human Interest (News or Long Form Content), awarded to me as graphic designer.",
-        "folder": null,
-        "files": [
-          "03.webp",
-          "04.webp"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "youtube-thumbnails",
-    "folder": "youtube-thumbnails",
-    "sequence": false,
-    "compact": false,
-    "groups": [
-      {
-        "title": "The playlist",
-        "note": "200+ thumbnails across client channels, 48M+ views combined.",
-        "folder": null,
-        "files": [
-          "01.webp"
-        ]
-      },
-      {
-        "title": "Before and after",
-        "note": "Raw frame on top, finished thumbnail below.",
-        "folder": null,
-        "files": [
-          "02.webp",
-          "03.webp",
-          "04.webp"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "lexie-limitless",
-    "folder": "lexielimitless",
-    "sequence": false,
-    "compact": false,
-    "groups": [
-      {
-        "title": "YouTube thumbnails",
-        "note": "",
-        "folder": null,
-        "files": [
-          "01.webp",
-          "02.webp"
-        ]
-      },
-      {
-        "title": "Lara Croft training",
-        "note": "Promotion for the Lara Croft training video. Featured in Men's Health.",
-        "folder": null,
-        "files": [
-          "03.webp",
-          "04.webp",
-          "05.webp"
-        ]
-      },
-      {
-        "title": "Every Country Series",
-        "note": "A scalable visual system producing 195 unique PDF travel guides that held brand consistency across an entire global content library.",
-        "folder": null,
-        "files": [
-          "06.webp",
-          "07.webp",
-          "08.webp",
-          "09.webp",
-          "10.webp",
-          "11.webp"
-        ]
-      },
-      {
-        "title": "Instagram reel covers",
-        "note": "",
-        "folder": null,
-        "files": [
-          "13.webp",
-          "14.webp",
-          "15.webp"
-        ]
-      },
-      {
-        "title": "Instagram photos",
-        "note": "",
-        "folder": null,
-        "files": [
-          "16.webp",
-          "17.webp",
-          "18.webp",
-          "19.webp",
-          "20.webp"
-        ]
-      },
-      {
-        "title": "Amazon Prime Video — Charge Around the Globe",
-        "note": "Thumbnails featured in the intro of Lexie's Amazon Prime series.",
-        "folder": null,
-        "files": [
-          "12.webp"
-        ]
-      },
-      {
-        "title": "YouTube end screen",
-        "note": "",
-        "folder": null,
-        "files": [
-          "21.webp"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "magnus-method",
-    "folder": "magnusmethod",
-    "sequence": false,
-    "compact": false,
-    "groups": [
-      {
-        "title": "Alexander Skarsgård — The Northman",
-        "note": "Debuted the same day as the film's premiere. 2.7M+ views. Featured in Men's Health and Yahoo.",
-        "folder": null,
-        "files": [
-          "01.webp",
-          "02.webp"
-        ]
-      },
-      {
-        "title": "Gal Gadot — Wonder Woman",
-        "note": "Released alongside Wonder Woman 1984. Featured in Business Insider and Men's Health.",
-        "folder": null,
-        "files": [
-          "03.webp"
-        ]
-      },
-      {
-        "title": "Alicia Vikander",
-        "note": "",
-        "folder": null,
-        "files": [
-          "04.webp"
-        ]
-      },
-      {
-        "title": "Ben Affleck",
-        "note": "Thumbnail featured in Business Insider.",
-        "folder": null,
-        "files": [
-          "05.webp"
-        ]
-      },
-      {
-        "title": "Channel thumbnails",
-        "note": "3M+ views combined.",
-        "folder": null,
-        "files": [
-          "06.webp",
-          "07.webp",
-          "08.webp"
-        ]
-      },
-      {
-        "title": "Channel banner",
-        "note": "",
-        "folder": null,
-        "files": [
-          "09.webp"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "coyote-peterson",
-    "folder": "coyote-petersonbrave-wildnerness",
-    "sequence": false,
-    "compact": false,
-    "groups": [
-      {
-        "title": "Mafiathon 2 with Kai Cenat",
-        "note": "Announcement poster and story art for the Fear Factor challenge.",
-        "folder": null,
-        "files": [
-          "01.webp",
-          "02.webp"
-        ]
-      },
-      {
-        "title": "Snapping Turtle Bite Test",
-        "note": "Episode poster and countdown story.",
-        "folder": null,
-        "files": [
-          "03.webp",
-          "04.webp"
-        ]
-      },
-      {
-        "title": "Printed",
-        "note": "",
-        "folder": null,
-        "files": [
-          "05.webp"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "heaven",
-    "folder": "heaven",
-    "sequence": false,
-    "compact": false,
-    "groups": [
-      {
-        "title": "Official posters",
-        "note": "French and English versions. Planet Dale / Galavision.",
-        "folder": null,
-        "files": [
-          "01.webp",
-          "02.webp"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "gracie-abrams",
-    "folder": "gracie-abrams-concept",
-    "sequence": false,
-    "compact": false,
-    "groups": [
-      {
-        "title": "Hit the Wall — concept poster",
-        "note": "Unofficial concept edit. 2,000+ organic likes.",
-        "folder": null,
-        "files": [
-          "01.webp"
-        ]
-      },
-      {
-        "title": "The response",
-        "note": "Followed up with a behind-the-scenes breakdown of the compositing process, which caught Gracie's attention.",
-        "folder": null,
-        "files": [
-          "02.webp"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "concept-posters",
-    "folder": "poster-graphics",
-    "sequence": false,
-    "compact": false,
-    "groups": [
-      {
-        "title": "Alternate posters",
-        "note": "Self-directed redesigns. Unofficial concept work, not affiliated with the rights holders.",
-        "folder": null,
-        "files": [
-          "01.webp",
-          "02.webp",
-          "03.webp",
-          "04.webp",
-          "05.webp",
-          "06.webp"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "varun-rana",
-    "folder": "varun-rana",
-    "sequence": false,
-    "compact": false,
-    "groups": [
-      {
-        "title": "Fake LinkedIn screens",
-        "note": "Built for a sketch advertising Rippling.",
-        "folder": null,
-        "files": [
-          "01.webp",
-          "02.webp"
-        ]
-      },
-      {
-        "title": "Fake Times Square billboard",
-        "note": "",
-        "folder": null,
-        "files": [
-          "03.webp"
-        ]
-      },
-      {
-        "title": "Edited subway advertisement",
-        "note": "",
-        "folder": null,
-        "files": [
-          "04.webp",
-          "05.webp"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "first-chair",
-    "folder": "filmtv",
-    "sequence": false,
-    "compact": false,
-    "groups": [
-      {
-        "title": "Poster and key art",
-        "note": "Short film directed by Cassidy Tee, starring James Sanders.",
-        "folder": null,
-        "files": [
-          "01.webp",
-          "02.webp"
-        ]
-      },
-      {
-        "title": "At the premiere",
-        "note": "",
-        "folder": null,
-        "files": [
-          "03.webp"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "music",
-    "folder": "musiccover-art",
-    "sequence": false,
-    "compact": false,
-    "groups": [
-      {
-        "title": "Released covers",
-        "note": "",
-        "folder": null,
-        "files": [
-          "01.webp",
-          "02.webp"
-        ]
-      },
-      {
-        "title": "Concept covers",
-        "note": "",
-        "folder": null,
-        "files": [
-          "03.webp",
-          "04.webp",
-          "05.webp",
-          "06.webp",
-          "07.webp",
-          "08.webp",
-          "09.webp",
-          "10.webp"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "scoutible",
-    "folder": "scoutible",
-    "sequence": false,
-    "compact": false,
-    "groups": [
-      {
-        "title": "Growth marketing",
-        "note": "App store and social assets created as an Entrepreneurship Fellow.",
-        "folder": null,
-        "files": [
-          "01.webp",
-          "02.webp"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "brett-conti",
-    "folder": "brett-conti",
-    "sequence": false,
-    "compact": false,
-    "groups": []
-  }
-]
+{
+  "content": [
+    {
+      "id": "layerremix",
+      "folder": "layerremix",
+      "sequence": true,
+      "compact": true,
+      "groups": [
+        {
+          "title": "Where scrapped PSDs become finished art",
+          "note": "Landing page. Upload unfinished PSDs, download the actual working file, remix and publish your version.",
+          "folder": null,
+          "files": [
+            "01.png"
+          ]
+        },
+        {
+          "title": "Upload your unfinished PSD",
+          "note": "The real preview comes straight from the file's own embedded thumbnail — no separate image upload, so it can never be misleading.",
+          "folder": null,
+          "files": [
+            "02.png"
+          ]
+        },
+        {
+          "title": "Download someone else's real PSD",
+          "note": "Every download is the actual layered source file, not a flattened preview.",
+          "folder": null,
+          "files": [
+            "03.png"
+          ]
+        },
+        {
+          "title": "Fix what needs work, then publish it",
+          "note": "Describe exactly what changed, and the remix joins the original's lineage — credited, versioned, forkable.",
+          "folder": null,
+          "files": [
+            "04.png"
+          ]
+        },
+        {
+          "title": "Watch the whole history unfold",
+          "note": "Every fork is versioned and connected back to the original: a visual lineage of who built what, and when.",
+          "folder": null,
+          "files": [
+            "05.png"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nba",
+      "folder": null,
+      "sequence": false,
+      "compact": false,
+      "groups": [
+        {
+          "title": "Dallas Mavericks — All-Star voting",
+          "note": "Anthony Davis and Cooper Flagg voting graphics, created at the Mavericks' request.",
+          "folder": "dallas-mavericks",
+          "files": [
+            "01.png",
+            "02.png"
+          ]
+        },
+        {
+          "title": "Dallas Mavericks — downtown billboard",
+          "note": "Art featured on the official Mavericks billboard in downtown Dallas.",
+          "folder": "dallas-mavericks",
+          "files": [
+            "03.jpg",
+            "04.JPG"
+          ]
+        },
+        {
+          "title": "Houston Rockets",
+          "note": "Art featured on the official Houston Rockets Instagram.",
+          "folder": "nba",
+          "files": [
+            "02.jpg",
+            "03.jpg"
+          ]
+        },
+        {
+          "title": "Indiana Pacers",
+          "note": "Billboard in Minot, North Dakota.",
+          "folder": "nba",
+          "files": [
+            "06.PNG"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "illini",
+      "folder": "illini-mens-basketball",
+      "sequence": false,
+      "compact": false,
+      "groups": [
+        {
+          "title": "Kylan Boswell welcome graphic",
+          "note": "Custom recruiting welcome graphic for his visit to Champaign.",
+          "folder": null,
+          "files": [
+            "01.JPG"
+          ]
+        },
+        {
+          "title": "Jersey retirement banner",
+          "note": "",
+          "folder": null,
+          "files": [
+            "02.jpg"
+          ]
+        },
+        {
+          "title": "ESPN notification graphic",
+          "note": "",
+          "folder": null,
+          "files": [
+            "03.jpg"
+          ]
+        },
+        {
+          "title": "March Madness graphic",
+          "note": "",
+          "folder": null,
+          "files": [
+            "04.jpg"
+          ]
+        },
+        {
+          "title": "Recruiting templates",
+          "note": "Templated system used for 30+ recruits — the staff could turn around a personalised graphic without rebuilding it each time.",
+          "folder": null,
+          "files": [
+            "05.jpg",
+            "06.jpg",
+            "07.jpg"
+          ]
+        },
+        {
+          "title": "Jersey swaps",
+          "note": "One of 10+ jersey swaps created for recruits.",
+          "folder": null,
+          "files": [
+            "08.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "back-to-the-wild",
+      "folder": "back-to-the-wild",
+      "sequence": false,
+      "compact": false,
+      "groups": [
+        {
+          "title": "Key art and thumbnail",
+          "note": "The Turtle Rescuers of Belize, episode 5. Hosted by Sam Potter.",
+          "folder": null,
+          "files": [
+            "01.png"
+          ]
+        },
+        {
+          "title": "Emmy ceremony",
+          "note": "",
+          "folder": null,
+          "files": [
+            "02.jpg"
+          ]
+        },
+        {
+          "title": "The award",
+          "note": "Northern California Area Emmy, Outstanding Achievement, Human Interest (News or Long Form Content), awarded to me as graphic designer.",
+          "folder": null,
+          "files": [
+            "03.PNG",
+            "04.PNG"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "youtube-thumbnails",
+      "folder": "youtube-thumbnails",
+      "sequence": false,
+      "compact": false,
+      "groups": [
+        {
+          "title": "The playlist",
+          "note": "200+ thumbnails across client channels, 48M+ views combined.",
+          "folder": null,
+          "files": [
+            "01.png"
+          ]
+        },
+        {
+          "title": "Before and after",
+          "note": "Raw frame on top, finished thumbnail below.",
+          "folder": null,
+          "files": [
+            "02.jpeg",
+            "03.jpeg",
+            "04.jpeg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lexie-limitless",
+      "folder": "lexielimitless",
+      "sequence": false,
+      "compact": false,
+      "groups": [
+        {
+          "title": "YouTube thumbnails",
+          "note": "",
+          "folder": null,
+          "files": [
+            "01.jpg",
+            "02.jpg"
+          ]
+        },
+        {
+          "title": "Lara Croft training",
+          "note": "Promotion for the Lara Croft training video. Featured in Men's Health.",
+          "folder": null,
+          "files": [
+            "03.jpg",
+            "04.png",
+            "05.jpg"
+          ]
+        },
+        {
+          "title": "Every Country Series",
+          "note": "A scalable visual system producing 195 unique PDF travel guides that held brand consistency across an entire global content library.",
+          "folder": null,
+          "files": [
+            "06.png",
+            "07.png",
+            "08.png",
+            "09.png",
+            "10.png",
+            "11.png"
+          ]
+        },
+        {
+          "title": "Instagram reel covers",
+          "note": "",
+          "folder": null,
+          "files": [
+            "13.png",
+            "14.png",
+            "15.png"
+          ]
+        },
+        {
+          "title": "Instagram photos",
+          "note": "",
+          "folder": null,
+          "files": [
+            "16.png",
+            "17.png",
+            "18.png",
+            "19.png",
+            "20.png"
+          ]
+        },
+        {
+          "title": "Amazon Prime Video — Charge Around the Globe",
+          "note": "Thumbnails featured in the intro of Lexie's Amazon Prime series.",
+          "folder": null,
+          "files": [
+            "12.jpg"
+          ]
+        },
+        {
+          "title": "YouTube end screen",
+          "note": "",
+          "folder": null,
+          "files": [
+            "21.png"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "magnus-method",
+      "folder": "magnusmethod",
+      "sequence": false,
+      "compact": false,
+      "groups": [
+        {
+          "title": "Alexander Skarsgård — The Northman",
+          "note": "Debuted the same day as the film's premiere. 2.7M+ views. Featured in Men's Health and Yahoo.",
+          "folder": null,
+          "files": [
+            "01.jpg",
+            "02.jpg"
+          ]
+        },
+        {
+          "title": "Gal Gadot — Wonder Woman",
+          "note": "Released alongside Wonder Woman 1984. Featured in Business Insider and Men's Health.",
+          "folder": null,
+          "files": [
+            "03.jpg"
+          ]
+        },
+        {
+          "title": "Alicia Vikander",
+          "note": "",
+          "folder": null,
+          "files": [
+            "04.jpg"
+          ]
+        },
+        {
+          "title": "Ben Affleck",
+          "note": "Thumbnail featured in Business Insider.",
+          "folder": null,
+          "files": [
+            "05.jpg"
+          ]
+        },
+        {
+          "title": "Channel thumbnails",
+          "note": "3M+ views combined.",
+          "folder": null,
+          "files": [
+            "06.jpg",
+            "07.jpg",
+            "08.jpg"
+          ]
+        },
+        {
+          "title": "Channel banner",
+          "note": "",
+          "folder": null,
+          "files": [
+            "09.png"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coyote-peterson",
+      "folder": "coyote-petersonbrave-wildnerness",
+      "sequence": false,
+      "compact": false,
+      "groups": [
+        {
+          "title": "Mafiathon 2 with Kai Cenat",
+          "note": "Announcement poster and story art for the Fear Factor challenge.",
+          "folder": null,
+          "files": [
+            "01.PNG",
+            "02.png"
+          ]
+        },
+        {
+          "title": "Snapping Turtle Bite Test",
+          "note": "Episode poster and countdown story.",
+          "folder": null,
+          "files": [
+            "03.PNG",
+            "04.PNG"
+          ]
+        },
+        {
+          "title": "Printed",
+          "note": "",
+          "folder": null,
+          "files": [
+            "05.JPG"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "heaven",
+      "folder": "heaven",
+      "sequence": false,
+      "compact": false,
+      "groups": [
+        {
+          "title": "Official posters",
+          "note": "French and English versions. Planet Dale / Galavision.",
+          "folder": null,
+          "files": [
+            "01.PNG",
+            "02.PNG"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gracie-abrams",
+      "folder": "gracie-abrams-concept",
+      "sequence": false,
+      "compact": false,
+      "groups": [
+        {
+          "title": "Hit the Wall — concept poster",
+          "note": "Unofficial concept edit. 2,000+ organic likes.",
+          "folder": null,
+          "files": [
+            "01.PNG"
+          ]
+        },
+        {
+          "title": "The response",
+          "note": "Followed up with a behind-the-scenes breakdown of the compositing process, which caught Gracie's attention.",
+          "folder": null,
+          "files": [
+            "02.png"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "concept-posters",
+      "folder": "poster-graphics",
+      "sequence": false,
+      "compact": false,
+      "groups": [
+        {
+          "title": "Alternate posters",
+          "note": "Self-directed redesigns. Unofficial concept work, not affiliated with the rights holders.",
+          "folder": null,
+          "files": [
+            "01.jpg",
+            "02.jpg",
+            "03.jpg",
+            "04.jpg",
+            "05.jpg",
+            "06.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "varun-rana",
+      "folder": "varun-rana",
+      "sequence": false,
+      "compact": false,
+      "groups": [
+        {
+          "title": "Fake LinkedIn screens",
+          "note": "Built for a sketch advertising Rippling.",
+          "folder": null,
+          "files": [
+            "01.png",
+            "02.png"
+          ]
+        },
+        {
+          "title": "Fake Times Square billboard",
+          "note": "",
+          "folder": null,
+          "files": [
+            "03.png"
+          ]
+        },
+        {
+          "title": "Edited subway advertisement",
+          "note": "",
+          "folder": null,
+          "files": [
+            "04.png",
+            "05.png"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-chair",
+      "folder": "filmtv",
+      "sequence": false,
+      "compact": false,
+      "groups": [
+        {
+          "title": "Poster and key art",
+          "note": "Short film directed by Cassidy Tee, starring James Sanders.",
+          "folder": null,
+          "files": [
+            "01.jpg",
+            "02.PNG"
+          ]
+        },
+        {
+          "title": "At the premiere",
+          "note": "",
+          "folder": null,
+          "files": [
+            "03.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "music",
+      "folder": "musiccover-art",
+      "sequence": false,
+      "compact": false,
+      "groups": [
+        {
+          "title": "Released covers",
+          "note": "",
+          "folder": null,
+          "files": [
+            "01.jpg",
+            "02.jpg"
+          ]
+        },
+        {
+          "title": "Concept covers",
+          "note": "",
+          "folder": null,
+          "files": [
+            "03.png",
+            "04.JPG",
+            "05.jpeg",
+            "06.png",
+            "07.PNG",
+            "08.JPG",
+            "09.PNG",
+            "10.JPG"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scoutible",
+      "folder": "scoutible",
+      "sequence": false,
+      "compact": false,
+      "groups": [
+        {
+          "title": "Growth marketing",
+          "note": "App store and social assets created as an Entrepreneurship Fellow.",
+          "folder": null,
+          "files": [
+            "01.jpg",
+            "02.png"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brett-conti",
+      "folder": "brett-conti",
+      "sequence": false,
+      "compact": false,
+      "groups": []
+    }
+  ]
+}

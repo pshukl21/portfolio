@@ -1,146 +1,148 @@
-[
-  {
-    "id": "layerremix",
-    "cover": "/assets/home/01.webp",
-    "title": "LayerRemix",
-    "year": "2026",
-    "meta": "Product design · Self-directed",
-    "lead": "A platform where artists share, download and remix each other’s Photoshop files.",
-    "body": "Most design work ends as a flattened JPG. LayerRemix keeps the layers alive: designers upload working PSDs, others download the real source file, rework it, and publish the remix back. Every fork is versioned and linked to the original, so a single file becomes a visible lineage of who built what. I designed, built and run it solo."
-  },
-  {
-    "id": "nba",
-    "cover": "/assets/home/02.webp",
-    "title": "NBA",
-    "year": "2025–26",
-    "meta": "Dallas Mavericks · Houston Rockets · Indiana Pacers",
-    "lead": "All-Star voting campaigns, social art and a billboard in downtown Dallas.",
-    "body": "The Mavericks commissioned All-Star voting graphics for Anthony Davis and Cooper Flagg — work that had to read instantly at thumbnail size on a phone and still hold up scaled onto the side of a building."
-  },
-  {
-    "id": "illini",
-    "cover": "/assets/home/04.webp",
-    "title": "Illini Men’s Basketball",
-    "year": "2022",
-    "meta": "University of Illinois · Design intern",
-    "lead": "Recruiting and gameday graphics for a Division I program.",
-    "body": "Built a templated system that let the staff turn around personalised graphics for 30+ recruits without redrawing each one from scratch."
-  },
-  {
-    "id": "back-to-the-wild",
-    "cover": "/assets/home/05.webp",
-    "title": "Back to the Wild",
-    "year": "2023",
-    "meta": "Hawaii News Now / KFVE · Making It Media",
-    "lead": "Thumbnail and key art for the series that earned me a Regional Emmy.",
-    "body": "Northern California Area Emmy Award, Outstanding Achievement, Human Interest (News or Long Form Content), awarded to me as graphic designer on the series."
-  },
-  {
-    "id": "youtube-thumbnails",
-    "cover": "/assets/home/03.webp",
-    "title": "YouTube Thumbnails",
-    "year": "2025",
-    "meta": "200+ thumbnails · 48M+ views",
-    "lead": "The image that decides whether a video gets watched.",
-    "body": ""
-  },
-  {
-    "id": "lexie-limitless",
-    "cover": "/assets/home/07.webp",
-    "title": "Lexie Limitless",
-    "year": "2024",
-    "meta": "Featured in Men’s Health, Yahoo, Amazon Prime Video",
-    "lead": "Full design support for a world-travelling creator: thumbnails, reel covers, PDF guides and an end-screen system.",
-    "body": ""
-  },
-  {
-    "id": "magnus-method",
-    "cover": "/assets/home/08.webp",
-    "title": "Magnus Method",
-    "year": "2023",
-    "meta": "Celebrity fitness trainer · 300k+ subscribers",
-    "lead": "Thumbnails for Magnus Lygdback, whose clients include Gal Gadot, Alicia Vikander, Alexander Skarsgård and Ben Affleck.",
-    "body": ""
-  },
-  {
-    "id": "coyote-peterson",
-    "cover": "/assets/home/12.webp",
-    "title": "Coyote Peterson / Brave Wilderness",
-    "year": "2024",
-    "meta": "Poster graphics · Social campaign",
-    "lead": "Episode posters and announcement art, including the Mafiathon 2 collaboration with Kai Cenat.",
-    "body": ""
-  },
-  {
-    "id": "heaven",
-    "cover": "/assets/home/09.webp",
-    "title": "Heaven",
-    "year": "2026",
-    "meta": "Planet Dale · Galavision",
-    "lead": "Official posters for the film and series Heaven.",
-    "body": ""
-  },
-  {
-    "id": "gracie-abrams",
-    "cover": "/assets/home/11.webp",
-    "title": "Gracie Abrams",
-    "year": "2026",
-    "meta": "Concept work · Unofficial",
-    "lead": "A concept edit for “Hit the Wall” that Gracie Abrams commented on herself.",
-    "body": ""
-  },
-  {
-    "id": "concept-posters",
-    "cover": "/assets/home/10.webp",
-    "title": "Concept Posters",
-    "year": "2025",
-    "meta": "Unofficial concept work, created independently",
-    "lead": "Self-directed alternate posters for films and series I wanted to redesign.",
-    "body": ""
-  },
-  {
-    "id": "varun-rana",
-    "cover": "/assets/home/14.webp",
-    "title": "Varun Rana",
-    "year": "2025",
-    "meta": "Comedian · Sketch assets",
-    "lead": "Fabricated billboards, LinkedIn screens and subway ads built to look real enough to carry a joke.",
-    "body": ""
-  },
-  {
-    "id": "first-chair",
-    "cover": "/assets/home/15.webp",
-    "title": "First Chair",
-    "year": "2025",
-    "meta": "Short film · Dir. Cassidy Tee",
-    "lead": "Poster and key art, printed and hung at the premiere.",
-    "body": ""
-  },
-  {
-    "id": "music",
-    "cover": "/assets/home/17.webp",
-    "title": "Music & Cover Art",
-    "year": "2024",
-    "meta": "Single covers · Concept art",
-    "lead": "Cover art for released tracks and self-directed concepts.",
-    "body": ""
-  },
-  {
-    "id": "scoutible",
-    "cover": "/assets/home/16.webp",
-    "title": "Scoutible",
-    "year": "2020",
-    "meta": "Entrepreneurship Fellow",
-    "lead": "Growth marketing graphics for a hiring startup.",
-    "body": ""
-  },
-  {
-    "id": "brett-conti",
-    "cover": "/assets/home/13.webp",
-    "title": "Brett Conti",
-    "year": "2023",
-    "meta": "900k+ subscribers · 3M+ views",
-    "lead": "Travel thumbnails for a YouTube channel with a global audience.",
-    "body": ""
-  }
-]
+{
+  "projects": [
+    {
+      "id": "layerremix",
+      "cover": "/assets/home/01.png",
+      "title": "LayerRemix",
+      "year": "2026",
+      "meta": "Product design · Self-directed",
+      "lead": "A platform where artists share, download and remix each other’s Photoshop files.",
+      "body": "Most design work ends as a flattened JPG. LayerRemix keeps the layers alive: designers upload working PSDs, others download the real source file, rework it, and publish the remix back. Every fork is versioned and linked to the original, so a single file becomes a visible lineage of who built what. I designed, built and run it solo."
+    },
+    {
+      "id": "nba",
+      "cover": "/assets/home/02.jpg",
+      "title": "NBA",
+      "year": "2025–26",
+      "meta": "Dallas Mavericks · Houston Rockets · Indiana Pacers",
+      "lead": "All-Star voting campaigns, social art and a billboard in downtown Dallas.",
+      "body": "The Mavericks commissioned All-Star voting graphics for Anthony Davis and Cooper Flagg — work that had to read instantly at thumbnail size on a phone and still hold up scaled onto the side of a building."
+    },
+    {
+      "id": "illini",
+      "cover": "/assets/home/04.jpg",
+      "title": "Illini Men’s Basketball",
+      "year": "2022",
+      "meta": "University of Illinois · Design intern",
+      "lead": "Recruiting and gameday graphics for a Division I program.",
+      "body": "Built a templated system that let the staff turn around personalised graphics for 30+ recruits without redrawing each one from scratch."
+    },
+    {
+      "id": "back-to-the-wild",
+      "cover": "/assets/home/05.png",
+      "title": "Back to the Wild",
+      "year": "2023",
+      "meta": "Hawaii News Now / KFVE · Making It Media",
+      "lead": "Thumbnail and key art for the series that earned me a Regional Emmy.",
+      "body": "Northern California Area Emmy Award, Outstanding Achievement, Human Interest (News or Long Form Content), awarded to me as graphic designer on the series."
+    },
+    {
+      "id": "youtube-thumbnails",
+      "cover": "/assets/home/03.jpg",
+      "title": "YouTube Thumbnails",
+      "year": "2025",
+      "meta": "200+ thumbnails · 48M+ views",
+      "lead": "The image that decides whether a video gets watched.",
+      "body": ""
+    },
+    {
+      "id": "lexie-limitless",
+      "cover": "/assets/home/07.png",
+      "title": "Lexie Limitless",
+      "year": "2024",
+      "meta": "Featured in Men’s Health, Yahoo, Amazon Prime Video",
+      "lead": "Full design support for a world-travelling creator: thumbnails, reel covers, PDF guides and an end-screen system.",
+      "body": ""
+    },
+    {
+      "id": "magnus-method",
+      "cover": "/assets/home/08.jpg",
+      "title": "Magnus Method",
+      "year": "2023",
+      "meta": "Celebrity fitness trainer · 300k+ subscribers",
+      "lead": "Thumbnails for Magnus Lygdback, whose clients include Gal Gadot, Alicia Vikander, Alexander Skarsgård and Ben Affleck.",
+      "body": ""
+    },
+    {
+      "id": "coyote-peterson",
+      "cover": "/assets/home/12.png",
+      "title": "Coyote Peterson / Brave Wilderness",
+      "year": "2024",
+      "meta": "Poster graphics · Social campaign",
+      "lead": "Episode posters and announcement art, including the Mafiathon 2 collaboration with Kai Cenat.",
+      "body": ""
+    },
+    {
+      "id": "heaven",
+      "cover": "/assets/home/09.PNG",
+      "title": "Heaven",
+      "year": "2026",
+      "meta": "Planet Dale · Galavision",
+      "lead": "Official posters for the film and series Heaven.",
+      "body": ""
+    },
+    {
+      "id": "gracie-abrams",
+      "cover": "/assets/home/11.PNG",
+      "title": "Gracie Abrams",
+      "year": "2026",
+      "meta": "Concept work · Unofficial",
+      "lead": "A concept edit for “Hit the Wall” that Gracie Abrams commented on herself.",
+      "body": ""
+    },
+    {
+      "id": "concept-posters",
+      "cover": "/assets/home/10.jpg",
+      "title": "Concept Posters",
+      "year": "2025",
+      "meta": "Unofficial concept work, created independently",
+      "lead": "Self-directed alternate posters for films and series I wanted to redesign.",
+      "body": ""
+    },
+    {
+      "id": "varun-rana",
+      "cover": "/assets/home/14.jpg",
+      "title": "Varun Rana",
+      "year": "2025",
+      "meta": "Comedian · Sketch assets",
+      "lead": "Fabricated billboards, LinkedIn screens and subway ads built to look real enough to carry a joke.",
+      "body": ""
+    },
+    {
+      "id": "first-chair",
+      "cover": "/assets/home/15.PNG",
+      "title": "First Chair",
+      "year": "2025",
+      "meta": "Short film · Dir. Cassidy Tee",
+      "lead": "Poster and key art, printed and hung at the premiere.",
+      "body": ""
+    },
+    {
+      "id": "music",
+      "cover": "/assets/home/17.jpg",
+      "title": "Music & Cover Art",
+      "year": "2024",
+      "meta": "Single covers · Concept art",
+      "lead": "Cover art for released tracks and self-directed concepts.",
+      "body": ""
+    },
+    {
+      "id": "scoutible",
+      "cover": "/assets/home/16.png",
+      "title": "Scoutible",
+      "year": "2020",
+      "meta": "Entrepreneurship Fellow",
+      "lead": "Growth marketing graphics for a hiring startup.",
+      "body": ""
+    },
+    {
+      "id": "brett-conti",
+      "cover": "/assets/home/13.png",
+      "title": "Brett Conti",
+      "year": "2023",
+      "meta": "900k+ subscribers · 3M+ views",
+      "lead": "Travel thumbnails for a YouTube channel with a global audience.",
+      "body": ""
+    }
+  ]
+}

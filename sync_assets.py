@@ -54,7 +54,7 @@ def main() -> None:
     # ---- content.json (array of projects) ---------------------------------
     cpath = SRC / "content.json"
     content = json.loads(cpath.read_text())
-    for block in content:
+    for block in content["content"]:
         default_folder = block.get("folder")
         for g in block.get("groups", []):
             folder = g.get("folder") or default_folder
@@ -91,7 +91,7 @@ def main() -> None:
     # ---- projects.json cover paths ---------------------------------------
     ppath = SRC / "projects.json"
     projects = json.loads(ppath.read_text())
-    for proj in projects:
+    for proj in projects["projects"]:
         cover = proj.get("cover", "")
         m = re.match(r"/assets/([^/]+)/([^.]+)\.[A-Za-z]+$", cover)
         if not m:
