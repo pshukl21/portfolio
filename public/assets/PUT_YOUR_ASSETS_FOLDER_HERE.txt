@@ -1,0 +1,8 @@
+Move the contents of your existing `assets/` folder in here, so you end up with:
+
+  public/assets/home/01.png
+  public/assets/layerremix/01.png
+  public/assets/dallas-mavericks/01.png
+  ...
+
+Then delete this file.

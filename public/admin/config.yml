@@ -1,0 +1,113 @@
+# Decap CMS configuration.
+# Edits here are committed straight to GitHub, which triggers a Netlify rebuild.
+backend:
+  name: git-gateway
+  branch: main
+
+# Lets you run the CMS against local files during development:
+#   npx decap-server      (in a second terminal)
+#   then open http://localhost:5173/admin/
+local_backend: true
+
+media_folder: "public/assets/uploads"
+public_folder: "/assets/uploads"
+
+collections:
+  # ---------------------------------------------------------------- site copy
+  - name: "site"
+    label: "Site"
+    files:
+      - name: "settings"
+        label: "Header, About & Contact"
+        file: "src/site.json"
+        fields:
+          - { name: wordmark, label: "Name in header", widget: string }
+          - { name: role, label: "Role line", widget: string }
+          - name: chips
+            label: "Header stats"
+            widget: list
+            max: 4
+            summary: "{{fields.strong}} {{fields.rest}}"
+            fields:
+              - { name: strong, label: "Bold part", widget: string }
+              - { name: rest, label: "Rest", widget: string }
+          - { name: email, label: "Email", widget: string }
+          - { name: instagram, label: "Instagram URL", widget: string }
+          - { name: tiktok, label: "TikTok URL", widget: string }
+          - { name: youtube, label: "YouTube URL", widget: string }
+          - { name: about_lead, label: "About — opening line", widget: text }
+          - name: about_body
+            label: "About — body"
+            widget: text
+            hint: "Leave a blank line between paragraphs."
+          - { name: tools, label: "Tools", widget: string }
+
+  # ---------------------------------------------------------------- projects
+  - name: "projects"
+    label: "Projects"
+    files:
+      - name: "list"
+        label: "All projects"
+        file: "src/projects.json"
+        fields:
+          - name: projects
+            label: "Projects"
+            label_singular: "Project"
+            widget: list
+            summary: "{{fields.title}} ({{fields.year}})"
+            fields:
+              - name: id
+                label: "ID"
+                widget: string
+                hint: "Used in the URL. Must match the id in Captions. Don't change casually."
+              - { name: title, label: "Title", widget: string }
+              - { name: year, label: "Year", widget: string }
+              - { name: meta, label: "Client / role line", widget: string }
+              - { name: lead, label: "Lead sentence", widget: text }
+              - { name: body, label: "Body", widget: text, required: false }
+              - name: cover
+                label: "Card cover"
+                widget: string
+                hint: "Path under public, e.g. /assets/home/01.webp"
+
+  # ---------------------------------------------------------------- captions
+  - name: "captions"
+    label: "Captions"
+    files:
+      - name: "content"
+        label: "Groups & image captions"
+        file: "src/content.json"
+        fields:
+          - name: content
+            label: "Projects"
+            widget: list
+            summary: "{{fields.id}}"
+            fields:
+              - { name: id, label: "Project ID", widget: string }
+              - name: folder
+                label: "Assets folder"
+                widget: string
+                hint: "Folder name inside public/assets"
+              - { name: sequence, label: "Number the groups", widget: boolean, default: false }
+              - name: compact
+                label: "Compact layout"
+                widget: boolean
+                default: false
+                hint: "Steps as a list, all images in one gallery. Good for long projects."
+              - name: groups
+                label: "Groups"
+                label_singular: "Group"
+                widget: list
+                summary: "{{fields.title}}"
+                fields:
+                  - { name: title, label: "Heading", widget: string }
+                  - { name: note, label: "Note", widget: text, required: false }
+                  - name: folder
+                    label: "Folder override"
+                    widget: string
+                    required: false
+                    hint: "Only if this group's images live in a different folder."
+                  - name: files
+                    label: "Files"
+                    widget: list
+                    field: { name: file, label: "Filename", widget: string }

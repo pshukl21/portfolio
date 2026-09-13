@@ -1,0 +1,1189 @@
+{
+  "home": {
+    "images": [
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/a7e7276e-779d-4129-ad73-348b424e3cc2_rwc_213x291x781x611x781.webp?h=96cff02a9662d4da7314d808641bc416",
+        "alt": "",
+        "natural_size": [
+          466,
+          365
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/f6f33532-3d13-4e83-a307-a4dd0da1adff_rwc_101x351x1018x796x1018.webp?h=780b49394ffcf0946b9e6cdab8359afe",
+        "alt": "",
+        "natural_size": [
+          466,
+          364
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/1d378243-c632-4e00-b863-694ac6542065_carw_202x158x5120.webp?h=71b1d1d5bab186601362b2b7d3180308",
+        "alt": "",
+        "natural_size": [
+          466,
+          364
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/4ea7d6c4-cf42-4765-942e-d9cb5974ac5c_rwc_200x855x2003x1566x2003.webp?h=5a89da23b13edce025ab68724b4265f8",
+        "alt": "",
+        "natural_size": [
+          466,
+          364
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/cb6e2daa-0a25-42e6-b08a-3ad7d92ea31a_rwc_0x14x1599x1250x1599.webp?h=ab4771563d64ccc4b97be2b49135b52f",
+        "alt": "",
+        "natural_size": [
+          466,
+          364
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/088946af-3036-44ec-bf99-b4b27ab1ccb9_rwc_274x105x1370x1071x1370.webp?h=938de14d0a0235e99d7c6742dbce2137",
+        "alt": "",
+        "natural_size": [
+          466,
+          364
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/0df629ee-d29c-4631-8529-4276c6fbacb3_rwc_49x267x727x568x727.webp?h=1f6088f0abcf91d742c82c92888ff36f",
+        "alt": "",
+        "natural_size": [
+          466,
+          364
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/a9bad7af-0124-4b5e-b880-00a99a69c27d_carw_202x158x5120.webp?h=7b345cc423f3ba145f03cca13a7e8495",
+        "alt": "",
+        "natural_size": [
+          466,
+          364
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/eb82e7b1-494d-44fb-b79d-4098eb83250e_rwc_0x250x1200x938x1200.webp?h=d92a94545a8b1c653f302a1cd050350d",
+        "alt": "",
+        "natural_size": [
+          466,
+          364
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/8c575763-e8f8-41bd-bb8e-99863170d664_rwc_0x34x1500x1172x1500.webp?h=533ff9c6468183ceb4d8575e4da5349e",
+        "alt": "",
+        "natural_size": [
+          466,
+          364
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/9914847f-96aa-48fa-9e56-7ac6ebc91a92_carw_202x158x5120.webp?h=dc1a75c2b852c0baa56a6e4a205c5b1c",
+        "alt": "",
+        "natural_size": [
+          466,
+          364
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/e55808bb-5ccf-4383-bbbf-0881c923c120_rwc_57x120x1058x827x1058.webp?h=6c9cf961ed2bbf02bb8ddb5d59021ce0",
+        "alt": "",
+        "natural_size": [
+          466,
+          364
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/358921bb-ce22-4361-bf7c-98c1bf2cf59d_carw_202x158x5120.webp?h=36fd698b0d29f008e388610e110a2ef0",
+        "alt": "",
+        "natural_size": [
+          466,
+          364
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/c2d98139-d339-4f3d-9396-0391eaae5423_rwc_0x54x1206x942x1206.webp?h=abfd1f38cbdb8b3dd026b3297602551e",
+        "alt": "",
+        "natural_size": [
+          466,
+          364
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/803cf54e-9057-4995-9b0f-946854fc3744_rwc_87x0x920x720x920.webp?h=f2ba54ebe42ab9071c0bac3a0b7bee38",
+        "alt": "",
+        "natural_size": [
+          466,
+          365
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/668537a9-20f8-4c78-8cb9-4e459c4bd4a4_rwc_117x0x1363x1066x1363.webp?h=e9313efabbbbb750ef586e425cc75fd0",
+        "alt": "",
+        "natural_size": [
+          466,
+          365
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/1efd3bc9-b4fa-4d2f-a1fa-e5f529116794_carw_202x158x5120.webp?h=59e48d914fdc3f190d41192d33b41c26",
+        "alt": "",
+        "natural_size": [
+          466,
+          364
+        ]
+      }
+    ],
+    "embeds": [],
+    "page_url": "https://parthcreations.myportfolio.com/",
+    "page_title": "Parth Creations"
+  },
+  "work": {
+    "images": [
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/a7e7276e-779d-4129-ad73-348b424e3cc2_rwc_213x291x781x611x781.webp?h=96cff02a9662d4da7314d808641bc416",
+        "alt": "",
+        "natural_size": [
+          466,
+          365
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/f6f33532-3d13-4e83-a307-a4dd0da1adff_rwc_101x351x1018x796x1018.webp?h=780b49394ffcf0946b9e6cdab8359afe",
+        "alt": "",
+        "natural_size": [
+          466,
+          364
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/1d378243-c632-4e00-b863-694ac6542065_carw_202x158x5120.webp?h=71b1d1d5bab186601362b2b7d3180308",
+        "alt": "",
+        "natural_size": [
+          466,
+          364
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/4ea7d6c4-cf42-4765-942e-d9cb5974ac5c_rwc_200x855x2003x1566x2003.webp?h=5a89da23b13edce025ab68724b4265f8",
+        "alt": "",
+        "natural_size": [
+          466,
+          364
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/cb6e2daa-0a25-42e6-b08a-3ad7d92ea31a_rwc_0x14x1599x1250x1599.webp?h=ab4771563d64ccc4b97be2b49135b52f",
+        "alt": "",
+        "natural_size": [
+          466,
+          364
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/088946af-3036-44ec-bf99-b4b27ab1ccb9_rwc_274x105x1370x1071x1370.webp?h=938de14d0a0235e99d7c6742dbce2137",
+        "alt": "",
+        "natural_size": [
+          466,
+          364
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/0df629ee-d29c-4631-8529-4276c6fbacb3_rwc_49x267x727x568x727.webp?h=1f6088f0abcf91d742c82c92888ff36f",
+        "alt": "",
+        "natural_size": [
+          466,
+          364
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/a9bad7af-0124-4b5e-b880-00a99a69c27d_carw_202x158x5120.webp?h=7b345cc423f3ba145f03cca13a7e8495",
+        "alt": "",
+        "natural_size": [
+          466,
+          364
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/eb82e7b1-494d-44fb-b79d-4098eb83250e_rwc_0x250x1200x938x1200.webp?h=d92a94545a8b1c653f302a1cd050350d",
+        "alt": "",
+        "natural_size": [
+          466,
+          364
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/8c575763-e8f8-41bd-bb8e-99863170d664_rwc_0x34x1500x1172x1500.webp?h=533ff9c6468183ceb4d8575e4da5349e",
+        "alt": "",
+        "natural_size": [
+          466,
+          364
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/9914847f-96aa-48fa-9e56-7ac6ebc91a92_carw_202x158x5120.webp?h=dc1a75c2b852c0baa56a6e4a205c5b1c",
+        "alt": "",
+        "natural_size": [
+          466,
+          364
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/e55808bb-5ccf-4383-bbbf-0881c923c120_rwc_57x120x1058x827x1058.webp?h=6c9cf961ed2bbf02bb8ddb5d59021ce0",
+        "alt": "",
+        "natural_size": [
+          466,
+          364
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/358921bb-ce22-4361-bf7c-98c1bf2cf59d_carw_202x158x5120.webp?h=36fd698b0d29f008e388610e110a2ef0",
+        "alt": "",
+        "natural_size": [
+          466,
+          364
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/c2d98139-d339-4f3d-9396-0391eaae5423_rwc_0x54x1206x942x1206.webp?h=abfd1f38cbdb8b3dd026b3297602551e",
+        "alt": "",
+        "natural_size": [
+          466,
+          364
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/803cf54e-9057-4995-9b0f-946854fc3744_rwc_87x0x920x720x920.webp?h=f2ba54ebe42ab9071c0bac3a0b7bee38",
+        "alt": "",
+        "natural_size": [
+          466,
+          365
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/668537a9-20f8-4c78-8cb9-4e459c4bd4a4_rwc_117x0x1363x1066x1363.webp?h=e9313efabbbbb750ef586e425cc75fd0",
+        "alt": "",
+        "natural_size": [
+          466,
+          365
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/1efd3bc9-b4fa-4d2f-a1fa-e5f529116794_carw_202x158x5120.webp?h=59e48d914fdc3f190d41192d33b41c26",
+        "alt": "",
+        "natural_size": [
+          466,
+          364
+        ]
+      }
+    ],
+    "embeds": [],
+    "page_url": "https://parthcreations.myportfolio.com/work",
+    "page_title": "Parth Creations"
+  },
+  "layerremix": {
+    "images": [
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/b9c75218-87e4-4366-89bb-cda4423e5f41_rw_1200.webp?h=7f0b74a7dd080fb7a07ad24be349b737",
+        "alt": "",
+        "natural_size": [
+          1440,
+          1800
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/dfde0137-df1c-45d1-923b-87cd3c63bafb_rw_1200.webp?h=f0b1ee5be75f048ae8ab20557e7e837f",
+        "alt": "",
+        "natural_size": [
+          1440,
+          1800
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/2084adff-6d7a-4822-a792-22ebd5b4b27b_rw_1200.webp?h=4e05e79a10a76b3ef1047b03e14841ad",
+        "alt": "",
+        "natural_size": [
+          1440,
+          1800
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/0294705d-b9d0-48fc-90dc-b22c042f26f9_rw_1200.webp?h=23e8da559f46b8e1f6505587aa8a3284",
+        "alt": "",
+        "natural_size": [
+          1440,
+          1800
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/9dda97ba-ea6e-4108-94c0-6bc0757ea24d_rw_1200.webp?h=e73685444fa249f13556b1087e7e2d75",
+        "alt": "",
+        "natural_size": [
+          1440,
+          1800
+        ]
+      }
+    ],
+    "embeds": [],
+    "page_url": "https://parthcreations.myportfolio.com/layerremix",
+    "page_title": "Parth Creations - LayerRemix"
+  },
+  "dallas-mavericks": {
+    "images": [
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/48976b80-db99-4923-a032-b02b6c10f945_rw_1200.webp?h=be93b695b518cc6ac470506ae12d5271",
+        "alt": "",
+        "natural_size": [
+          1200,
+          1500
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/d3a9a065-1730-45bb-b7c3-17654a873181_rw_1200.webp?h=2a7d7b5a35b7715b979a82dae9e64d4b",
+        "alt": "",
+        "natural_size": [
+          1200,
+          1500
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/e00e7ef9-6ada-4589-a48d-9f650321bc80_rw_1200.webp?h=e3fb3d73dd8e347801d2d4cff1e5adfb",
+        "alt": "",
+        "natural_size": [
+          828,
+          820
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/d5b592ee-060d-42e4-9556-f1a8a32ff856_rw_3840.webp?h=3bd66ee0bc3138cac9997820de93932d",
+        "alt": "",
+        "natural_size": [
+          1440,
+          1080
+        ]
+      }
+    ],
+    "embeds": [],
+    "page_url": "https://parthcreations.myportfolio.com/dallas-mavericks",
+    "page_title": "Parth Creations - Dallas Mavericks"
+  },
+  "youtube-thumbnails": {
+    "images": [
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/a8e11ebd-d781-4e1a-a112-2b78501e7f66_rw_1920.webp?h=2056a09a578f4d586f0325fb3c605769",
+        "alt": "",
+        "natural_size": [
+          1440,
+          367
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/f3e5e8e4-7c8d-4683-bd50-db3c44f35e38_rw_1200.webp?h=149164f52d91b4a395c81c51454b1075",
+        "alt": "",
+        "natural_size": [
+          331,
+          413
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/c2e5bd02-6e12-421f-a754-8bfc794d4e3e_rw_1200.webp?h=b2be23c50624b3d8ab9b187c946819c0",
+        "alt": "",
+        "natural_size": [
+          331,
+          413
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/a0c0cc3a-6b33-4c5b-a8af-e5930a6aebb8_rw_1200.webp?h=fda83bd8fb224fef5ba00a0f105828f0",
+        "alt": "",
+        "natural_size": [
+          331,
+          413
+        ]
+      }
+    ],
+    "embeds": [],
+    "page_url": "https://parthcreations.myportfolio.com/youtube-thumbnails",
+    "page_title": "Parth Creations - YouTube Thumbnails"
+  },
+  "illini-mens-basketball": {
+    "images": [
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/cd348d23-6572-41e8-b964-e2ce19772b5e_rw_1200.webp?h=edf15ee00f8044658afbf2cc0f333ea9",
+        "alt": "",
+        "natural_size": [
+          1000,
+          1000
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/4f3ce33c-743c-437c-bcca-14bb6a198467_rw_1920.webp?h=cb3c3aaceb5bf45464a3cd750d93556c",
+        "alt": "",
+        "natural_size": [
+          1440,
+          1440
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/f9965cca-1020-4a5d-8faa-e76a72f58c59_rw_1920.webp?h=87f555f32dd402deb8d181d046c313a1",
+        "alt": "",
+        "natural_size": [
+          1440,
+          1080
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/88673d42-833c-4033-8831-58a17bf5e1b7_rw_1920.webp?h=d5b9e798f7f78aec0e0ffa6eb9416056",
+        "alt": "",
+        "natural_size": [
+          1440,
+          1440
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/08481974-e43e-4070-b5e6-c8f0baa2515e_rw_1200.webp?h=1a376d2fa8c8c70923e9a38d1fd17143",
+        "alt": "",
+        "natural_size": [
+          1200,
+          1500
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/4e607211-c2f4-443f-b49d-72fb12116954_rw_1920.webp?h=1cb1f7907a218db5da3e56d49eb614db",
+        "alt": "",
+        "natural_size": [
+          1440,
+          1800
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/1f5c6db7-1928-4d59-bc8d-339ae51d59e5_rw_1200.webp?h=2e5ae865563fa27ff8e4f5fd0b1bf9a3",
+        "alt": "",
+        "natural_size": [
+          1200,
+          1500
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/5e4fcea3-fca7-471b-b871-22a50f3ae4ca_rw_1200.webp?h=4d13fe34334444f62677a4c572f7aa8e",
+        "alt": "",
+        "natural_size": [
+          1200,
+          1500
+        ]
+      }
+    ],
+    "embeds": [],
+    "page_url": "https://parthcreations.myportfolio.com/illini-mens-basketball",
+    "page_title": "Parth Creations - Illini Men's Basketball"
+  },
+  "back-to-the-wild": {
+    "images": [
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/3d583a07-8b92-4ca4-abea-9ae245f6ccdb_rw_1920.webp?h=1229c15fdd0c87ca22b86151d2ae9312",
+        "alt": "",
+        "natural_size": [
+          1440,
+          1152
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/e53239c4-70e5-4e99-9c39-f779d0b9382e_rw_1920.webp?h=3d5a9090f1d539f808ca69db707def9f",
+        "alt": "",
+        "natural_size": [
+          1440,
+          819
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/05a52a93-cc5a-4367-a6c2-6a45a135df87_rw_1920.webp?h=693a375683187e0ffd0563930ff3c53b",
+        "alt": "",
+        "natural_size": [
+          1440,
+          1920
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/adb13b1f-b4d7-42bf-a5ad-2320a6048339_rw_1200.webp?h=dba3e341863d724305e4aa399287bc6d",
+        "alt": "",
+        "natural_size": [
+          828,
+          1792
+        ]
+      }
+    ],
+    "embeds": [],
+    "page_url": "https://parthcreations.myportfolio.com/back-to-the-wild",
+    "page_title": "Parth Creations - Back to the Wild"
+  },
+  "nba": {
+    "images": [
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/d695f606-8441-4ca9-9096-669da12aec2e_rw_1200.webp?h=bbbe1b80e9ae0723274e419773f1d959",
+        "alt": "",
+        "natural_size": [
+          1200,
+          1500
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/8842e2cb-2e51-4636-82be-80c0a25a4688_rw_1200.webp?h=e8467bdcac52966627a41b7a3d5b1168",
+        "alt": "",
+        "natural_size": [
+          828,
+          1357
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/f9c94e5b-5484-4c2d-a64c-ea12fe269c9c_rw_1200.webp?h=01df6dce9081d878632bc04252a06f8a",
+        "alt": "",
+        "natural_size": [
+          828,
+          1364
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/c6b50ffd-fe5f-4b27-9b98-922540931e0f_rw_1200.webp?h=dd5f211737266066b11d05adb63e8278",
+        "alt": "",
+        "natural_size": [
+          828,
+          820
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/fcfdb7a4-f293-4faf-93f1-c2cbe86b8012_rw_3840.webp?h=0b7d6edde6c7bf7f6b4e7da097aa6628",
+        "alt": "",
+        "natural_size": [
+          1440,
+          1080
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/7961d33f-b196-4bcb-bba6-09d6829d335e_rw_1920.webp?h=0581b9b616236205ab9843758268fca8",
+        "alt": "",
+        "natural_size": [
+          1440,
+          958
+        ]
+      }
+    ],
+    "embeds": [],
+    "page_url": "https://parthcreations.myportfolio.com/nba",
+    "page_title": "Parth Creations - NBA"
+  },
+  "lexielimitless": {
+    "images": [
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/cdc64ca2-5ba4-4062-ad6a-a00f7d220bf6_rw_1920.webp?h=eeb2efd7036689727d9ceefb4aa329e2",
+        "alt": "",
+        "natural_size": [
+          1280,
+          720
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/04d2c282-76e4-4dd2-bb48-649f0bb6714f_rw_1920.webp?h=2f20947baddd127c427a447541ebba75",
+        "alt": "",
+        "natural_size": [
+          1280,
+          720
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/5762f5d5-907e-4fde-a81d-70b4261e5ddc_rw_1200.webp?h=c940fda45834159ddc1a17aa765c0069",
+        "alt": "",
+        "natural_size": [
+          188,
+          304
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/548eae0a-01b2-455e-a001-f218547523c9_rw_1920.webp?h=310278824788609f848bee2e3239b17c",
+        "alt": "",
+        "natural_size": [
+          304,
+          304
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/06d093a4-8023-4b15-b6c4-bb8ab1654994_rw_1920.webp?h=d02327c52dc16eda10167b47306a1a45",
+        "alt": "",
+        "natural_size": [
+          1280,
+          720
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/097216fb-9b77-4394-aa14-ca2bdad7cafe_rw_1920.webp?h=e8120f3de1cb33430909fa488a89d769",
+        "alt": "",
+        "natural_size": [
+          1440,
+          1863
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/69afb62c-300d-4c0b-9b15-8f29a87d6695_rw_1920.webp?h=d454d282d75601342a47d66a0376cc53",
+        "alt": "",
+        "natural_size": [
+          1440,
+          1863
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/b449a708-86a2-4765-94b6-f996e0f752ef_rw_1920.webp?h=f4a110d423fe57709a7434cd9916383b",
+        "alt": "",
+        "natural_size": [
+          1440,
+          1863
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/a3037470-ea52-4ab2-93d7-a3327b8afa1b_rw_1920.webp?h=3e5bedce10a96561d6afbb696fba7d83",
+        "alt": "",
+        "natural_size": [
+          1440,
+          1863
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/8aafea4b-b598-4c37-a71e-d98ac7bd3d4a_rw_1920.webp?h=0397e7edbdc421ca9d8fcfccddf00730",
+        "alt": "",
+        "natural_size": [
+          1440,
+          1863
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/b72f0d83-b585-4a52-bfa4-ea8a91e49b82_rw_1920.webp?h=ea9b04e0c656a9aeba416152bad1ab86",
+        "alt": "",
+        "natural_size": [
+          1440,
+          1863
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/6c072aba-29cc-40eb-a94e-91fa9f108b30_rw_1920.webp?h=3316cd6499ec3baf906d1cfdfd736a01",
+        "alt": "",
+        "natural_size": [
+          1280,
+          720
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/71c11e1c-920e-4acf-bf5a-647a2c37be4e_rw_600.webp?h=b412823f2fbcd9ccb8fadf192f9c87ca",
+        "alt": "",
+        "natural_size": [
+          331,
+          527
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/0ef68b95-347b-45d3-8b35-d27a34d23256_rw_600.webp?h=a387831b0b5316574b23831e7fd85fca",
+        "alt": "",
+        "natural_size": [
+          331,
+          527
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/a5bb9af0-a486-4060-9b8d-4090038f95fa_rw_600.webp?h=caa0658de495799d1b3119c7d2c487b9",
+        "alt": "",
+        "natural_size": [
+          331,
+          527
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/c4f82405-bc61-4713-85dd-d18c150cf156_rw_1200.webp?h=e95dc4b3a724f26cd648be4985d880dd",
+        "alt": "",
+        "natural_size": [
+          195,
+          341
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/8483badd-54e1-407e-add5-ed17b19936ce_rw_1200.webp?h=a3d1534f4c5c23c7061d837b5fefeab4",
+        "alt": "",
+        "natural_size": [
+          195,
+          341
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/45e0360a-ddbf-478f-ba56-8ff37482c4c0_rw_1200.webp?h=5b5ab2299cb2459e11f9d4895d2c1d0d",
+        "alt": "",
+        "natural_size": [
+          195,
+          341
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/0090c6a6-051b-4228-8dc3-87266fb5c869_rw_1200.webp?h=68b95d6a5a8970a728b77b9aa3d16c39",
+        "alt": "",
+        "natural_size": [
+          195,
+          341
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/ca7bf8ab-32c0-4ff0-94ca-66ab5fa54e44_rw_1200.webp?h=ad3372cce1796372280d4dd561beee04",
+        "alt": "",
+        "natural_size": [
+          195,
+          341
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/a221b27d-a96b-4dfc-9a22-3f3997d63eb6_rw_1920.webp?h=a8c7832fd836f7379379e7c9171fbb0f",
+        "alt": "",
+        "natural_size": [
+          1440,
+          1056
+        ]
+      }
+    ],
+    "embeds": [
+      "https://www-ccv.adobe.io/v1/player/ccv/JkbsQQG-EAt/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+    ],
+    "page_url": "https://parthcreations.myportfolio.com/lexielimitless",
+    "page_title": "Parth Creations - Lexie Limitless"
+  },
+  "magnusmethod": {
+    "images": [
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/45d9a7d1-bb77-4fbc-a160-81228e88adad_rw_1920.webp?h=a6c4f0289d9712c4bb956d9c81d00a57",
+        "alt": "",
+        "natural_size": [
+          1280,
+          720
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/44b999ad-56b3-461e-8659-73848e70f08d_rw_1920.webp?h=f4c2588805a10b350256a4897b99bf5e",
+        "alt": "",
+        "natural_size": [
+          1280,
+          720
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/499a47b2-22dd-4a30-970a-1ad5293e2156_rw_1920.webp?h=ee3487c723695462b05fa8c035c751ea",
+        "alt": "",
+        "natural_size": [
+          1280,
+          720
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/10e6f9b6-fbfb-47c3-99db-3a90e11de646_rw_1920.webp?h=c08aa2a85e558f85d31a94e8640b88d6",
+        "alt": "",
+        "natural_size": [
+          1280,
+          720
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/2f7821b4-5a0f-4917-a7ee-6996837cf609_rw_1920.webp?h=e5e23eba302630e5e451f844d2fa3ab0",
+        "alt": "",
+        "natural_size": [
+          1280,
+          720
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/563981cf-03f2-4b8d-a652-b249b30f69a2_rw_1920.webp?h=7282fb73a1994ef1b2d72290bcfbdd9f",
+        "alt": "",
+        "natural_size": [
+          1280,
+          720
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/bee3c71b-fffa-428c-bef1-1f6da080d2b8_rw_1920.webp?h=acce0def9707e7ed4e809d25f6c128fb",
+        "alt": "",
+        "natural_size": [
+          1280,
+          720
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/a3b4f9d9-04ae-4c54-8de2-588e787fe741_rw_1920.webp?h=ce516a820fdf3e34af1aff7fb4782261",
+        "alt": "",
+        "natural_size": [
+          1280,
+          720
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/3305fa48-98d5-49c2-8496-4f1574f97e08_rw_1920.webp?h=32296b1a97753912a3dabec5fd74709d",
+        "alt": "",
+        "natural_size": [
+          1440,
+          512
+        ]
+      }
+    ],
+    "embeds": [],
+    "page_url": "https://parthcreations.myportfolio.com/magnusmethod",
+    "page_title": "Parth Creations - Magnus Method"
+  },
+  "heaven": {
+    "images": [
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/d59862e4-da0a-4acf-9066-c034b61d1e3d_rw_1200.webp?h=6bfd277f762e93eedb0690d6ee87db7e",
+        "alt": "",
+        "natural_size": [
+          1200,
+          1500
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/7b0f7e20-756f-426c-ae7f-90671b5dfd32_rw_3840.webp?h=a3036f602672de5524aa5c058fde74b5",
+        "alt": "",
+        "natural_size": [
+          1440,
+          2121
+        ]
+      }
+    ],
+    "embeds": [],
+    "page_url": "https://parthcreations.myportfolio.com/heaven",
+    "page_title": "Parth Creations - Heaven"
+  },
+  "poster-graphics": {
+    "images": [
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/2f309fa8-ef11-44ce-8121-f41efaeee0fe_rw_1920.webp?h=c3eb8f3e8080fc035fe9d60673bf25eb",
+        "alt": "",
+        "natural_size": [
+          160,
+          201
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/fca5ff8e-3cd3-49bf-9f5a-0af12a880967_rw_1200.webp?h=3541535c547c9187700c7e62bac3168f",
+        "alt": "",
+        "natural_size": [
+          160,
+          201
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/be256288-4529-4a0a-9413-8876f754f0ef_rw_1200.webp?h=baf4b138af998b99b745d9567877e49d",
+        "alt": "",
+        "natural_size": [
+          160,
+          201
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/ede32f0c-0a5f-4089-8b67-099f843c89ef_rw_1200.webp?h=d25a7835ad8bb19b57de98adcb3b52d1",
+        "alt": "",
+        "natural_size": [
+          160,
+          201
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/04e964d3-9df0-4514-a3e3-b209c5431722_rw_1200.webp?h=0f168548e644f8e732d4c421ce27856f",
+        "alt": "",
+        "natural_size": [
+          160,
+          201
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/cd2ef785-87cc-4474-a710-ae8127c2e478_rw_1200.webp?h=b90f130bcd896a936c7f8e1b232a02a9",
+        "alt": "",
+        "natural_size": [
+          160,
+          201
+        ]
+      }
+    ],
+    "embeds": [],
+    "page_url": "https://parthcreations.myportfolio.com/poster-graphics",
+    "page_title": "Parth Creations - Poster Graphics"
+  },
+  "gracie-abrams-concept": {
+    "images": [
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/633c9697-1d32-4bd2-ad46-394b1d80460d_rw_1200.webp?h=195998abde65d3e283ced62723ac8894",
+        "alt": "",
+        "natural_size": [
+          1200,
+          1500
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/659d0b48-69ba-414b-b908-0c9b0b7dbd9d_rw_1200.webp?h=e66c5e7a7c6d5229180bc389d1f58b6d",
+        "alt": "",
+        "natural_size": [
+          968,
+          450
+        ]
+      }
+    ],
+    "embeds": [
+      "https://www-ccv.adobe.io/v1/player/ccv/4-FHJ-eLDKU/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+    ],
+    "page_url": "https://parthcreations.myportfolio.com/gracie-abrams-concept",
+    "page_title": "Parth Creations - Gracie Abrams Concept"
+  },
+  "coyote-petersonbrave-wildnerness": {
+    "images": [
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/2f9cc5ae-6206-4b61-add6-41121fb7d47a_rw_1200.webp?h=6a841391d19a056e3688a2aa248a2f27",
+        "alt": "",
+        "natural_size": [
+          828,
+          1792
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/12cf1ca2-c45b-4a94-9889-331adad42d77_rw_1200.webp?h=3831b43a147bae1441f3f8f757eeb2f6",
+        "alt": "",
+        "natural_size": [
+          1200,
+          1500
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/c1412e02-c597-406d-bf17-5f14dc5b5309_rw_1920.webp?h=573fa6643315f6ca0a744b5544ceb5b0",
+        "alt": "",
+        "natural_size": [
+          1440,
+          1440
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/af22e43a-3ccf-47f0-b5ae-637474af23dc_rw_1200.webp?h=04185b4fbd0d8c7c05c5fd3f96db2bed",
+        "alt": "",
+        "natural_size": [
+          828,
+          1792
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/d83f6764-7555-44d0-94e0-a20b687cfd47_rw_1200.webp?h=021e4a3f18c6b0833aede7f85ac70ed6",
+        "alt": "",
+        "natural_size": [
+          843,
+          1124
+        ]
+      }
+    ],
+    "embeds": [],
+    "page_url": "https://parthcreations.myportfolio.com/coyote-petersonbrave-wildnerness",
+    "page_title": "Parth Creations - Coyote Peterson/Brave Wilderness"
+  },
+  "brett-conti": {
+    "images": [],
+    "embeds": [
+      "https://www.youtube.com/embed/Ws2HIs71g3E?si=db0AVjiRytH8Sukw",
+      "https://www.youtube.com/embed/w-I92mT_O7Q?si=7ZfW7ol3zB8AUUFd"
+    ],
+    "page_url": "https://parthcreations.myportfolio.com/brett-conti",
+    "page_title": "Parth Creations - Brett Conti"
+  },
+  "varun-rana": {
+    "images": [
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/96726319-8760-495c-acb5-3f9d601c8d44_rw_1920.webp?h=0d9e6d7cc414c60188246149f001b742",
+        "alt": "",
+        "natural_size": [
+          1440,
+          1098
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/c5b7d7e5-21dd-4a9a-a11a-22e6dfd62171_rw_1920.webp?h=e210df45e29b019f4018cba2b501ef24",
+        "alt": "",
+        "natural_size": [
+          1440,
+          903
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/d13b6650-8f40-48ee-861c-fd64d0c1e8ae_rw_1200.webp?h=01f57bf00ba140bee5f8171d5ee6578a",
+        "alt": "",
+        "natural_size": [
+          1200,
+          781
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/59962e07-e5c8-426b-81c5-28d903785d35_rw_1920.webp?h=1cab08a2c19682a00628be602a9d9bba",
+        "alt": "",
+        "natural_size": [
+          1439,
+          1029
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/359da475-6248-4341-8faf-4c360f4f6979_rw_1920.webp?h=3318647afa8d0a5774d83bbdf61d1e7e",
+        "alt": "",
+        "natural_size": [
+          1440,
+          1919
+        ]
+      }
+    ],
+    "embeds": [],
+    "page_url": "https://parthcreations.myportfolio.com/varun-rana",
+    "page_title": "Parth Creations - Varun Rana"
+  },
+  "filmtv": {
+    "images": [
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/223dae90-2f30-4c8b-b513-cc19fe8f4a9d_rw_3840.webp?h=f705a298dd6ca35dc15c6524ce856f49",
+        "alt": "",
+        "natural_size": [
+          1440,
+          2133
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/059bb4c4-fa67-4507-a3f7-7e565c62d5ba_rw_1920.webp?h=01b6fa9e135e82fd67991f4cebe59463",
+        "alt": "",
+        "natural_size": [
+          1280,
+          720
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/a52e14e4-ec56-46b8-9ccb-d9b9f798b835_rw_1920.webp?h=e9943ebe2543c9325ccd74269e1f1cc7",
+        "alt": "",
+        "natural_size": [
+          1440,
+          1152
+        ]
+      }
+    ],
+    "embeds": [
+      "https://www.youtube.com/embed/QKFEs__1Vco?si=8xCgsCb77Ge84mYB"
+    ],
+    "page_url": "https://parthcreations.myportfolio.com/filmtv",
+    "page_title": "Parth Creations - First Chair Film"
+  },
+  "scoutible": {
+    "images": [
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/101ca23a-e429-445e-a8b6-49529f18771d_rw_1200.webp?h=d912793c11bd9227c6cd2fbb3dcf1c9d",
+        "alt": "",
+        "natural_size": [
+          1125,
+          2436
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/f8548332-0703-4490-b986-d47569cc25e6_rw_1920.webp?h=9d79867bf9c0ae5b43789368de2371f1",
+        "alt": "",
+        "natural_size": [
+          1440,
+          963
+        ]
+      }
+    ],
+    "embeds": [],
+    "page_url": "https://parthcreations.myportfolio.com/scoutible",
+    "page_title": "Parth Creations - Scoutible"
+  },
+  "musiccover-art": {
+    "images": [
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/46f83d11-495d-4c62-bc86-3945e55e9c41_rw_1920.webp?h=d3a8fe6f6dd963faac16b795341894e2",
+        "alt": "",
+        "natural_size": [
+          1280,
+          720
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/6b88c1d4-c0e4-4f76-81ad-839f85d233f3_rw_1920.webp?h=462808abceb9e2711ef81111dd65691c",
+        "alt": "",
+        "natural_size": [
+          1280,
+          720
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/97bfd449-4b31-4763-ba83-939a85da15bf_rw_1920.webp?h=d1d3b57e8f8e8232fb7bad78c36da468",
+        "alt": "",
+        "natural_size": [
+          1440,
+          1440
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/b03c15a4-cd60-4f73-bbc5-9c16e5337c7c_rw_1920.webp?h=18ca4e08de1e5eb1372c480f7e267fe8",
+        "alt": "",
+        "natural_size": [
+          1440,
+          1440
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/b96a039b-234d-4541-86f6-67d948c909ba_rw_1200.webp?h=5c2a1a4f96b8243f32d3b61ac7ea4daa",
+        "alt": "",
+        "natural_size": [
+          1200,
+          1500
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/572c0fd1-64b2-4db6-bb1d-48be937335aa_rw_1920.webp?h=a5ae1de84b60370f65bd48660499a37d",
+        "alt": "",
+        "natural_size": [
+          1440,
+          1440
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/f39aa58a-d16d-4e31-a02b-4365a1374b61_rw_1920.webp?h=09d47a23f35b91c2af8ca04d691df97f",
+        "alt": "",
+        "natural_size": [
+          1440,
+          1440
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/2ce0b0dd-26c6-45f3-ac4c-3dea076cf7ab_rw_1920.webp?h=a53654fe35d104f8bd6c92a1e80a8de6",
+        "alt": "",
+        "natural_size": [
+          1440,
+          1440
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/b6dfdfdc-97bb-4339-9b83-dcc7143d83ac_rw_1920.webp?h=cb79205fabeca78c03e6932a4ac2e4c0",
+        "alt": "",
+        "natural_size": [
+          1440,
+          1440
+        ]
+      },
+      {
+        "url": "https://cdn.myportfolio.com/b1b3b0fa-37cc-4419-aea4-3c7aca5dffa5/8d505b89-e1ac-4ab5-ab7e-b2256de7ef9d_rw_1920.webp?h=8605ab24f9412a6f619c64fc1675bd38",
+        "alt": "",
+        "natural_size": [
+          1440,
+          1440
+        ]
+      }
+    ],
+    "embeds": [],
+    "page_url": "https://parthcreations.myportfolio.com/musiccover-art",
+    "page_title": "Parth Creations - Music/Cover Art"
+  },
+  "contact": {
+    "images": [],
+    "embeds": [],
+    "page_url": "https://parthcreations.myportfolio.com/contact",
+    "page_title": "Parth Creations - Contact"
+  }
+}
