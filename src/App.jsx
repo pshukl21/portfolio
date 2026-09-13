@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { HashRouter, Link, Route, Routes, useLocation } from 'react-router-dom'
+import { BrowserRouter, Link, Route, Routes, useLocation } from 'react-router-dom'
 import LayersPanel from './components/LayersPanel'
 import Home from './pages/Home'
 import About from './pages/About'
@@ -58,9 +58,9 @@ function Shell() {
 
 export default function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <ScrollReset />
       <Shell />
-    </HashRouter>
+    </BrowserRouter>
   )
 }

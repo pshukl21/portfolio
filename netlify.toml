@@ -4,3 +4,11 @@
 
 [build.environment]
   NODE_VERSION = "20"
+
+# Single-page app: any path that isn't a real file is served index.html, so
+# deep links like /p/illini work on a hard refresh. Netlify checks for an
+# actual file first, so /admin/ still reaches the CMS.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
