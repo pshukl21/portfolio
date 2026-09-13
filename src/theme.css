@@ -6,6 +6,7 @@
    ------------------------------------------------------------------ */
 :root {
   --hdr: 52px;
+  --plate: clamp(190px, 21vw, 330px);
   --bg:       #171718;
   --panel:    #1F1F21;
   --raised:   #2A2A2D;
@@ -185,7 +186,7 @@ code { font-family: var(--mono); font-size: .92em; color: var(--dim); }
 .phead .lead { margin: 0 0 .6em; font-size: clamp(17px, 1.9vw, 20px); line-height: 1.45; }
 .phead .body { margin: 0; color: var(--dim); font-size: 15px; }
 
-.groups { columns: 2 440px; column-gap: 22px; }
+.groups { columns: 2 520px; column-gap: 26px; }
 .group { break-inside: avoid; margin: 0 0 22px; display: inline-block;
   width: 100%; }
 .group:last-child { margin-bottom: 0; }
@@ -198,22 +199,18 @@ code { font-family: var(--mono); font-size: .92em; color: var(--dim); }
   font-family: var(--mono); }
 .gnote { margin: 5px 0 0; color: var(--dim); font-size: 14.5px; }
 
-.plates { display: flex; flex-wrap: wrap; gap: 9px; }
-.plates::after { content: ""; flex-grow: 40; }
-.plate { position: relative; height: 240px;
-  flex-grow: calc(var(--ar) * 100); flex-basis: calc(var(--ar) * 240px);
-  border: 1px solid var(--hair); background: var(--bg); overflow: hidden; }
-.plate img { width: 100%; height: 100%; object-fit: contain; }
-.plate:hover { border-color: var(--accent); }
+/* Each image renders at a set height and its own natural width — no box,
+   no crop, no letterboxing. Rows fill left to right and wrap. */
+.plates { display: flex; flex-wrap: wrap; gap: 10px; align-items: flex-start; }
+.plate { position: relative; margin: 0; height: var(--plate); flex: none; }
+.plate img { height: 100%; width: auto; max-width: 100%; display: block; }
+.plate:hover { outline: 1px solid var(--accent); outline-offset: 2px; }
 .plate .tag { position: absolute; left: 0; bottom: 0; background: rgba(0,0,0,.78);
   color: #fff; font-size: 11px; font-family: var(--mono); padding: 3px 7px;
   opacity: 0; transition: opacity .15s; }
 .plate:hover .tag { opacity: 1; }
 body.edit .plate .tag { opacity: 1; }
-@media (max-width: 900px) {
-  .groups { columns: 1; }
-  .plate { height: 175px; flex-basis: calc(var(--ar) * 175px); }
-}
+@media (max-width: 900px) { .groups { columns: 1; } }
 
 .tail { padding: clamp(20px, 3vw, 36px) 0; }
 
