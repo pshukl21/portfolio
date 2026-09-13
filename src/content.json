@@ -118,15 +118,15 @@
           "note": "Templated system used for 30+ recruits — the staff could turn around a personalised graphic without rebuilding it each time.",
           "images": [
             "/assets/illini-mens-basketball/05.webp",
-            "/assets/illini-mens-basketball/06.webp",
-            "/assets/illini-mens-basketball/07.webp"
+            "/assets/illini-mens-basketball/06.webp"
           ]
         },
         {
           "title": "Jersey swaps",
           "note": "One of 10+ jersey swaps created for recruits.",
           "images": [
-            "/assets/illini-mens-basketball/08.webp"
+            "/assets/illini-mens-basketball/08.webp",
+            "/assets/uploads/07.webp"
           ]
         }
       ]
