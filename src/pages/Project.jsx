@@ -59,8 +59,9 @@ export default function Project({ editing }) {
 
       <div className="groups">
       {groups.map((g, gi) => {
-        const slice = flat.slice(cursor, cursor + (g.files?.length ?? 0))
-        cursor += g.files?.length ?? 0
+        const count = g.images?.length ?? 0
+        const slice = flat.slice(cursor, cursor + count)
+        cursor += count
         return (
           <div className="group" key={g.title}>
             <div className="ghead">
