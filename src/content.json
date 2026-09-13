@@ -166,10 +166,10 @@
       "compact": false,
       "groups": [
         {
-          "title": "The playlist",
-          "note": "200+ thumbnails across client channels, 48M+ views combined.",
+          "title": "Favorites",
+          "note": "",
           "images": [
-            "/assets/youtube-thumbnails/01.webp"
+            "/assets/uploads/youtube-thumbnails.webp"
           ]
         },
         {
@@ -178,7 +178,8 @@
           "images": [
             "/assets/youtube-thumbnails/02.webp",
             "/assets/youtube-thumbnails/03.webp",
-            "/assets/youtube-thumbnails/04.webp"
+            "/assets/youtube-thumbnails/04.webp",
+            "/assets/uploads/thumbnail_before_after-yt.png"
           ]
         }
       ]
