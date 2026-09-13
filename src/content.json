@@ -9,35 +9,35 @@
           "title": "Where scrapped PSDs become finished art",
           "note": "Landing page. Upload unfinished PSDs, download the actual working file, remix and publish your version.",
           "images": [
-            "/assets/layerremix/01.png"
+            "/assets/layerremix/01.webp"
           ]
         },
         {
           "title": "Upload your unfinished PSD",
           "note": "The real preview comes straight from the file's own embedded thumbnail — no separate image upload, so it can never be misleading.",
           "images": [
-            "/assets/layerremix/02.png"
+            "/assets/layerremix/02.webp"
           ]
         },
         {
           "title": "Download someone else's real PSD",
           "note": "Every download is the actual layered source file, not a flattened preview.",
           "images": [
-            "/assets/layerremix/03.png"
+            "/assets/layerremix/03.webp"
           ]
         },
         {
           "title": "Fix what needs work, then publish it",
           "note": "Describe exactly what changed, and the remix joins the original's lineage — credited, versioned, forkable.",
           "images": [
-            "/assets/layerremix/04.png"
+            "/assets/layerremix/04.webp"
           ]
         },
         {
           "title": "Watch the whole history unfold",
           "note": "Every fork is versioned and connected back to the original: a visual lineage of who built what, and when.",
           "images": [
-            "/assets/layerremix/05.png"
+            "/assets/layerremix/05.webp"
           ]
         }
       ]
@@ -51,31 +51,31 @@
           "title": "Dallas Mavericks — All-Star voting",
           "note": "Anthony Davis and Cooper Flagg voting graphics, created at the Mavericks' request.",
           "images": [
-            "/assets/dallas-mavericks/01.png",
-            "/assets/dallas-mavericks/02.png"
+            "/assets/dallas-mavericks/01.webp",
+            "/assets/dallas-mavericks/02.webp"
           ]
         },
         {
           "title": "Dallas Mavericks — downtown billboard",
           "note": "Art featured on the official Mavericks billboard in downtown Dallas.",
           "images": [
-            "/assets/dallas-mavericks/03.jpg",
-            "/assets/dallas-mavericks/04.JPG"
+            "/assets/dallas-mavericks/03.webp",
+            "/assets/dallas-mavericks/04.webp"
           ]
         },
         {
           "title": "Houston Rockets",
           "note": "Art featured on the official Houston Rockets Instagram.",
           "images": [
-            "/assets/nba/02.jpg",
-            "/assets/nba/03.jpg"
+            "/assets/nba/02.webp",
+            "/assets/nba/03.webp"
           ]
         },
         {
           "title": "Indiana Pacers",
           "note": "Billboard in Minot, North Dakota.",
           "images": [
-            "/assets/nba/06.PNG"
+            "/assets/nba/06.webp"
           ]
         }
       ]
@@ -89,44 +89,44 @@
           "title": "Kylan Boswell welcome graphic",
           "note": "Custom recruiting welcome graphic for his visit to Champaign.",
           "images": [
-            "/assets/illini-mens-basketball/01.JPG"
+            "/assets/illini-mens-basketball/01.webp"
           ]
         },
         {
           "title": "Jersey retirement banner",
           "note": "",
           "images": [
-            "/assets/illini-mens-basketball/02.jpg"
+            "/assets/illini-mens-basketball/02.webp"
           ]
         },
         {
           "title": "ESPN notification graphic",
           "note": "",
           "images": [
-            "/assets/illini-mens-basketball/03.jpg"
+            "/assets/illini-mens-basketball/03.webp"
           ]
         },
         {
           "title": "March Madness graphic",
           "note": "",
           "images": [
-            "/assets/illini-mens-basketball/04.jpg"
+            "/assets/illini-mens-basketball/04.webp"
           ]
         },
         {
           "title": "Recruiting templates",
           "note": "Templated system used for 30+ recruits — the staff could turn around a personalised graphic without rebuilding it each time.",
           "images": [
-            "/assets/illini-mens-basketball/05.jpg",
-            "/assets/illini-mens-basketball/06.jpg",
-            "/assets/illini-mens-basketball/07.jpg"
+            "/assets/illini-mens-basketball/05.webp",
+            "/assets/illini-mens-basketball/06.webp",
+            "/assets/illini-mens-basketball/07.webp"
           ]
         },
         {
           "title": "Jersey swaps",
           "note": "One of 10+ jersey swaps created for recruits.",
           "images": [
-            "/assets/illini-mens-basketball/08.jpg"
+            "/assets/illini-mens-basketball/08.webp"
           ]
         }
       ]
@@ -140,22 +140,22 @@
           "title": "Key art and thumbnail",
           "note": "The Turtle Rescuers of Belize, episode 5. Hosted by Sam Potter.",
           "images": [
-            "/assets/back-to-the-wild/01.png"
+            "/assets/back-to-the-wild/01.webp"
           ]
         },
         {
           "title": "Emmy ceremony",
           "note": "",
           "images": [
-            "/assets/back-to-the-wild/02.jpg"
+            "/assets/back-to-the-wild/02.webp"
           ]
         },
         {
           "title": "The award",
           "note": "Northern California Area Emmy, Outstanding Achievement, Human Interest (News or Long Form Content), awarded to me as graphic designer.",
           "images": [
-            "/assets/back-to-the-wild/03.PNG",
-            "/assets/back-to-the-wild/04.PNG"
+            "/assets/back-to-the-wild/03.webp",
+            "/assets/back-to-the-wild/04.webp"
           ]
         }
       ]
@@ -169,16 +169,16 @@
           "title": "The playlist",
           "note": "200+ thumbnails across client channels, 48M+ views combined.",
           "images": [
-            "/assets/youtube-thumbnails/01.png"
+            "/assets/youtube-thumbnails/01.webp"
           ]
         },
         {
           "title": "Before and after",
           "note": "Raw frame on top, finished thumbnail below.",
           "images": [
-            "/assets/youtube-thumbnails/02.jpeg",
-            "/assets/youtube-thumbnails/03.jpeg",
-            "/assets/youtube-thumbnails/04.jpeg"
+            "/assets/youtube-thumbnails/02.webp",
+            "/assets/youtube-thumbnails/03.webp",
+            "/assets/youtube-thumbnails/04.webp"
           ]
         }
       ]
@@ -192,63 +192,63 @@
           "title": "YouTube thumbnails",
           "note": "",
           "images": [
-            "/assets/lexielimitless/01.jpg",
-            "/assets/lexielimitless/02.jpg"
+            "/assets/lexielimitless/01.webp",
+            "/assets/lexielimitless/02.webp"
           ]
         },
         {
           "title": "Lara Croft training",
           "note": "Promotion for the Lara Croft training video. Featured in Men's Health.",
           "images": [
-            "/assets/lexielimitless/03.jpg",
-            "/assets/lexielimitless/04.png",
-            "/assets/lexielimitless/05.jpg"
+            "/assets/lexielimitless/03.webp",
+            "/assets/lexielimitless/04.webp",
+            "/assets/lexielimitless/05.webp"
           ]
         },
         {
           "title": "Every Country Series",
           "note": "A scalable visual system producing 195 unique PDF travel guides that held brand consistency across an entire global content library.",
           "images": [
-            "/assets/lexielimitless/06.png",
-            "/assets/lexielimitless/07.png",
-            "/assets/lexielimitless/08.png",
-            "/assets/lexielimitless/09.png",
-            "/assets/lexielimitless/10.png",
-            "/assets/lexielimitless/11.png"
+            "/assets/lexielimitless/06.webp",
+            "/assets/lexielimitless/07.webp",
+            "/assets/lexielimitless/08.webp",
+            "/assets/lexielimitless/09.webp",
+            "/assets/lexielimitless/10.webp",
+            "/assets/lexielimitless/11.webp"
           ]
         },
         {
           "title": "Instagram reel covers",
           "note": "",
           "images": [
-            "/assets/lexielimitless/13.png",
-            "/assets/lexielimitless/14.png",
-            "/assets/lexielimitless/15.png"
+            "/assets/lexielimitless/13.webp",
+            "/assets/lexielimitless/14.webp",
+            "/assets/lexielimitless/15.webp"
           ]
         },
         {
           "title": "Instagram photos",
           "note": "",
           "images": [
-            "/assets/lexielimitless/16.png",
-            "/assets/lexielimitless/17.png",
-            "/assets/lexielimitless/18.png",
-            "/assets/lexielimitless/19.png",
-            "/assets/lexielimitless/20.png"
+            "/assets/lexielimitless/16.webp",
+            "/assets/lexielimitless/17.webp",
+            "/assets/lexielimitless/18.webp",
+            "/assets/lexielimitless/19.webp",
+            "/assets/lexielimitless/20.webp"
           ]
         },
         {
           "title": "Amazon Prime Video — Charge Around the Globe",
           "note": "Thumbnails featured in the intro of Lexie's Amazon Prime series.",
           "images": [
-            "/assets/lexielimitless/12.jpg"
+            "/assets/lexielimitless/12.webp"
           ]
         },
         {
           "title": "YouTube end screen",
           "note": "",
           "images": [
-            "/assets/lexielimitless/21.png"
+            "/assets/lexielimitless/21.webp"
           ]
         }
       ]
@@ -262,45 +262,45 @@
           "title": "Alexander Skarsgård — The Northman",
           "note": "Debuted the same day as the film's premiere. 2.7M+ views. Featured in Men's Health and Yahoo.",
           "images": [
-            "/assets/magnusmethod/01.jpg",
-            "/assets/magnusmethod/02.jpg"
+            "/assets/magnusmethod/01.webp",
+            "/assets/magnusmethod/02.webp"
           ]
         },
         {
           "title": "Gal Gadot — Wonder Woman",
           "note": "Released alongside Wonder Woman 1984. Featured in Business Insider and Men's Health.",
           "images": [
-            "/assets/magnusmethod/03.jpg"
+            "/assets/magnusmethod/03.webp"
           ]
         },
         {
           "title": "Alicia Vikander",
           "note": "",
           "images": [
-            "/assets/magnusmethod/04.jpg"
+            "/assets/magnusmethod/04.webp"
           ]
         },
         {
           "title": "Ben Affleck",
           "note": "Thumbnail featured in Business Insider.",
           "images": [
-            "/assets/magnusmethod/05.jpg"
+            "/assets/magnusmethod/05.webp"
           ]
         },
         {
           "title": "Channel thumbnails",
           "note": "3M+ views combined.",
           "images": [
-            "/assets/magnusmethod/06.jpg",
-            "/assets/magnusmethod/07.jpg",
-            "/assets/magnusmethod/08.jpg"
+            "/assets/magnusmethod/06.webp",
+            "/assets/magnusmethod/07.webp",
+            "/assets/magnusmethod/08.webp"
           ]
         },
         {
           "title": "Channel banner",
           "note": "",
           "images": [
-            "/assets/magnusmethod/09.png"
+            "/assets/magnusmethod/09.webp"
           ]
         }
       ]
@@ -314,23 +314,23 @@
           "title": "Mafiathon 2 with Kai Cenat",
           "note": "Announcement poster and story art for the Fear Factor challenge.",
           "images": [
-            "/assets/coyote-petersonbrave-wildnerness/01.PNG",
-            "/assets/coyote-petersonbrave-wildnerness/02.png"
+            "/assets/coyote-petersonbrave-wildnerness/01.webp",
+            "/assets/coyote-petersonbrave-wildnerness/02.webp"
           ]
         },
         {
           "title": "Snapping Turtle Bite Test",
           "note": "Episode poster and countdown story.",
           "images": [
-            "/assets/coyote-petersonbrave-wildnerness/03.PNG",
-            "/assets/coyote-petersonbrave-wildnerness/04.PNG"
+            "/assets/coyote-petersonbrave-wildnerness/03.webp",
+            "/assets/coyote-petersonbrave-wildnerness/04.webp"
           ]
         },
         {
           "title": "Printed",
           "note": "",
           "images": [
-            "/assets/coyote-petersonbrave-wildnerness/05.JPG"
+            "/assets/coyote-petersonbrave-wildnerness/05.webp"
           ]
         }
       ]
@@ -344,8 +344,8 @@
           "title": "Official posters",
           "note": "French and English versions. Planet Dale / Galavision.",
           "images": [
-            "/assets/heaven/01.PNG",
-            "/assets/heaven/02.PNG"
+            "/assets/heaven/01.webp",
+            "/assets/heaven/02.webp"
           ]
         }
       ]
@@ -359,14 +359,14 @@
           "title": "Hit the Wall — concept poster",
           "note": "Unofficial concept edit. 2,000+ organic likes.",
           "images": [
-            "/assets/gracie-abrams-concept/01.PNG"
+            "/assets/gracie-abrams-concept/01.webp"
           ]
         },
         {
           "title": "The response",
           "note": "Followed up with a behind-the-scenes breakdown of the compositing process, which caught Gracie's attention.",
           "images": [
-            "/assets/gracie-abrams-concept/02.png"
+            "/assets/gracie-abrams-concept/02.webp"
           ]
         }
       ]
@@ -380,12 +380,12 @@
           "title": "Alternate posters",
           "note": "Self-directed redesigns. Unofficial concept work, not affiliated with the rights holders.",
           "images": [
-            "/assets/poster-graphics/01.jpg",
-            "/assets/poster-graphics/02.jpg",
-            "/assets/poster-graphics/03.jpg",
-            "/assets/poster-graphics/04.jpg",
-            "/assets/poster-graphics/05.jpg",
-            "/assets/poster-graphics/06.jpg"
+            "/assets/poster-graphics/01.webp",
+            "/assets/poster-graphics/02.webp",
+            "/assets/poster-graphics/03.webp",
+            "/assets/poster-graphics/04.webp",
+            "/assets/poster-graphics/05.webp",
+            "/assets/poster-graphics/06.webp"
           ]
         }
       ]
@@ -399,23 +399,23 @@
           "title": "Fake LinkedIn screens",
           "note": "Built for a sketch advertising Rippling.",
           "images": [
-            "/assets/varun-rana/01.png",
-            "/assets/varun-rana/02.png"
+            "/assets/varun-rana/01.webp",
+            "/assets/varun-rana/02.webp"
           ]
         },
         {
           "title": "Fake Times Square billboard",
           "note": "",
           "images": [
-            "/assets/varun-rana/03.png"
+            "/assets/varun-rana/03.webp"
           ]
         },
         {
           "title": "Edited subway advertisement",
           "note": "",
           "images": [
-            "/assets/varun-rana/04.png",
-            "/assets/varun-rana/05.png"
+            "/assets/varun-rana/04.webp",
+            "/assets/varun-rana/05.webp"
           ]
         }
       ]
@@ -429,15 +429,15 @@
           "title": "Poster and key art",
           "note": "Short film directed by Cassidy Tee, starring James Sanders.",
           "images": [
-            "/assets/filmtv/01.jpg",
-            "/assets/filmtv/02.PNG"
+            "/assets/filmtv/01.webp",
+            "/assets/filmtv/02.webp"
           ]
         },
         {
           "title": "At the premiere",
           "note": "",
           "images": [
-            "/assets/filmtv/03.jpg"
+            "/assets/filmtv/03.webp"
           ]
         }
       ]
@@ -451,22 +451,22 @@
           "title": "Released covers",
           "note": "",
           "images": [
-            "/assets/musiccover-art/01.jpg",
-            "/assets/musiccover-art/02.jpg"
+            "/assets/musiccover-art/01.webp",
+            "/assets/musiccover-art/02.webp"
           ]
         },
         {
           "title": "Concept covers",
           "note": "",
           "images": [
-            "/assets/musiccover-art/03.png",
-            "/assets/musiccover-art/04.JPG",
-            "/assets/musiccover-art/05.jpeg",
-            "/assets/musiccover-art/06.png",
-            "/assets/musiccover-art/07.PNG",
-            "/assets/musiccover-art/08.JPG",
-            "/assets/musiccover-art/09.PNG",
-            "/assets/musiccover-art/10.JPG"
+            "/assets/musiccover-art/03.webp",
+            "/assets/musiccover-art/04.webp",
+            "/assets/musiccover-art/05.webp",
+            "/assets/musiccover-art/06.webp",
+            "/assets/musiccover-art/07.webp",
+            "/assets/musiccover-art/08.webp",
+            "/assets/musiccover-art/09.webp",
+            "/assets/musiccover-art/10.webp"
           ]
         }
       ]
@@ -480,8 +480,8 @@
           "title": "Growth marketing",
           "note": "App store and social assets created as an Entrepreneurship Fellow.",
           "images": [
-            "/assets/scoutible/01.jpg",
-            "/assets/scoutible/02.png"
+            "/assets/scoutible/01.webp",
+            "/assets/scoutible/02.webp"
           ]
         }
       ]
