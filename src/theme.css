@@ -88,9 +88,13 @@ code { font-family: var(--mono); font-size: .92em; color: var(--dim); }
 .lp-sub { display: block; font-size: 11px; color: var(--faint);
   font-family: var(--mono); }
 
-.lp-foot { display: flex; gap: 12px; padding: 10px 12px; border-top: 1px solid var(--hair);
-  font-family: var(--mono); font-size: 11.5px; color: var(--faint); }
-.lp-foot a:hover { color: var(--accent); }
+/* footer bar, styled after the icon row at the bottom of Photoshop's
+   Layers panel: evenly spaced monochrome glyphs on a raised strip */
+.lp-foot { display: flex; align-items: center; justify-content: space-around;
+  padding: 7px 6px; background: var(--raised); border-top: 1px solid var(--hair); }
+.lp-foot a { display: grid; place-items: center; width: 26px; height: 24px;
+  border-radius: 3px; color: var(--dim); }
+.lp-foot a:hover { color: var(--text); background: #55555C; }
 
 .doc { min-width: 0; padding: clamp(14px, 2vw, 20px) clamp(16px, 3vw, 40px) 0;
   display: flex; flex-direction: column; min-height: calc(100vh - var(--hdr)); }
