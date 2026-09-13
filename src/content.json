@@ -7,6 +7,14 @@
       "compact": true,
       "groups": [
         {
+          "title": "Where scrapped PSDs become finished art",
+          "note": "Landing page. Upload unfinished PSDs, download the actual working file, remix and publish your version.",
+          "folder": null,
+          "files": [
+            "01.png"
+          ]
+        },
+        {
           "title": "Upload your unfinished PSD",
           "note": "The real preview comes straight from the file's own embedded thumbnail — no separate image upload, so it can never be misleading.",
           "folder": null,
