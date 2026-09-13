@@ -13,24 +13,36 @@ export default function Artwork() {
   const [fit, setFit] = useState(true)
   const [scale, setScale] = useState(1)
   const [fitScale, setFitScale] = useState(1)
+  // Images added through the CMS have no stored dimensions, so measure them.
+  const [natural, setNatural] = useState(null)
 
   const project = projects.find((p) => p.id === projectId)
   const list = byProject[projectId] ?? []
   const art = artFor(projectId, n)
   const index = art ? art.n - 1 : -1
+  const W = natural?.w || art?.w || 0
+  const H = natural?.h || art?.h || 0
+
+  useEffect(() => {
+    if (!art) return
+    setNatural(null)
+    const img = new Image()
+    img.onload = () => setNatural({ w: img.naturalWidth, h: img.naturalHeight })
+    img.src = art.src
+  }, [art?.src])
 
   /* Fit inside the stage, never scaling past 100%. */
   const measure = useCallback(() => {
     const box = stageRef.current
-    if (!box || !art?.w) return
+    if (!box || !W || !H) return
     const pad = 70
     const s = Math.min(
-      (box.clientWidth - pad) / art.w,
-      (innerHeight * 0.78 - pad) / art.h,
+      (box.clientWidth - pad) / W,
+      (innerHeight * 0.78 - pad) / H,
       1
     )
     setFitScale(s > 0 ? s : 1)
-  }, [art])
+  }, [W, H])
 
   useEffect(() => {
     measure()
@@ -95,7 +107,7 @@ export default function Artwork() {
           </div>
 
           <div className="stage" ref={stageRef}>
-            <div className="frame" style={{ width: art.w * shown, height: art.h * shown }}>
+            <div className="frame" style={{ width: W * shown, height: H * shown }}>
               <img src={art.src} alt={`${project.title} — ${art.group}`} decoding="async" />
             </div>
           </div>
@@ -106,7 +118,7 @@ export default function Artwork() {
           <dl className="props">
             <div><dt>Layer</dt><dd>{art.group}</dd></div>
             <div><dt>File</dt><dd>{art.file}</dd></div>
-            <div><dt>Size</dt><dd>{art.w} × {art.h} px</dd></div>
+            <div><dt>Size</dt><dd>{W && H ? `${W} × ${H} px` : "—"}</dd></div>
             <div><dt>Client</dt><dd>{project.meta}</dd></div>
             <div><dt>Year</dt><dd>{project.year}</dd></div>
             {art.note && <div><dt>Note</dt><dd className="note">{art.note}</dd></div>}

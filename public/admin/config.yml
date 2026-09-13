@@ -1,8 +1,13 @@
 # Decap CMS configuration.
-# Edits here are committed straight to GitHub, which triggers a Netlify rebuild.
+# Saves commit to GitHub, which triggers a Vercel rebuild.
+
 backend:
-  name: git-gateway
+  name: github
+  repo: pshukl21/portfolio
   branch: main
+  # OAuth handled by the serverless functions in /api of this same project.
+  base_url: https://parthcreations.art
+  auth_endpoint: api/auth
 
 # Lets you run the CMS against local files during development:
 #   npx decap-server      (in a second terminal)
@@ -59,7 +64,7 @@ collections:
               - name: id
                 label: "ID"
                 widget: string
-                hint: "Used in the URL. Must match the id in Captions. Don't change casually."
+                hint: "Used in the URL, and must match the ID under Captions. Avoid changing."
               - { name: title, label: "Title", widget: string }
               - { name: year, label: "Year", widget: string }
               - { name: meta, label: "Client / role line", widget: string }
@@ -67,15 +72,16 @@ collections:
               - { name: body, label: "Body", widget: text, required: false }
               - name: cover
                 label: "Card cover"
-                widget: string
-                hint: "Path under public, e.g. /assets/home/01.webp"
+                widget: image
+                allow_multiple: false
+                hint: "Shown on the Work page. Upload, or pick from the media library."
 
   # ---------------------------------------------------------------- captions
   - name: "captions"
-    label: "Captions"
+    label: "Captions & images"
     files:
       - name: "content"
-        label: "Groups & image captions"
+        label: "Groups & images"
         file: "src/content.json"
         fields:
           - name: content
@@ -84,16 +90,12 @@ collections:
             summary: "{{fields.id}}"
             fields:
               - { name: id, label: "Project ID", widget: string }
-              - name: folder
-                label: "Assets folder"
-                widget: string
-                hint: "Folder name inside public/assets"
               - { name: sequence, label: "Number the groups", widget: boolean, default: false }
               - name: compact
                 label: "Compact layout"
                 widget: boolean
                 default: false
-                hint: "Steps as a list, all images in one gallery. Good for long projects."
+                hint: "Headings become a list and all images share one gallery. Good for long projects."
               - name: groups
                 label: "Groups"
                 label_singular: "Group"
@@ -102,12 +104,11 @@ collections:
                 fields:
                   - { name: title, label: "Heading", widget: string }
                   - { name: note, label: "Note", widget: text, required: false }
-                  - name: folder
-                    label: "Folder override"
-                    widget: string
-                    required: false
-                    hint: "Only if this group's images live in a different folder."
-                  - name: files
-                    label: "Files"
-                    widget: list
-                    field: { name: file, label: "Filename", widget: string }
+                  - name: images
+                    label: "Images"
+                    widget: image
+                    allow_multiple: true
+                    media_library:
+                      config:
+                        multiple: true
+                    hint: "Drag to reorder. Upload new ones or pick from the media library."

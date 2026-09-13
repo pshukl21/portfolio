@@ -51,27 +51,30 @@ def main() -> None:
 
     fixed = missing = 0
 
-    # ---- content.json (array of projects) ---------------------------------
+    # ---- content.json (array of projects, full image paths) ---------------
     cpath = SRC / "content.json"
     content = json.loads(cpath.read_text())
     for block in content["content"]:
-        default_folder = block.get("folder")
         for g in block.get("groups", []):
-            folder = g.get("folder") or default_folder
             out = []
-            for name in g.get("files", []):
-                stem = Path(name).stem
+            for src in g.get("images", []):
+                m = re.match(r"/assets/([^/]+)/([^.]+)\.[A-Za-z]+$", src)
+                if not m:
+                    out.append(src)
+                    continue
+                folder, stem = m.group(1), m.group(2)
                 real = on_disk.get(f"{folder}/{stem}")
                 if real is None:
-                    print(f"  !! no file for {folder}/{name}")
+                    print(f"  !! no file for {folder}/{stem}")
                     missing += 1
-                    out.append(name)
-                else:
-                    if real != name:
-                        fixed += 1
-                    out.append(real)
-            if "files" in g:
-                g["files"] = out
+                    out.append(src)
+                    continue
+                new = f"/assets/{folder}/{real}"
+                if new != src:
+                    fixed += 1
+                out.append(new)
+            if "images" in g:
+                g["images"] = out
 
     # ---- assets.json (only its extensions matter) -------------------------
     apath = SRC / "assets.json"

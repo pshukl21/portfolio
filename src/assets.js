@@ -2,19 +2,21 @@ import assetMeta from './assets.json'
 import contentList from './content.json'
 import { projects } from './projects'
 
-/** content.json is an array so it can be edited in the CMS; index it here. */
+/** content.json is an array so the CMS can edit it; index it by id here. */
 const content = Object.fromEntries(contentList.content.map((c) => [c.id, c]))
 
-/** Intrinsic aspect ratios keyed by "folder/NN.ext". */
-const ratios = {}
+/**
+ * Intrinsic pixel sizes captured by extract_assets.py, keyed by the path the
+ * site uses. Images uploaded through the CMS won't be in here — those get
+ * measured in the browser instead, so this is an optimisation, not a
+ * requirement.
+ */
 const dims = {}
 for (const [page, blob] of Object.entries(assetMeta)) {
   blob.images.forEach((im, i) => {
     const ext = new URL(im.url).pathname.match(/\.[^.]+$/)?.[0] ?? '.jpg'
-    const key = `${page}/${String(i + 1).padStart(2, '0')}${ext}`
     const [w, h] = im.natural_size ?? [0, 0]
-    ratios[key] = w && h ? w / h : 1
-    dims[key] = [w, h]
+    if (w && h) dims[`/assets/${page}/${String(i + 1).padStart(2, '0')}${ext}`] = [w, h]
   })
 }
 
@@ -23,49 +25,31 @@ export const mosaic = assetMeta.home.images.map((im, i) => {
   return `/assets/home/${String(i + 1).padStart(2, '0')}${ext}`
 })
 
-function resolve(projectId, group, file) {
-  const folder = group.folder ?? content[projectId]?.folder
-  const key = `${folder}/${file}`
-  if (!(key in ratios) && import.meta.env.DEV) {
-    console.warn(`[content.json] no asset for "${key}"`)
-  }
-  return {
-    src: `/assets/${key}`,
-    ar: ratios[key] ?? 1,
-    w: dims[key]?.[0] ?? 0,
-    h: dims[key]?.[1] ?? 0,
-  }
-}
-
-/**
- * Every artwork, flattened and indexed. Each one is addressable at
- * #/p/<projectId>/<n>, which is what gives a piece its own page.
- */
+/** Every artwork, flattened and indexed — each addressable at /p/<id>/<n>. */
 export const byProject = {}
 export const artworks = []
 
 for (const p of projects) {
-  const groups = content[p.id]?.groups ?? []
   const list = []
-  groups.forEach((g) => {
-    ;(g.files ?? []).forEach((file) => {
-      const { src, ar, w, h } = resolve(p.id, g, file)
+  for (const g of content[p.id]?.groups ?? []) {
+    for (const src of g.images ?? []) {
+      const [w = 0, h = 0] = dims[src] ?? []
       const art = {
         projectId: p.id,
         projectTitle: p.title,
         group: g.title,
         note: g.note || '',
-        file,
         src,
-        ar,
+        file: src.split('/').pop(),
+        ar: w && h ? w / h : 1,
         w,
         h,
         n: list.length + 1,
       }
       list.push(art)
       artworks.push(art)
-    })
-  })
+    }
+  }
   byProject[p.id] = list
 }
 
