@@ -57,6 +57,7 @@ export default function Project({ editing }) {
         </p>
       )}
 
+      <div className="groups">
       {groups.map((g, gi) => {
         const slice = flat.slice(cursor, cursor + (g.files?.length ?? 0))
         cursor += g.files?.length ?? 0
@@ -73,6 +74,7 @@ export default function Project({ editing }) {
           </div>
         )
       })}
+      </div>
       <div className="tail" />
     </div>
   )
