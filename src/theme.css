@@ -91,7 +91,7 @@ code { font-family: var(--mono); font-size: .92em; color: var(--dim); }
   font-family: var(--mono); font-size: 11.5px; color: var(--faint); }
 .lp-foot a:hover { color: var(--accent); }
 
-.doc { min-width: 0; padding: clamp(18px, 3vw, 30px) clamp(16px, 3vw, 40px) 0;
+.doc { min-width: 0; padding: clamp(14px, 2vw, 20px) clamp(16px, 3vw, 40px) 0;
   display: flex; flex-direction: column; min-height: calc(100vh - var(--hdr)); }
 .wrap { max-width: 1180px; }
 
@@ -137,7 +137,7 @@ code { font-family: var(--mono); font-size: .92em; color: var(--dim); }
   grid-template-columns: repeat(auto-fill, minmax(272px, 1fr));
   padding-bottom: clamp(50px, 8vw, 90px); }
 .doccard { display: flex; flex-direction: column;
-  background: #FFFFFF; border: 1px solid #0E0E10; border-radius: 11px;
+  background: #FFFFFF; border: 1px solid #0E0E10;
   box-shadow: 0 6px 20px rgba(0,0,0,.34); overflow: hidden; }
 .doccard:hover { box-shadow: 0 10px 28px rgba(0,0,0,.5); }
 .dc-bar { display: flex; align-items: center; gap: 9px; padding: 9px 12px;
@@ -174,7 +174,7 @@ code { font-family: var(--mono); font-size: .92em; color: var(--dim); }
 }
 
 /* ---------- project ---------- */
-.phead { padding: clamp(40px, 6vw, 72px) 0 clamp(26px, 4vw, 44px); max-width: 64ch; }
+.phead { padding: 0 0 clamp(24px, 3.4vw, 38px); max-width: 64ch; }
 .back { display: inline-block; margin-bottom: 18px; color: var(--faint);
   font-size: 13.5px; font-family: var(--mono); }
 .back:hover { color: var(--accent); }
@@ -215,7 +215,7 @@ body.edit .plate .tag { opacity: 1; }
 /* ---------- artwork ---------- */
 .art { display: grid; gap: clamp(26px, 4vw, 46px);
   grid-template-columns: minmax(0, 1fr) 276px;
-  padding: clamp(26px, 4vw, 44px) 0 clamp(50px, 7vw, 90px); align-items: start; }
+  padding: 0 0 clamp(44px, 6vw, 78px); align-items: start; }
 @media (max-width: 940px) { .art { grid-template-columns: 1fr; } }
 
 .stagebar { display: flex; align-items: center; gap: 10px; margin-bottom: 14px;
@@ -274,7 +274,7 @@ body.edit .plate .tag { opacity: 1; }
   padding: 1px 5px; font: inherit; color: var(--dim); }
 
 /* ---------- about ---------- */
-.about { padding: clamp(50px, 8vw, 100px) 0; max-width: 62ch; }
+.about { padding: 0 0 clamp(50px, 8vw, 96px); max-width: 62ch; }
 .about .first { font-size: clamp(20px, 2.4vw, 26px); line-height: 1.42; margin: 0 0 1em;
   font-variation-settings: "wdth" 104, "wght" 500; }
 .about p { margin: 0 0 1.05em; color: var(--dim); }
