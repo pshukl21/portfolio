@@ -490,7 +490,15 @@
       "id": "brett-conti",
       "sequence": false,
       "compact": false,
-      "groups": []
+      "groups": [
+        {
+          "images": [
+            "/assets/uploads/ws2his71g3e.jpg"
+          ],
+          "note": "Views: 1.2M",
+          "title": "Title: I Flew from NYC to ITALY to Compare Pizza (NYC vs Naples)"
+        }
+      ]
     }
   ]
 }
