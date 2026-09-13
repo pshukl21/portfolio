@@ -11,7 +11,7 @@
           "note": "Landing page. Upload unfinished PSDs, download the actual working file, remix and publish your version.",
           "folder": null,
           "files": [
-            "01.png"
+            "01.webp"
           ]
         },
         {
@@ -19,7 +19,7 @@
           "note": "The real preview comes straight from the file's own embedded thumbnail — no separate image upload, so it can never be misleading.",
           "folder": null,
           "files": [
-            "02.png"
+            "02.webp"
           ]
         },
         {
@@ -27,7 +27,7 @@
           "note": "Every download is the actual layered source file, not a flattened preview.",
           "folder": null,
           "files": [
-            "03.png"
+            "03.webp"
           ]
         },
         {
@@ -35,7 +35,7 @@
           "note": "Describe exactly what changed, and the remix joins the original's lineage — credited, versioned, forkable.",
           "folder": null,
           "files": [
-            "04.png"
+            "04.webp"
           ]
         },
         {
@@ -43,7 +43,7 @@
           "note": "Every fork is versioned and connected back to the original: a visual lineage of who built what, and when.",
           "folder": null,
           "files": [
-            "05.png"
+            "05.webp"
           ]
         }
       ]
@@ -59,8 +59,8 @@
           "note": "Anthony Davis and Cooper Flagg voting graphics, created at the Mavericks' request.",
           "folder": "dallas-mavericks",
           "files": [
-            "01.png",
-            "02.png"
+            "01.webp",
+            "02.webp"
           ]
         },
         {
@@ -68,8 +68,8 @@
           "note": "Art featured on the official Mavericks billboard in downtown Dallas.",
           "folder": "dallas-mavericks",
           "files": [
-            "03.jpg",
-            "04.JPG"
+            "03.webp",
+            "04.webp"
           ]
         },
         {
@@ -77,8 +77,8 @@
           "note": "Art featured on the official Houston Rockets Instagram.",
           "folder": "nba",
           "files": [
-            "02.jpg",
-            "03.jpg"
+            "02.webp",
+            "03.webp"
           ]
         },
         {
@@ -86,7 +86,7 @@
           "note": "Billboard in Minot, North Dakota.",
           "folder": "nba",
           "files": [
-            "06.PNG"
+            "06.webp"
           ]
         }
       ]
@@ -102,7 +102,7 @@
           "note": "Custom recruiting welcome graphic for his visit to Champaign.",
           "folder": null,
           "files": [
-            "01.JPG"
+            "01.webp"
           ]
         },
         {
@@ -110,7 +110,7 @@
           "note": "",
           "folder": null,
           "files": [
-            "02.jpg"
+            "02.webp"
           ]
         },
         {
@@ -118,7 +118,7 @@
           "note": "",
           "folder": null,
           "files": [
-            "03.jpg"
+            "03.webp"
           ]
         },
         {
@@ -126,7 +126,7 @@
           "note": "",
           "folder": null,
           "files": [
-            "04.jpg"
+            "04.webp"
           ]
         },
         {
@@ -134,9 +134,9 @@
           "note": "Templated system used for 30+ recruits — the staff could turn around a personalised graphic without rebuilding it each time.",
           "folder": null,
           "files": [
-            "05.jpg",
-            "06.jpg",
-            "07.jpg"
+            "05.webp",
+            "06.webp",
+            "07.webp"
           ]
         },
         {
@@ -144,7 +144,7 @@
           "note": "One of 10+ jersey swaps created for recruits.",
           "folder": null,
           "files": [
-            "08.jpg"
+            "08.webp"
           ]
         }
       ]
@@ -160,7 +160,7 @@
           "note": "The Turtle Rescuers of Belize, episode 5. Hosted by Sam Potter.",
           "folder": null,
           "files": [
-            "01.png"
+            "01.webp"
           ]
         },
         {
@@ -168,7 +168,7 @@
           "note": "",
           "folder": null,
           "files": [
-            "02.jpg"
+            "02.webp"
           ]
         },
         {
@@ -176,8 +176,8 @@
           "note": "Northern California Area Emmy, Outstanding Achievement, Human Interest (News or Long Form Content), awarded to me as graphic designer.",
           "folder": null,
           "files": [
-            "03.PNG",
-            "04.PNG"
+            "03.webp",
+            "04.webp"
           ]
         }
       ]
@@ -193,7 +193,7 @@
           "note": "200+ thumbnails across client channels, 48M+ views combined.",
           "folder": null,
           "files": [
-            "01.png"
+            "01.webp"
           ]
         },
         {
@@ -201,9 +201,9 @@
           "note": "Raw frame on top, finished thumbnail below.",
           "folder": null,
           "files": [
-            "02.jpeg",
-            "03.jpeg",
-            "04.jpeg"
+            "02.webp",
+            "03.webp",
+            "04.webp"
           ]
         }
       ]
@@ -219,8 +219,8 @@
           "note": "",
           "folder": null,
           "files": [
-            "01.jpg",
-            "02.jpg"
+            "01.webp",
+            "02.webp"
           ]
         },
         {
@@ -228,9 +228,9 @@
           "note": "Promotion for the Lara Croft training video. Featured in Men's Health.",
           "folder": null,
           "files": [
-            "03.jpg",
-            "04.png",
-            "05.jpg"
+            "03.webp",
+            "04.webp",
+            "05.webp"
           ]
         },
         {
@@ -238,12 +238,12 @@
           "note": "A scalable visual system producing 195 unique PDF travel guides that held brand consistency across an entire global content library.",
           "folder": null,
           "files": [
-            "06.png",
-            "07.png",
-            "08.png",
-            "09.png",
-            "10.png",
-            "11.png"
+            "06.webp",
+            "07.webp",
+            "08.webp",
+            "09.webp",
+            "10.webp",
+            "11.webp"
           ]
         },
         {
@@ -251,9 +251,9 @@
           "note": "",
           "folder": null,
           "files": [
-            "13.png",
-            "14.png",
-            "15.png"
+            "13.webp",
+            "14.webp",
+            "15.webp"
           ]
         },
         {
@@ -261,11 +261,11 @@
           "note": "",
           "folder": null,
           "files": [
-            "16.png",
-            "17.png",
-            "18.png",
-            "19.png",
-            "20.png"
+            "16.webp",
+            "17.webp",
+            "18.webp",
+            "19.webp",
+            "20.webp"
           ]
         },
         {
@@ -273,7 +273,7 @@
           "note": "Thumbnails featured in the intro of Lexie's Amazon Prime series.",
           "folder": null,
           "files": [
-            "12.jpg"
+            "12.webp"
           ]
         },
         {
@@ -281,7 +281,7 @@
           "note": "",
           "folder": null,
           "files": [
-            "21.png"
+            "21.webp"
           ]
         }
       ]
@@ -297,8 +297,8 @@
           "note": "Debuted the same day as the film's premiere. 2.7M+ views. Featured in Men's Health and Yahoo.",
           "folder": null,
           "files": [
-            "01.jpg",
-            "02.jpg"
+            "01.webp",
+            "02.webp"
           ]
         },
         {
@@ -306,7 +306,7 @@
           "note": "Released alongside Wonder Woman 1984. Featured in Business Insider and Men's Health.",
           "folder": null,
           "files": [
-            "03.jpg"
+            "03.webp"
           ]
         },
         {
@@ -314,7 +314,7 @@
           "note": "",
           "folder": null,
           "files": [
-            "04.jpg"
+            "04.webp"
           ]
         },
         {
@@ -322,7 +322,7 @@
           "note": "Thumbnail featured in Business Insider.",
           "folder": null,
           "files": [
-            "05.jpg"
+            "05.webp"
           ]
         },
         {
@@ -330,9 +330,9 @@
           "note": "3M+ views combined.",
           "folder": null,
           "files": [
-            "06.jpg",
-            "07.jpg",
-            "08.jpg"
+            "06.webp",
+            "07.webp",
+            "08.webp"
           ]
         },
         {
@@ -340,7 +340,7 @@
           "note": "",
           "folder": null,
           "files": [
-            "09.png"
+            "09.webp"
           ]
         }
       ]
@@ -356,8 +356,8 @@
           "note": "Announcement poster and story art for the Fear Factor challenge.",
           "folder": null,
           "files": [
-            "01.PNG",
-            "02.png"
+            "01.webp",
+            "02.webp"
           ]
         },
         {
@@ -365,8 +365,8 @@
           "note": "Episode poster and countdown story.",
           "folder": null,
           "files": [
-            "03.PNG",
-            "04.PNG"
+            "03.webp",
+            "04.webp"
           ]
         },
         {
@@ -374,7 +374,7 @@
           "note": "",
           "folder": null,
           "files": [
-            "05.JPG"
+            "05.webp"
           ]
         }
       ]
@@ -390,8 +390,8 @@
           "note": "French and English versions. Planet Dale / Galavision.",
           "folder": null,
           "files": [
-            "01.PNG",
-            "02.PNG"
+            "01.webp",
+            "02.webp"
           ]
         }
       ]
@@ -407,7 +407,7 @@
           "note": "Unofficial concept edit. 2,000+ organic likes.",
           "folder": null,
           "files": [
-            "01.PNG"
+            "01.webp"
           ]
         },
         {
@@ -415,7 +415,7 @@
           "note": "Followed up with a behind-the-scenes breakdown of the compositing process, which caught Gracie's attention.",
           "folder": null,
           "files": [
-            "02.png"
+            "02.webp"
           ]
         }
       ]
@@ -431,12 +431,12 @@
           "note": "Self-directed redesigns. Unofficial concept work, not affiliated with the rights holders.",
           "folder": null,
           "files": [
-            "01.jpg",
-            "02.jpg",
-            "03.jpg",
-            "04.jpg",
-            "05.jpg",
-            "06.jpg"
+            "01.webp",
+            "02.webp",
+            "03.webp",
+            "04.webp",
+            "05.webp",
+            "06.webp"
           ]
         }
       ]
@@ -452,8 +452,8 @@
           "note": "Built for a sketch advertising Rippling.",
           "folder": null,
           "files": [
-            "01.png",
-            "02.png"
+            "01.webp",
+            "02.webp"
           ]
         },
         {
@@ -461,7 +461,7 @@
           "note": "",
           "folder": null,
           "files": [
-            "03.png"
+            "03.webp"
           ]
         },
         {
@@ -469,8 +469,8 @@
           "note": "",
           "folder": null,
           "files": [
-            "04.png",
-            "05.png"
+            "04.webp",
+            "05.webp"
           ]
         }
       ]
@@ -486,8 +486,8 @@
           "note": "Short film directed by Cassidy Tee, starring James Sanders.",
           "folder": null,
           "files": [
-            "01.jpg",
-            "02.PNG"
+            "01.webp",
+            "02.webp"
           ]
         },
         {
@@ -495,7 +495,7 @@
           "note": "",
           "folder": null,
           "files": [
-            "03.jpg"
+            "03.webp"
           ]
         }
       ]
@@ -511,8 +511,8 @@
           "note": "",
           "folder": null,
           "files": [
-            "01.jpg",
-            "02.jpg"
+            "01.webp",
+            "02.webp"
           ]
         },
         {
@@ -520,14 +520,14 @@
           "note": "",
           "folder": null,
           "files": [
-            "03.png",
-            "04.JPG",
-            "05.jpeg",
-            "06.png",
-            "07.PNG",
-            "08.JPG",
-            "09.PNG",
-            "10.JPG"
+            "03.webp",
+            "04.webp",
+            "05.webp",
+            "06.webp",
+            "07.webp",
+            "08.webp",
+            "09.webp",
+            "10.webp"
           ]
         }
       ]
@@ -543,8 +543,8 @@
           "note": "App store and social assets created as an Entrepreneurship Fellow.",
           "folder": null,
           "files": [
-            "01.jpg",
-            "02.png"
+            "01.webp",
+            "02.webp"
           ]
         }
       ]
