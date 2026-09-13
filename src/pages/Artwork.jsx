@@ -2,6 +2,7 @@ import { useCallback, useEffect, useRef, useState } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
 import { projects } from '../projects'
 import { byProject, artFor } from '../assets'
+import Histogram from '../components/Histogram'
 import NotFound from './NotFound'
 
 const STEPS = [0.25, 0.33, 0.5, 0.67, 1, 1.5, 2, 3]
@@ -123,6 +124,9 @@ export default function Artwork() {
             <div><dt>Year</dt><dd>{project.year}</dd></div>
             {art.note && <div><dt>Note</dt><dd className="note">{art.note}</dd></div>}
           </dl>
+
+          <h4>Histogram</h4>
+          <Histogram src={art.src} />
 
           <h4>In this project</h4>
           <div className="layers">
