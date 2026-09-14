@@ -175,11 +175,13 @@
         {
           "title": "Before and after",
           "note": "Raw frame on top, finished thumbnail below.",
-          "images": [
-            "/assets/youtube-thumbnails/02.webp",
-            "/assets/youtube-thumbnails/03.webp",
-            "/assets/youtube-thumbnails/04.webp",
-            "/assets/uploads/thumbnail_before_after-yt.png"
+          "images": null,
+          "compare": [
+            {
+              "before": "/assets/uploads/tiktok_v2-before.png",
+              "after": "/assets/uploads/z9ibpo4mhui.jpg",
+              "label": "Title: Celebrity Trainer Reacts to Strange Fitness Advice (600k+ Views)"
+            }
           ]
         }
       ]
