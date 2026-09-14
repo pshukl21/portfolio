@@ -152,7 +152,7 @@
         },
         {
           "title": "The award",
-          "note": "Northern California Area Emmy, Outstanding Achievement, Human Interest (News or Long Form Content), awarded to me as graphic designer.",
+          "note": "Northern California Area Emmy contribution certificate.",
           "images": [
             "/assets/back-to-the-wild/03.webp",
             "/assets/back-to-the-wild/04.webp"
@@ -175,7 +175,9 @@
         {
           "title": "Before and after",
           "note": "",
-          "images": null,
+          "images": [
+            "/assets/uploads/thumbnail_before_after-yt.png"
+          ],
           "compare": [
             {
               "before": "/assets/uploads/tiktok_v2-before.png",
@@ -277,28 +279,28 @@
           "title": "Gal Gadot — Wonder Woman",
           "note": "Released alongside Wonder Woman 1984. Featured in Business Insider and Men's Health.",
           "images": [
-            "/assets/magnusmethod/03.webp"
+            "/assets/magnusmethod/03.webp",
+            "/assets/uploads/lzjknxxlfpy.jpg"
           ]
         },
         {
           "title": "Alicia Vikander",
           "note": "",
           "images": [
-            "/assets/magnusmethod/04.webp"
+            "/assets/uploads/c-k8mfcmbjk.jpg"
           ]
         },
         {
           "title": "Ben Affleck",
           "note": "Thumbnail featured in Business Insider.",
           "images": [
-            "/assets/magnusmethod/05.webp"
+            "/assets/uploads/ytzi_vja6ei.jpg"
           ]
         },
         {
           "title": "Channel thumbnails",
           "note": "3M+ views combined.",
           "images": [
-            "/assets/magnusmethod/06.webp",
             "/assets/magnusmethod/07.webp",
             "/assets/magnusmethod/08.webp"
           ]
