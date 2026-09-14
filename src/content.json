@@ -170,25 +170,25 @@
           "note": "",
           "images": [
             "/assets/uploads/youtube-thumbnails.webp"
-          ]
-        },
-        {
-          "title": "Before and after",
-          "note": "",
-          "images": [
-            "/assets/uploads/thumbnail_before_after-yt.png"
           ],
           "compare": [
             {
               "before": "/assets/uploads/tiktok_v2-before.png",
-              "after": "/assets/uploads/z9ibpo4mhui.jpg",
-              "label": ""
+              "after": "/assets/uploads/z9ibpo4mhui.jpg"
             },
             {
               "before": "/assets/uploads/artboard-1-before.png",
               "after": "/assets/uploads/artboard-1-after.png"
             }
           ]
+        },
+        {
+          "title": "Yes Theory Test Thumbnail",
+          "note": "",
+          "images": [
+            "/assets/uploads/thumbnail_before_after-yt.png"
+          ],
+          "compare": []
         }
       ]
     },
