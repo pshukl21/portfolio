@@ -1,15 +1,6 @@
 {
   "projects": [
     {
-      "id": "layerremix",
-      "cover": "/assets/home/01.webp",
-      "title": "LayerRemix",
-      "year": "2026",
-      "meta": "Product design · Self-directed",
-      "lead": "A platform where artists share, download and remix each other’s Photoshop files.",
-      "body": "Most design work ends as a flattened JPG. LayerRemix keeps the layers alive: designers upload working PSDs, others download the real source file, rework it, and publish the remix back. Every fork is versioned and linked to the original, so a single file becomes a visible lineage of who built what. I designed, built and run it solo."
-    },
-    {
       "id": "nba",
       "cover": "/assets/home/02.webp",
       "title": "NBA",
@@ -28,6 +19,24 @@
       "body": "Built a templated system that let the staff turn around personalised graphics for 30+ recruits without redrawing each one from scratch."
     },
     {
+      "id": "youtube-thumbnails",
+      "cover": "/assets/home/03.webp",
+      "title": "YouTube Thumbnails",
+      "year": "2026",
+      "meta": "250+ thumbnails · 100M+ views",
+      "lead": "The image that decides whether a video gets watched.",
+      "body": ""
+    },
+    {
+      "id": "layerremix",
+      "cover": "/assets/home/01.webp",
+      "title": "LayerRemix",
+      "year": "2026",
+      "meta": "Product design · Self-directed",
+      "lead": "A platform where artists share, download and remix each other’s Photoshop files.",
+      "body": "Most design work ends as a flattened JPG. LayerRemix keeps the layers alive: designers upload working PSDs, others download the real source file, rework it, and publish the remix back. Every fork is versioned and linked to the original, so a single file becomes a visible lineage of who built what. I designed, built and run it solo."
+    },
+    {
       "id": "back-to-the-wild",
       "cover": "/assets/home/05.webp",
       "title": "Back to the Wild",
@@ -35,15 +44,6 @@
       "meta": "Hawaii News Now / KFVE · Making It Media",
       "lead": "Thumbnail and key art for the series.",
       "body": "Northern California Area Emmy Award, Outstanding Achievement, Human Interest (News or Long Form Content)."
-    },
-    {
-      "id": "youtube-thumbnails",
-      "cover": "/assets/home/03.webp",
-      "title": "YouTube Thumbnails",
-      "year": "2025",
-      "meta": "200+ thumbnails · 48M+ views",
-      "lead": "The image that decides whether a video gets watched.",
-      "body": ""
     },
     {
       "id": "lexie-limitless",
