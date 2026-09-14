@@ -179,6 +179,12 @@
             "/assets/youtube-thumbnails/02.webp",
             "/assets/youtube-thumbnails/03.webp",
             "/assets/youtube-thumbnails/04.webp"
+          ],
+          "compare": [
+            {
+              "before": "/assets/uploads/magnus-before.png",
+              "after": "/assets/uploads/z9ibpo4mhui.jpg"
+            }
           ]
         }
       ]
