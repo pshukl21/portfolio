@@ -59,8 +59,10 @@ export default function Compare({ before, after, label, ratio = '16 / 9' }) {
           onKeyDown={onKey}
         >
           <span className="cmp-grip" aria-hidden="true">
-            <svg width="18" height="12" viewBox="0 0 18 12" fill="currentColor">
-              <path d="M6.6 1 2 6l4.6 5V1zM11.4 1 16 6l-4.6 5V1z" />
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                 stroke="currentColor" strokeWidth="1.9" strokeLinecap="round"
+                 strokeLinejoin="round">
+              <path d="M4 9h16m-4-4 4 4M20 15H4m4 4-4-4" />
             </svg>
           </span>
         </div>
