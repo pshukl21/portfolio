@@ -6,7 +6,7 @@ backend:
   repo: pshukl21/portfolio
   branch: main
   # OAuth handled by the serverless functions in /api of this same project.
-  base_url: https://www.parthcreations.art
+  base_url: https://parthcreations.art
   auth_endpoint: api/auth
 
 # Lets you run the CMS against local files during development:
@@ -104,6 +104,20 @@ collections:
                 fields:
                   - { name: title, label: "Heading", widget: string }
                   - { name: note, label: "Note", widget: text, required: false }
+                  - name: compare
+                    label: "Before / after sliders"
+                    widget: list
+                    required: false
+                    summary: "{{fields.label}}"
+                    fields:
+                      - { name: label, label: "Caption", widget: string, required: false }
+                      - { name: before, label: "Before image", widget: image }
+                      - { name: after, label: "After image", widget: image }
+                  - name: embed
+                    label: "Instagram post"
+                    widget: string
+                    required: false
+                    hint: "Paste a post or reel URL to embed it under this group. Leave blank for none."
                   - name: images
                     label: "Images"
                     widget: image

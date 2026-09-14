@@ -2,6 +2,8 @@ import { Link, useParams } from 'react-router-dom'
 import { projects } from '../projects'
 import { byProject, groupsFor, isSequence, isCompact } from '../assets'
 import Plates from '../components/Plates'
+import InstagramEmbed from '../components/InstagramEmbed'
+import Compare from '../components/Compare'
 import NotFound from './NotFound'
 
 export default function Project({ editing }) {
@@ -40,6 +42,9 @@ export default function Project({ editing }) {
           ))}
         </ol>
         <Plates items={flat} editing={editing} />
+        {groups.filter((g) => g.embed).map((g) => (
+          <InstagramEmbed key={g.embed} url={g.embed} poster={flat[0]?.src} />
+        ))}
         <div className="tail" />
       </div>
     )
@@ -72,6 +77,17 @@ export default function Project({ editing }) {
               {g.note && <p className="gnote">{g.note}</p>}
             </div>
             <Plates items={slice} editing={editing} />
+            {g.compare?.length > 0 && (
+              <div className="cmp-row">
+                {g.compare.map((c) => (
+                  <Compare key={c.after} before={c.before} after={c.after}
+                           label={c.label} />
+                ))}
+              </div>
+            )}
+            {g.embed && (
+              <InstagramEmbed url={g.embed} poster={slice[0]?.src} />
+            )}
           </div>
         )
       })}
