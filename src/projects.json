@@ -2,7 +2,7 @@
   "projects": [
     {
       "id": "layerremix",
-      "cover": "/assets/home/01.png",
+      "cover": "/assets/home/01.webp",
       "title": "LayerRemix",
       "year": "2026",
       "meta": "Product design · Self-directed",
@@ -12,7 +12,7 @@
     },
     {
       "id": "nba",
-      "cover": "/assets/home/02.jpg",
+      "cover": "/assets/home/02.webp",
       "title": "NBA",
       "year": "2025–26",
       "meta": "Dallas Mavericks · Houston Rockets · Indiana Pacers",
@@ -22,7 +22,7 @@
     },
     {
       "id": "illini",
-      "cover": "/assets/home/04.jpg",
+      "cover": "/assets/home/04.webp",
       "title": "Illini Men’s Basketball",
       "year": "2022",
       "meta": "University of Illinois · Design intern",
@@ -32,7 +32,7 @@
     },
     {
       "id": "back-to-the-wild",
-      "cover": "/assets/home/05.png",
+      "cover": "/assets/home/05.webp",
       "title": "Back to the Wild",
       "year": "2023",
       "meta": "Hawaii News Now / KFVE · Making It Media",
@@ -42,7 +42,7 @@
     },
     {
       "id": "youtube-thumbnails",
-      "cover": "/assets/home/03.jpg",
+      "cover": "/assets/home/03.webp",
       "title": "YouTube Thumbnails",
       "year": "2025",
       "meta": "200+ thumbnails · 48M+ views",
@@ -52,7 +52,7 @@
     },
     {
       "id": "lexie-limitless",
-      "cover": "/assets/home/07.png",
+      "cover": "/assets/home/07.webp",
       "title": "Lexie Limitless",
       "year": "2024",
       "meta": "Featured in Men’s Health, Yahoo, Amazon Prime Video",
@@ -62,7 +62,7 @@
     },
     {
       "id": "magnus-method",
-      "cover": "/assets/home/08.jpg",
+      "cover": "/assets/home/08.webp",
       "title": "Magnus Method",
       "year": "2023",
       "meta": "Celebrity fitness trainer · 300k+ subscribers",
@@ -72,7 +72,7 @@
     },
     {
       "id": "coyote-peterson",
-      "cover": "/assets/home/12.png",
+      "cover": "/assets/home/12.webp",
       "title": "Coyote Peterson / Brave Wilderness",
       "year": "2024",
       "meta": "Poster graphics · Social campaign",
@@ -82,7 +82,7 @@
     },
     {
       "id": "heaven",
-      "cover": "/assets/home/09.PNG",
+      "cover": "/assets/home/09.webp",
       "title": "Heaven",
       "year": "2026",
       "meta": "Planet Dale · Galavision",
@@ -92,7 +92,7 @@
     },
     {
       "id": "gracie-abrams",
-      "cover": "/assets/home/11.PNG",
+      "cover": "/assets/home/11.webp",
       "title": "Gracie Abrams",
       "year": "2026",
       "meta": "Concept work · Unofficial",
@@ -102,7 +102,7 @@
     },
     {
       "id": "concept-posters",
-      "cover": "/assets/home/10.jpg",
+      "cover": "/assets/home/10.webp",
       "title": "Concept Posters",
       "year": "2025",
       "meta": "Unofficial concept work, created independently",
@@ -112,7 +112,7 @@
     },
     {
       "id": "varun-rana",
-      "cover": "/assets/home/14.jpg",
+      "cover": "/assets/home/14.webp",
       "title": "Varun Rana",
       "year": "2025",
       "meta": "Comedian · Sketch assets",
@@ -122,7 +122,7 @@
     },
     {
       "id": "first-chair",
-      "cover": "/assets/home/15.PNG",
+      "cover": "/assets/home/15.webp",
       "title": "First Chair",
       "year": "2025",
       "meta": "Short film · Dir. Cassidy Tee",
@@ -132,7 +132,7 @@
     },
     {
       "id": "music",
-      "cover": "/assets/home/17.jpg",
+      "cover": "/assets/home/17.webp",
       "title": "Music & Cover Art",
       "year": "2024",
       "meta": "Single covers · Concept art",
@@ -142,7 +142,7 @@
     },
     {
       "id": "scoutible",
-      "cover": "/assets/home/16.png",
+      "cover": "/assets/home/16.webp",
       "title": "Scoutible",
       "year": "2020",
       "meta": "Entrepreneurship Fellow",
@@ -152,7 +152,7 @@
     },
     {
       "id": "brett-conti",
-      "cover": "/assets/home/13.png",
+      "cover": "/assets/home/13.webp",
       "title": "Brett Conti",
       "year": "2023",
       "meta": "900k+ subscribers · 3M+ views",
