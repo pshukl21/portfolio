@@ -31,6 +31,16 @@
       "category": "Sports"
     },
     {
+      "id": "magnus-method",
+      "cover": "/assets/uploads/magnus-cover.webp",
+      "title": "Magnus Method",
+      "year": "2023",
+      "meta": "Celebrity fitness trainer · 300k+ subscribers",
+      "lead": "Thumbnails for Magnus Lygdback, whose clients include Gal Gadot, Alicia Vikander, Alexander Skarsgård and Ben Affleck.",
+      "body": "",
+      "category": "Creators"
+    },
+    {
       "id": "layerremix",
       "cover": "/assets/home/01.webp",
       "title": "LayerRemix",
@@ -57,16 +67,6 @@
       "year": "2024",
       "meta": "Featured in Men’s Health, Yahoo, Amazon Prime Video",
       "lead": "Full design support for a world-travelling creator: thumbnails, reel covers, PDF guides and an end-screen system.",
-      "body": "",
-      "category": "Creators"
-    },
-    {
-      "id": "magnus-method",
-      "cover": "/assets/uploads/magnus-cover-2-.webp",
-      "title": "Magnus Method",
-      "year": "2023",
-      "meta": "Celebrity fitness trainer · 300k+ subscribers",
-      "lead": "Thumbnails for Magnus Lygdback, whose clients include Gal Gadot, Alicia Vikander, Alexander Skarsgård and Ben Affleck.",
       "body": "",
       "category": "Creators"
     },
