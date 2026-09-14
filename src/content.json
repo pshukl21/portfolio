@@ -172,16 +172,12 @@
             {
               "before": "/assets/uploads/artboard-1-before.png",
               "after": "/assets/uploads/artboard-1-after.png"
+            },
+            {
+              "before": "/assets/uploads/layer-3.png",
+              "after": "/assets/uploads/0cujzytloe8.jpg"
             }
           ]
-        },
-        {
-          "title": "Yes Theory Test Thumbnail",
-          "note": "",
-          "images": [
-            "/assets/uploads/thumbnail_before_after-yt.png"
-          ],
-          "compare": []
         }
       ]
     },
