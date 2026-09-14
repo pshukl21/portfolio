@@ -178,6 +178,21 @@ code { font-family: var(--mono); font-size: .92em; color: var(--dim); }
 .steps li span { color: var(--dim); line-height: 1.5; }
 
 /* ---------- project cards as open documents ---------- */
+/* featured-in logo band */
+.feat { display: flex; align-items: center; gap: clamp(18px, 3vw, 40px);
+  flex-wrap: wrap; padding: 4px 0 22px; margin-bottom: 20px;
+  border-bottom: 1px solid var(--hair); }
+.feat-label { margin: 0; flex: none; font-family: var(--mono); font-size: 11px;
+  letter-spacing: .1em; text-transform: uppercase; color: var(--faint); }
+.feat-row { list-style: none; margin: 0; padding: 0; display: flex;
+  align-items: center; flex-wrap: wrap; gap: clamp(20px, 3.2vw, 44px); }
+.feat-row li { display: flex; align-items: center; }
+.feat-row img { height: 34px; width: auto; display: block;
+  opacity: .62; transition: opacity .18s; }
+.feat-row li:hover img { opacity: 1; }
+.feat-row a { display: block; }
+@media (max-width: 700px) { .feat-row img { height: 26px; } }
+
 .rowlabel { display: flex; align-items: center; gap: 14px; margin: 0 0 12px;
   color: var(--faint); font-size: 12.5px; font-family: var(--mono);
   text-transform: uppercase; letter-spacing: .08em; scroll-margin-top: 20px; }

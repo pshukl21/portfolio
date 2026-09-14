@@ -36,6 +36,18 @@ collections:
             fields:
               - { name: strong, label: "Bold part", widget: string }
               - { name: rest, label: "Rest", widget: string }
+          - { name: featured_label, label: "Featured band heading", widget: string }
+          - name: featured
+            label: "Featured in"
+            label_singular: "Logo"
+            widget: list
+            required: false
+            summary: "{{fields.name}}"
+            hint: "Upload a white PNG on a transparent background."
+            fields:
+              - { name: name, label: "Name", widget: string }
+              - { name: logo, label: "Logo", widget: image }
+              - { name: url, label: "Link (optional)", widget: string, required: false }
           - { name: email, label: "Email", widget: string }
           - { name: instagram, label: "Instagram URL", widget: string }
           - { name: tiktok, label: "TikTok URL", widget: string }

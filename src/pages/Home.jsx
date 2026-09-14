@@ -1,4 +1,5 @@
 import DocCard from '../components/DocCard'
+import Featured from '../components/Featured'
 import { projects } from '../projects'
 import { coverFor, countFor } from '../assets'
 
@@ -9,6 +10,8 @@ const psd = (title) =>
 export default function Home() {
   return (
     <>
+      <Featured />
+
       <p className="rowlabel" id="work">Open documents</p>
       <div className="cards">
         {projects.map((p) => (
