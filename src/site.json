@@ -58,6 +58,11 @@
       "name": "Brave Wilderness",
       "logo": "/assets/logos/brave-wilderness.png",
       "url": ""
+    },
+    {
+      "name": "Rippling",
+      "logo": "/assets/logos/rippling.png",
+      "url": ""
     }
   ]
 }
