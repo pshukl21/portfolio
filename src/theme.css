@@ -68,7 +68,10 @@ code { font-family: var(--mono); font-size: .92em; color: var(--dim); }
 .chev { transition: transform .15s ease; }
 .chev.open { transform: rotate(90deg); }
 .lp-folder { color: #A9A9B2; display: grid; place-items: center; }
-.lp-gname { font-size: 13.5px; font-variation-settings: "wdth" 104, "wght" 650; }
+.lp-gname { font-size: 13.5px; font-variation-settings: "wdth" 104, "wght" 650;
+  min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.lp-gcount { margin-left: auto; flex: none; font-family: var(--mono);
+  font-size: 10.5px; color: var(--faint); }
 .lp-group:hover .lp-gname { color: var(--text); }
 
 /* layer rows */
@@ -207,10 +210,23 @@ code { font-family: var(--mono); font-size: .92em; color: var(--dim); }
   .feat-row img { height: 26px; }
 }
 
-.rowlabel { display: flex; align-items: center; gap: 14px; margin: 0 0 12px;
-  color: var(--faint); font-size: 12.5px; font-family: var(--mono);
-  text-transform: uppercase; letter-spacing: .08em; scroll-margin-top: 20px; }
-.rowlabel::after { content: ""; flex: 1; height: 1px; background: var(--hair); }
+.rowhead { display: flex; align-items: center; gap: 18px; flex-wrap: wrap;
+  margin: 0 0 14px; }
+.rowlabel { margin: 0; flex: none; color: var(--faint); font-size: 12.5px;
+  font-family: var(--mono); text-transform: uppercase; letter-spacing: .08em;
+  scroll-margin-top: 20px; }
+
+.filters { margin-left: auto; display: flex; flex-wrap: wrap; gap: 6px; }
+.filters button { appearance: none; cursor: pointer; font: inherit; font-size: 12.5px;
+  padding: 4px 11px; border-radius: 5px; color: var(--dim);
+  background: var(--panel); border: 1px solid var(--hair); }
+.filters button:hover { color: var(--text); border-color: var(--faint); }
+.filters button.on { color: var(--text); background: var(--raised);
+  border-color: var(--accent); }
+.filters button span { font-family: var(--mono); font-size: 11px;
+  color: var(--faint); margin-left: 5px; }
+.filters button.on span { color: var(--accent); }
+@media (max-width: 760px) { .filters { margin-left: 0; } }
 
 .cards { display: grid; gap: 16px;
   grid-template-columns: repeat(auto-fill, minmax(235px, 1fr));

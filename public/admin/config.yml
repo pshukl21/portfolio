@@ -79,6 +79,11 @@ collections:
                 hint: "Used in the URL, and must match the ID under Captions. Avoid changing."
               - { name: title, label: "Title", widget: string }
               - { name: year, label: "Year", widget: string }
+              - name: category
+                label: "Category"
+                widget: select
+                options: ["Sports", "Creators", "Film & TV", "Music", "Product & Brand"]
+                hint: "Groups the project in the Layers panel and the filter row." 
               - { name: meta, label: "Client / role line", widget: string }
               - { name: lead, label: "Lead sentence", widget: text }
               - { name: body, label: "Body", widget: text, required: false }
