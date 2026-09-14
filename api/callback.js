@@ -41,16 +41,21 @@ function page(status, payload) {
   const message = `authorization:github:${status}:${JSON.stringify(payload)}`
   return `<!doctype html><meta charset="utf-8"><title>Signing in…</title>
 <body style="font:14px system-ui;padding:2rem;color:#333">
-<p>${status === 'success' ? 'Signed in. You can close this window.' : 'Sign-in failed.'}</p>
+<p id="s">${status === 'success' ? 'Signing in…' : 'Sign-in failed.'}</p>
 <script>
   (function () {
     var msg = ${JSON.stringify(message)};
-    function send(e) { window.opener.postMessage(msg, e.origin); }
-    window.addEventListener('message', send, false);
-    if (window.opener) {
-      window.opener.postMessage('authorizing:github', '*');
-      setTimeout(function () { window.close(); }, 1200);
+    if (!window.opener) {
+      document.getElementById('s').textContent =
+        'Open this from the CMS sign-in button, not directly.';
+      return;
     }
+    // Decap's handshake: we announce ourselves, it replies, we hand over the
+    // token, and it closes this window. Closing early loses the token.
+    window.addEventListener('message', function (e) {
+      window.opener.postMessage(msg, e.origin);
+    }, false);
+    window.opener.postMessage('authorizing:github', '*');
   })();
 </script>
 </body>`
