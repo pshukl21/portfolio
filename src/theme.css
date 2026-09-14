@@ -178,39 +178,18 @@ code { font-family: var(--mono); font-size: .92em; color: var(--dim); }
 
 /* ---------- project cards as open documents ---------- */
 /* featured-in logo band, with the headline stats on the same line */
-.feat { display: flex; align-items: center; gap: clamp(16px, 2.6vw, 30px);
+.feat { display: flex; align-items: center; gap: clamp(16px, 2.4vw, 28px);
   flex-wrap: wrap; padding: 4px 0 20px; margin-bottom: 20px;
   border-bottom: 1px solid var(--hair); }
 .feat-label { margin: 0; flex: none; font-family: var(--mono); font-size: 11px;
   letter-spacing: .1em; text-transform: uppercase; color: var(--faint); }
-
-.feat-view { min-width: 0; }
 .feat-row { list-style: none; margin: 0; padding: 0; display: flex;
-  align-items: center; flex-wrap: wrap; gap: clamp(18px, 2.8vw, 38px); }
+  align-items: center; flex-wrap: wrap; gap: clamp(18px, 2.6vw, 34px); }
 .feat-row li { display: flex; align-items: center; }
 .feat-mark, .feat-row a { position: relative; display: block; }
 .feat-row img { height: 32px; width: auto; display: block;
   opacity: .6; transition: opacity .18s; }
 .feat-row li:hover img { opacity: 1; }
-
-/* ticker: once the list outgrows the row, slide a doubled track by half */
-.feat-view.scrolling { flex: 1 1 260px; overflow: hidden;
-  mask-image: linear-gradient(90deg, transparent, #000 40px,
-    #000 calc(100% - 40px), transparent);
-  -webkit-mask-image: linear-gradient(90deg, transparent, #000 40px,
-    #000 calc(100% - 40px), transparent); }
-.feat-view.scrolling .feat-row { flex-wrap: nowrap; width: max-content;
-  animation: feat-marquee var(--marquee, 30s) linear infinite; }
-.feat-view.scrolling:hover .feat-row { animation-play-state: paused; }
-@keyframes feat-marquee {
-  from { transform: translateX(0); }
-  to   { transform: translateX(-50%); }
-}
-@media (prefers-reduced-motion: reduce) {
-  .feat-view.scrolling { overflow-x: auto; mask-image: none;
-    -webkit-mask-image: none; }
-  .feat-view.scrolling .feat-row { animation: none; }
-}
 
 /* name on hover — sits below the logo, clear of the ruler above */
 .feat-tip { position: absolute; left: 50%; top: calc(100% + 9px);
