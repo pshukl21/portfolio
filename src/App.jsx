@@ -29,11 +29,6 @@ function Shell() {
                 aria-expanded={open}>Layers</button>
         <Link className="topmark" to="/">{site.wordmark}</Link>
         <span className="toprole">{site.role}</span>
-        <span className="topchips">
-          {site.chips.map((c) => (
-            <span className="chip" key={c.strong}><b>{c.strong}</b> {c.rest}</span>
-          ))}
-        </span>
       </header>
 
       <div className="app">

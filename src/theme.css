@@ -154,12 +154,11 @@ code { font-family: var(--mono); font-size: .92em; color: var(--dim); }
   font-variation-settings: "wdth" 118, "wght" 750; white-space: nowrap; }
 .toprole { color: var(--dim); font-size: 13.5px; white-space: nowrap;
   padding-left: 14px; border-left: 1px solid var(--hair); }
-.topchips { margin-left: auto; display: flex; gap: 7px; }
+.topbar .tool { margin-left: auto; }
 .chip { border: 1px solid var(--hair); background: var(--panel); color: var(--dim);
   padding: 3px 10px; border-radius: 5px; font-size: 11.5px; font-family: var(--mono);
   white-space: nowrap; }
 .chip b { color: var(--text); font-weight: 500; }
-@media (max-width: 1100px) { .topchips { display: none; } }
 @media (max-width: 700px) { .toprole { display: none; } }
 
 /* ---------- compact projects: steps as a list, one gallery ---------- */
@@ -178,20 +177,35 @@ code { font-family: var(--mono); font-size: .92em; color: var(--dim); }
 .steps li span { color: var(--dim); line-height: 1.5; }
 
 /* ---------- project cards as open documents ---------- */
-/* featured-in logo band */
-.feat { display: flex; align-items: center; gap: clamp(18px, 3vw, 40px);
-  flex-wrap: wrap; padding: 4px 0 22px; margin-bottom: 20px;
+/* featured-in logo band, with the headline stats on the same line */
+.feat { display: flex; align-items: center; gap: clamp(16px, 2.6vw, 34px);
+  flex-wrap: wrap; padding: 4px 0 20px; margin-bottom: 20px;
   border-bottom: 1px solid var(--hair); }
 .feat-label { margin: 0; flex: none; font-family: var(--mono); font-size: 11px;
   letter-spacing: .1em; text-transform: uppercase; color: var(--faint); }
 .feat-row { list-style: none; margin: 0; padding: 0; display: flex;
-  align-items: center; flex-wrap: wrap; gap: clamp(20px, 3.2vw, 44px); }
+  align-items: center; flex-wrap: wrap; gap: clamp(18px, 2.8vw, 38px); }
 .feat-row li { display: flex; align-items: center; }
-.feat-row img { height: 34px; width: auto; display: block;
-  opacity: .62; transition: opacity .18s; }
+.feat-mark, .feat-row a { position: relative; display: block; }
+.feat-row img { height: 32px; width: auto; display: block;
+  opacity: .6; transition: opacity .18s; }
 .feat-row li:hover img { opacity: 1; }
-.feat-row a { display: block; }
-@media (max-width: 700px) { .feat-row img { height: 26px; } }
+
+/* name on hover — the same string the CMS stores for each logo */
+.feat-tip { position: absolute; left: 50%; bottom: calc(100% + 9px);
+  transform: translateX(-50%) translateY(3px);
+  padding: 4px 9px; border-radius: 5px; white-space: nowrap; pointer-events: none;
+  background: var(--raised); border: 1px solid var(--hair); color: var(--text);
+  font-size: 11.5px; font-family: var(--mono);
+  opacity: 0; transition: opacity .15s ease, transform .15s ease; z-index: 5; }
+.feat-row li:hover .feat-tip, .feat-row a:focus-visible .feat-tip {
+  opacity: 1; transform: translateX(-50%) translateY(0); }
+
+.feat-chips { margin-left: auto; display: flex; flex-wrap: wrap; gap: 7px; }
+@media (max-width: 900px) {
+  .feat-chips { margin-left: 0; }
+  .feat-row img { height: 26px; }
+}
 
 .rowlabel { display: flex; align-items: center; gap: 14px; margin: 0 0 12px;
   color: var(--faint); font-size: 12.5px; font-family: var(--mono);
