@@ -77,20 +77,18 @@ export default function LayersPanel({ onNavigate }) {
             const on = cat === activeCat
             return (
               <div key={cat}>
-                <div className={`lp-group${on ? ' on' : ''}`}>
+                {/* the whole row toggles, not just the chevron */}
+                <button
+                  className={`lp-group${on ? ' on' : ''}`}
+                  onClick={() => setOpen((o) => ({ ...o, [cat]: !isOpen(cat) }))}
+                  aria-expanded={isOpen(cat)}
+                >
                   <span className="lp-eye"><Eye on={on} /></span>
-                  <button
-                    className="lp-chev"
-                    onClick={() => setOpen((o) => ({ ...o, [cat]: !isOpen(cat) }))}
-                    aria-expanded={isOpen(cat)}
-                    aria-label={`${isOpen(cat) ? 'Collapse' : 'Expand'} ${cat}`}
-                  >
-                    <Chevron open={isOpen(cat)} />
-                  </button>
+                  <span className="lp-chev"><Chevron open={isOpen(cat)} /></span>
                   <span className="lp-folder"><Folder /></span>
                   <span className="lp-gname">{cat}</span>
                   <span className="lp-gcount">{list.length}</span>
-                </div>
+                </button>
 
                 {isOpen(cat) && list.map((p) => {
                   const active = p.id === current

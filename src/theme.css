@@ -59,12 +59,15 @@ code { font-family: var(--mono); font-size: .92em; color: var(--dim); }
 .lp-rows { flex: 1; overflow-y: auto; padding: 3px 0; }
 
 /* group header */
-.lp-group { display: flex; align-items: center; gap: 6px; padding: 6px 10px 6px 6px;
-  border-bottom: 1px solid #262629; color: var(--dim); }
+.lp-group { display: flex; align-items: center; gap: 6px; width: 100%;
+  padding: 6px 10px 6px 6px; border: 0; border-bottom: 1px solid #262629;
+  background: none; font: inherit; text-align: left; cursor: pointer;
+  color: var(--dim); }
+.lp-group:hover { background: #26262A; color: var(--text); }
 .lp-group.on { background: var(--raised); color: var(--text); }
-.lp-chev { background: none; border: 0; padding: 0; cursor: pointer; display: grid;
-  place-items: center; width: 12px; color: var(--faint); }
-.lp-chev:hover { color: var(--text); }
+.lp-chev { display: grid; place-items: center; width: 12px; flex: none;
+  color: var(--faint); }
+.lp-group:hover .lp-chev { color: var(--text); }
 .chev { transition: transform .15s ease; }
 .chev.open { transform: rotate(90deg); }
 .lp-folder { color: #A9A9B2; display: grid; place-items: center; }
@@ -72,7 +75,6 @@ code { font-family: var(--mono); font-size: .92em; color: var(--dim); }
   min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .lp-gcount { margin-left: auto; flex: none; font-family: var(--mono);
   font-size: 10.5px; color: var(--faint); }
-.lp-group:hover .lp-gname { color: var(--text); }
 
 /* layer rows */
 .lp-row { display: flex; align-items: center; gap: 9px; padding: 5px 10px 5px 6px;
