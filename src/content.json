@@ -400,6 +400,15 @@
       "compact": false,
       "groups": [
         {
+          "title": "YouTube Thumbnail",
+          "compare": [
+            {
+              "before": "/assets/uploads/artboard-1-before.png",
+              "after": "/assets/uploads/artboard-1-after.png"
+            }
+          ]
+        },
+        {
           "title": "Fake LinkedIn screens",
           "note": "Built for a sketch advertising Rippling.",
           "images": [
