@@ -23,6 +23,18 @@ export default function Project({ editing }) {
       <p className="meta">{project.meta} · {project.year}</p>
       <p className="lead">{project.lead}</p>
       {project.body && <p className="body">{project.body}</p>}
+      {project.link_url && (
+        <a className="plink" href={project.link_url} target="_blank" rel="noreferrer">
+          <svg width="17" height="17" viewBox="0 0 16 16" fill="none"
+               stroke="currentColor" strokeWidth="1.3" strokeLinejoin="round"
+               aria-hidden="true">
+            <rect x="1.4" y="3.4" width="13.2" height="9.2" rx="2.6" />
+            <path d="M6.7 6.2l3.5 1.8-3.5 1.8z" fill="currentColor" stroke="none" />
+          </svg>
+          {project.link_label || 'Open link'}
+          <span aria-hidden="true">↗</span>
+        </a>
+      )}
     </div>
   )
 

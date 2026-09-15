@@ -88,6 +88,12 @@ collections:
               - { name: meta, label: "Client / role line", widget: string }
               - { name: lead, label: "Lead sentence", widget: text }
               - { name: body, label: "Body", widget: text, required: false }
+              - { name: link_url, label: "Header link URL", widget: string, required: false }
+              - name: link_label
+                label: "Header link text"
+                widget: string
+                required: false
+                hint: "Shown as a button under the project intro, e.g. 'Watch the full playlist'."
               - name: cover
                 label: "Card cover"
                 widget: image

@@ -282,6 +282,14 @@ code { font-family: var(--mono); font-size: .92em; color: var(--dim); }
   font-family: var(--mono); }
 .phead .lead { margin: 0 0 .6em; font-size: clamp(17px, 1.9vw, 20px); line-height: 1.45; }
 .phead .body { margin: 0; color: var(--dim); font-size: 15px; }
+.plink { display: inline-flex; align-items: center; gap: 9px; margin-top: 16px;
+  padding: 9px 16px; border-radius: 6px; font-size: 14px;
+  background: var(--panel); border: 1px solid var(--hair); color: var(--text);
+  font-variation-settings: "wdth" 104, "wght" 600; }
+.plink:hover { border-color: var(--accent); background: var(--raised); }
+.plink svg { color: #FF3B30; flex: none; }
+.plink span { color: var(--faint); font-size: 12px; }
+.plink:hover span { color: var(--accent); }
 
 .groups { columns: 2 520px; column-gap: 26px; }
 .group { break-inside: avoid; margin: 0 0 22px; display: inline-block;
