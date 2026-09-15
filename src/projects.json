@@ -2,7 +2,7 @@
   "projects": [
     {
       "id": "nba",
-      "cover": "/assets/home/02.webp",
+      "cover": "/assets/uploads/nba-cover.png",
       "title": "NBA",
       "year": "2026",
       "meta": "Dallas Mavericks · Houston Rockets · Indiana Pacers",
