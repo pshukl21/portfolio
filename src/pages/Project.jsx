@@ -81,7 +81,7 @@ export default function Project({ editing }) {
               <div className="cmp-row">
                 {g.compare.map((c) => (
                   <Compare key={c.after} before={c.before} after={c.after}
-                           label={c.label} />
+                           label={c.label} views={c.views} />
                 ))}
               </div>
             )}

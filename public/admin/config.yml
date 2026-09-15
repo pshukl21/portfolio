@@ -6,7 +6,7 @@ backend:
   repo: pshukl21/portfolio
   branch: main
   # OAuth handled by the serverless functions in /api of this same project.
-  base_url: https://www.parthcreations.art
+  base_url: https://parthcreations.art
   auth_endpoint: api/auth
 
 # Lets you run the CMS against local files during development:
@@ -83,6 +83,7 @@ collections:
                 label: "Category"
                 widget: select
                 options: ["Sports", "Creators", "Film & TV", "Music", "Product & Brand"]
+                default: "Creators"
                 hint: "Groups the project in the Layers panel and the filter row." 
               - { name: meta, label: "Client / role line", widget: string }
               - { name: lead, label: "Lead sentence", widget: text }
@@ -90,6 +91,7 @@ collections:
               - name: cover
                 label: "Card cover"
                 widget: image
+                required: false
                 allow_multiple: false
                 hint: "Shown on the Work page. Upload, or pick from the media library."
 
@@ -128,7 +130,15 @@ collections:
                     summary: "{{fields.label}}"
                     fields:
                       - { name: label, label: "Caption", widget: string, required: false }
-                      - { name: before, label: "Before image", widget: image }
+                      - name: views
+                        label: "Views"
+                        widget: string
+                        required: false
+                        hint: "Just the number, e.g. 1.6M or 240K — 'views' is added for you." 
+                      - name: before
+                        label: "Before image"
+                        widget: image
+                        hint: "Both images are required — delete the row if you're not using it."
                       - { name: after, label: "After image", widget: image }
                   - name: embed
                     label: "Instagram post"
@@ -138,6 +148,7 @@ collections:
                   - name: images
                     label: "Images"
                     widget: image
+                    required: false
                     allow_multiple: true
                     media_library:
                       config:

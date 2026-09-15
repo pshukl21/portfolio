@@ -4,7 +4,7 @@ import { useCallback, useRef, useState } from 'react'
  * Before/after slider. The "after" image sits underneath at full size and the
  * "before" is clipped to the handle position, so dragging wipes between them.
  */
-export default function Compare({ before, after, label, ratio = '16 / 9' }) {
+export default function Compare({ before, after, label, views, ratio = '16 / 9' }) {
   const boxRef = useRef(null)
   const dragging = useRef(false)
   const [pos, setPos] = useState(50)
@@ -67,7 +67,16 @@ export default function Compare({ before, after, label, ratio = '16 / 9' }) {
           </span>
         </div>
       </div>
-      {label && <figcaption>{label}</figcaption>}
+      {(label || views) && (
+        <figcaption>
+          {label && <span className="cmp-title">{label}</span>}
+          {views && (
+            <span className="cmp-views">
+              {views}<i>views</i>
+            </span>
+          )}
+        </figcaption>
+      )}
     </figure>
   )
 }

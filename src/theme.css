@@ -411,7 +411,18 @@ body.edit .plate .tag { opacity: 1; }
   box-shadow: 0 4px 16px rgba(0,0,0,.5); transition: transform .16s ease; }
 .cmp-box:hover .cmp-grip { transform: translate(-50%, -50%) scale(1.06); }
 
-.cmp figcaption { margin-top: 11px; font-size: 13px; color: var(--dim); }
+/* The view count is the proof on this page, so it gets the size. */
+.cmp figcaption { margin-top: 12px; display: flex; align-items: baseline;
+  gap: 12px; flex-wrap: wrap; }
+.cmp-title { font-size: 15px; line-height: 1.35; color: var(--text);
+  font-variation-settings: "wdth" 104, "wght" 600; min-width: 0; flex: 1 1 60%; }
+.cmp-views { margin-left: auto; display: flex; align-items: baseline; gap: 7px;
+  white-space: nowrap; color: var(--accent);
+  font-size: clamp(24px, 2.4vw, 34px); line-height: 1;
+  font-variation-settings: "wdth" 110, "wght" 800; letter-spacing: -.02em; }
+.cmp-views i { font-style: normal; font-size: 11px; letter-spacing: .1em;
+  text-transform: uppercase; color: var(--faint);
+  font-variation-settings: "wdth" 100, "wght" 500; }
 
 /* On a narrow screen the frame is short enough that top badges sit over the
    subject, so they move to the foot of the image. */
