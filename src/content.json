@@ -161,9 +161,7 @@
         {
           "title": "Favorites",
           "note": "",
-          "images": [
-            "/assets/uploads/youtube-thumbnails.webp"
-          ],
+          "images": null,
           "compare": [
             {
               "before": "/assets/uploads/tiktok_v2-before.png",
