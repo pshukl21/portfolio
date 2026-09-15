@@ -164,21 +164,19 @@
           "images": null,
           "compare": [
             {
-              "before": "/assets/uploads/tiktok_v2-before.png",
-              "after": "/assets/uploads/z9ibpo4mhui.jpg"
-            },
-            {
-              "before": "/assets/uploads/artboard-1-before.png",
-              "after": "/assets/uploads/artboard-1-after.png"
-            },
-            {
-              "before": "/assets/uploads/layer-3.png",
-              "after": "/assets/uploads/0cujzytloe8.jpg"
-            },
-            {
               "before": "/assets/uploads/pizza-before.png",
               "after": "/assets/uploads/a-nh25kebhq.jpg",
               "label": "Eating The World's Best Pizza in ITALY (1.6M+ views)"
+            },
+            {
+              "before": "/assets/uploads/tiktok_v2-before.png",
+              "after": "/assets/uploads/z9ibpo4mhui.jpg",
+              "label": "Celebrity Trainer Reacts to Strange Fitness Advice (600K+ views)"
+            },
+            {
+              "before": "/assets/uploads/beginnertraining-before.png",
+              "after": "/assets/uploads/ekungq4lmh8.jpg",
+              "label": "Beginner's Guide to the Gym | DO's and DON'Ts (4M+ views)"
             }
           ]
         }
