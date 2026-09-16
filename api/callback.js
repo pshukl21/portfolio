@@ -37,6 +37,12 @@ export default async function handler(req, res) {
     return fail('State signature invalid or expired — start again from /admin.')
   }
 
+  // Rebuild the exact redirect_uri used in step 1. GitHub can require the
+  // two to match, and omitting it here reads as a bad code.
+  const host = req.headers['x-forwarded-host'] || req.headers.host
+  const proto = req.headers['x-forwarded-proto'] || 'https'
+  const redirectUri = `${proto}://${host}/api/callback`
+
   try {
     const r = await fetch('https://github.com/login/oauth/access_token', {
       method: 'POST',
@@ -45,12 +51,15 @@ export default async function handler(req, res) {
         client_id: process.env.GITHUB_CLIENT_ID,
         client_secret: secret,
         code,
+        redirect_uri: redirectUri,
       }),
     })
     const data = await r.json()
     if (!data.access_token) {
       return fail(`${data.error || 'no_token'}: `
-        + `${data.error_description || 'no description'}`)
+        + `${data.error_description || 'no description'}`
+        + ` | client_id ${String(process.env.GITHUB_CLIENT_ID).slice(0, 8)}…`
+        + ` | redirect_uri ${redirectUri}`)
     }
 
     res.setHeader('Content-Type', 'text/html')
