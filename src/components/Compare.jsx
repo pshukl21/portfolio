@@ -29,6 +29,18 @@ export default function Compare({ before, after, label, views, ratio = '16 / 9' 
 
   return (
     <figure className="cmp">
+      {views && (
+        <div className="cmp-badge">
+          <svg width="18" height="18" viewBox="0 0 16 16" fill="none"
+               stroke="currentColor" strokeWidth="1.3" strokeLinejoin="round"
+               aria-hidden="true">
+            <rect x="1.4" y="3.4" width="13.2" height="9.2" rx="2.6" />
+            <path d="M6.7 6.2l3.5 1.8-3.5 1.8z" fill="currentColor" stroke="none" />
+          </svg>
+          <b>{views}</b>
+          <i>views</i>
+        </div>
+      )}
       <div
         className="cmp-box"
         ref={boxRef}
@@ -67,16 +79,7 @@ export default function Compare({ before, after, label, views, ratio = '16 / 9' 
           </span>
         </div>
       </div>
-      {(label || views) && (
-        <figcaption>
-          {label && <span className="cmp-title">{label}</span>}
-          {views && (
-            <span className="cmp-views">
-              {views}<i>views</i>
-            </span>
-          )}
-        </figcaption>
-      )}
+      {label && <figcaption><span className="cmp-title">{label}</span></figcaption>}
     </figure>
   )
 }
