@@ -164,27 +164,32 @@
             {
               "before": "/assets/uploads/pizza-before.png",
               "after": "/assets/uploads/a-nh25kebhq.jpg",
-              "label": "Eating The World's Best Pizza in ITALY (1.6M+ views)"
+              "label": "Eating The World's Best Pizza in ITALY",
+              "views": "1.6M+"
             },
             {
               "before": "/assets/uploads/tiktok_v2-before.png",
               "after": "/assets/uploads/z9ibpo4mhui.jpg",
-              "label": "Celebrity Trainer Reacts to Strange Fitness Advice (600K+ views)"
+              "label": "Celebrity Trainer Reacts to Strange Fitness Advice",
+              "views": "600K+"
             },
             {
               "before": "/assets/uploads/beginnertraining-before.png",
               "after": "/assets/uploads/ekungq4lmh8.jpg",
-              "label": "Beginner's Guide to the Gym | DO's and DON'Ts (4M+ views)"
+              "label": "Beginner's Guide to the Gym | DO's and DON'Ts ",
+              "views": "4M+"
             },
             {
-              "label": "I Flew from NYC to ITALY to Compare Pizza (1.2M+ views)",
+              "label": "I Flew from NYC to ITALY to Compare Pizza",
               "before": "/assets/uploads/pizzabefore2.png",
-              "after": "/assets/uploads/ws2his71g3e.jpg"
+              "after": "/assets/uploads/ws2his71g3e.jpg",
+              "views": "1.2M+"
             },
             {
-              "label": "Becoming the Northman (2.5M+ voiews)",
+              "label": "Becoming the Northman",
               "before": "/assets/uploads/layer-3.png",
-              "after": "/assets/uploads/0cujzytloe8.jpg"
+              "after": "/assets/uploads/0cujzytloe8.jpg",
+              "views": "2.5M+"
             }
           ]
         }
