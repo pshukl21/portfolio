@@ -78,24 +78,47 @@ function page(status, payload) {
     `<p style="color:#a00;font-family:ui-monospace,monospace;font-size:12px">${
       String(payload.message || 'no reason given').replace(/[<>&]/g, '')
     }</p>`
+
   return `<!doctype html><meta charset="utf-8"><title>Signing in…</title>
 <body style="font:14px system-ui;padding:2rem;color:#333">
-<p>${status === 'success' ? 'Signing in…' : 'Sign-in failed.'}</p>
+<p id="state">${status === 'success' ? 'Signing in…' : 'Sign-in failed.'}</p>
 ${detail}
+<p id="manual" style="display:none">
+  The CMS window didn't pick this up automatically.
+  <button id="again" style="font:inherit;padding:6px 12px">Send again</button>
+</p>
 <script>
   (function () {
     var msg = ${JSON.stringify(message)};
-    if (!window.opener) {
-      document.body.insertAdjacentHTML('beforeend',
-        '<p>Open this from the CMS sign-in button, not directly.</p>');
+    var opener = window.opener;
+    if (!opener) {
+      document.getElementById('state').textContent =
+        'Open this from the CMS sign-in button, not directly.';
       return;
     }
-    // Decap's handshake: announce ourselves, it replies, we hand over the
-    // token, and it closes this window. Closing early loses the token.
-    window.addEventListener('message', function (e) {
-      window.opener.postMessage(msg, e.origin);
-    }, false);
-    window.opener.postMessage('authorizing:github', '*');
+
+    // Decap's handshake is: we announce ourselves, it replies, we hand over
+    // the token. If its reply never arrives we push the token anyway — the
+    // code is already spent, so a retry means starting over.
+    function hand(origin) { try { opener.postMessage(msg, origin || '*'); } catch (e) {} }
+
+    window.addEventListener('message', function (e) { hand(e.origin); }, false);
+    opener.postMessage('authorizing:github', '*');
+
+    var tries = 0;
+    var timer = setInterval(function () {
+      tries++;
+      hand('*');
+      if (tries > 8) {
+        clearInterval(timer);
+        document.getElementById('manual').style.display = 'block';
+      }
+      if (window.closed) clearInterval(timer);
+    }, 600);
+
+    document.getElementById('again').addEventListener('click', function () {
+      hand('*');
+    });
   })();
 </script>
 </body>`
