@@ -25,6 +25,9 @@ export default function handler(req, res) {
   const host = req.headers['x-forwarded-host'] || req.headers.host
   const proto = req.headers['x-forwarded-proto'] || 'https'
 
+  // Never let a proxy or the browser cache an auth redirect.
+  res.setHeader('Cache-Control', 'no-store, max-age=0')
+
   const url = new URL('https://github.com/login/oauth/authorize')
   url.searchParams.set('client_id', clientId)
   url.searchParams.set('redirect_uri', `${proto}://${host}/api/callback`)

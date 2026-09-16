@@ -21,6 +21,11 @@ export default async function handler(req, res) {
   const { code, state } = req.query
   const secret = process.env.GITHUB_CLIENT_SECRET
 
+  // A GitHub code is single-use. If anything caches or prefetches this URL
+  // the code is spent before the real request arrives, which reads as
+  // "incorrect or expired".
+  res.setHeader('Cache-Control', 'no-store, max-age=0')
+
   const fail = (message) => {
     res.setHeader('Content-Type', 'text/html')
     res.status(400).send(page('error', { message }))
@@ -44,7 +49,8 @@ export default async function handler(req, res) {
     })
     const data = await r.json()
     if (!data.access_token) {
-      return fail(data.error_description || data.error || 'No token returned.')
+      return fail(`${data.error || 'no_token'}: `
+        + `${data.error_description || 'no description'}`)
     }
 
     res.setHeader('Content-Type', 'text/html')
