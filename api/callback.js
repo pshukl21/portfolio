@@ -42,6 +42,13 @@ function page(status, payload) {
   return `<!doctype html><meta charset="utf-8"><title>Signing in…</title>
 <body style="font:14px system-ui;padding:2rem;color:#333">
 <p id="s">${status === 'success' ? 'Signing in…' : 'Sign-in failed.'}</p>
+${status === 'success' ? '' :
+  `<p style="color:#a00;font-family:ui-monospace,monospace;font-size:12px">${
+    String(payload.message || 'no reason given').replace(/[<>&]/g, '')
+  }</p>
+<p style="color:#666;font-size:12px">Check GITHUB_CLIENT_ID and
+GITHUB_CLIENT_SECRET in Vercel, and that the OAuth app's callback URL is
+exactly this page's address.</p>`}
 <script>
   (function () {
     var msg = ${JSON.stringify(message)};
