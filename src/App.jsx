@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { BrowserRouter, Link, Route, Routes, useLocation } from 'react-router-dom'
 import LayersPanel from './components/LayersPanel'
 import Rulers from './components/Rulers'
+import DocTab from './components/DocTab'
 import Home from './pages/Home'
 import About from './pages/About'
 import Project from './pages/Project'
@@ -33,6 +34,7 @@ function Shell() {
 
       <div className="app">
         <LayersPanel onNavigate={() => setOpen(false)} />
+        <DocTab />
         <Rulers />
 
         <main className="doc">

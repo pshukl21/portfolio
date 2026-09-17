@@ -8,6 +8,7 @@
   --hdr: 52px;
   --plate: clamp(190px, 21vw, 330px);
   --ruler: 18px;
+  --tab: 34px;
   --lpw: 244px;
   --bg:       #171718;
   --panel:    #1F1F21;
@@ -106,15 +107,27 @@ code { font-family: var(--mono); font-size: .92em; color: var(--dim); }
 .lp-foot a:hover { color: var(--text); background: #55555C; }
 
 .doc { min-width: 0;
-  padding: calc(var(--ruler) + clamp(14px, 2vw, 20px))
+  padding: calc(var(--tab) + var(--ruler) + clamp(14px, 2vw, 20px))
            clamp(16px, 3vw, 40px) 0
            calc(var(--ruler) + clamp(16px, 3vw, 40px));
   display: flex; flex-direction: column; min-height: calc(100vh - var(--hdr)); }
 .wrap { max-width: none; }
 
 
+/* ---------- open-document tab ---------- */
+.doctab { position: fixed; top: var(--hdr); left: var(--lpw); right: 0;
+  height: var(--tab); z-index: 56; display: flex; align-items: center; gap: 10px;
+  padding: 0 14px; background: var(--raised);
+  border-bottom: 1px solid var(--hair); font-size: 12.5px; }
+.doctab-x { color: var(--faint); font-size: 14px; line-height: 1; }
+.doctab-name { color: var(--text); font-variation-settings: "wdth" 104, "wght" 650;
+  white-space: nowrap; }
+.doctab-meta { color: var(--faint); font-family: var(--mono); font-size: 11.5px;
+  min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
 /* ---------- rulers ---------- */
-.rulers { position: fixed; inset: var(--hdr) 0 0 var(--lpw); z-index: 55;
+.rulers { position: fixed; inset: calc(var(--hdr) + var(--tab)) 0 0 var(--lpw);
+  z-index: 55;
   pointer-events: none; --mx: -99px; --my: -99px; }
 .rl-corner { position: absolute; left: 0; top: 0; z-index: 2;
   width: var(--ruler); height: var(--ruler); background: var(--raised);
@@ -261,8 +274,10 @@ code { font-family: var(--mono); font-size: .92em; color: var(--dim); }
 /* ---------- narrow: panel becomes a drawer ---------- */
 @media (max-width: 880px) {
   .app { grid-template-columns: 1fr; }
-  .rulers { inset: var(--hdr) 0 0 0; }
+  .rulers { inset: calc(var(--hdr) + var(--tab)) 0 0 0; }
   .lp-toggle { display: block; }
+  .doctab { display: none; }
+  .doc { padding-top: clamp(14px, 2vw, 20px); }
   .lp { position: fixed; inset: var(--hdr) auto 0 0; width: 262px; z-index: 60;
     height: auto;
     transform: translateX(-100%); transition: transform .22s ease;
