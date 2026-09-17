@@ -1,29 +1,37 @@
 {
-  "youtube": "https://youtube.com/parthcreations",
-  "featured_label": "Featured in",
+  "wordmark": "Parth Creations",
+  "role": "Emmy-Credited Graphic Designer",
   "chips": [
     {
-      "strong": "6",
-      "rest": "years"
+      "strong": "NBA",
+      "rest": "billboards"
     },
     {
       "strong": "200+",
-      "rest": "clients"
+      "rest": "thumbnails"
     },
     {
-      "strong": "100M+",
+      "strong": "48M+",
       "rest": "views"
     }
   ],
+  "email": "REPLACE@EMAIL.COM",
+  "instagram": "https://instagram.com/parthcreations",
+  "tiktok": "https://tiktok.com/@parth_creations",
+  "youtube": "https://youtube.com/parthcreations",
+  "about_lead": "Most of what I make has one job: get noticed in the half-second before someone scrolls past.",
+  "about_body": "That’s meant All-Star voting campaigns for the Dallas Mavericks, recruiting art for Illini Men’s Basketball, posters for Coyote Peterson and Brave Wilderness, and thumbnails for creators with a combined audience in the millions. My work has run on a billboard in downtown Dallas, in the intro of an Amazon Prime series, and across 200+ YouTube thumbnails that have pulled more than 48 million views.\n\nIn 2023 I received a Northern California Area Regional Emmy for Outstanding Achievement as graphic designer on Back to the Wild.\n\nI also build things of my own. LayerRemix is a platform I designed and run where artists share, download and remix each other’s Photoshop files.\n\nPhotoshop is where I live; After Effects when it needs to move.",
+  "tools": "Photoshop, After Effects, Illustrator",
+  "featured_label": "Featured in",
   "featured": [
-    {
-      "name": "Houston Rockets",
-      "logo": "/assets/logos/houston-rockets.png",
-      "url": ""
-    },
     {
       "name": "Dallas Mavericks",
       "logo": "/assets/logos/dallas-mavericks.png",
+      "url": ""
+    },
+    {
+      "name": "Houston Rockets",
+      "logo": "/assets/logos/houston-rockets.png",
       "url": ""
     },
     {
@@ -57,12 +65,6 @@
       "url": ""
     }
   ],
-  "about_lead": "Posters • Thumbnails • Social Design",
-  "instagram": "https://instagram.com/parthcreations",
-  "about_body": "Emmy-credited graphic designer with 10+ years experience.",
-  "role": "Artist.",
-  "wordmark": "Parth Creations",
-  "tiktok": "https://tiktok.com/@parth_creations",
-  "tools": "Photoshop, After Effects, Illustrator",
-  "email": "parthcreations1@gmail.com"
+  "portrait": "/assets/about/parth.webp",
+  "portrait_alt": "Parth Shukla"
 }

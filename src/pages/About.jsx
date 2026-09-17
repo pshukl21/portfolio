@@ -7,6 +7,11 @@ export default function About() {
   return (
     <div className="wrap">
       <div className="about">
+        {site.portrait && (
+          <figure className="portrait">
+            <img src={site.portrait} alt={site.portrait_alt || ''} />
+          </figure>
+        )}
         <p className="first">{site.about_lead}</p>
         {paragraphs.map((t, i) => <p key={i}>{t}</p>)}
 
