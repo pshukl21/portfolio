@@ -29,10 +29,12 @@ export default function DocTab() {
   }
 
   return (
-    <div className="doctab" aria-hidden="true">
-      <span className="doctab-x">×</span>
-      <span className="doctab-name">{name}</span>
-      <span className="doctab-meta">@ 100% ({mode}) *</span>
+    <div className="doctab-bar" aria-hidden="true">
+      <span className="doctab">
+        <span className="doctab-x">×</span>
+        <span className="doctab-name">{name}</span>
+        <span className="doctab-meta">@ 100% ({mode}) *</span>
+      </span>
     </div>
   )
 }

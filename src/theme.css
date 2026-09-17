@@ -115,10 +115,14 @@ code { font-family: var(--mono); font-size: .92em; color: var(--dim); }
 
 
 /* ---------- open-document tab ---------- */
-.doctab { position: fixed; top: var(--hdr); left: var(--lpw); right: 0;
-  height: var(--tab); z-index: 56; display: flex; align-items: center; gap: 10px;
-  padding: 0 14px; background: var(--raised);
-  border-bottom: 1px solid var(--hair); font-size: 12.5px; }
+/* A strip the width of the document area, with the tab itself a box on it —
+   the tab hugs its label rather than spanning the page. */
+.doctab-bar { position: fixed; top: var(--hdr); left: var(--lpw); right: 0;
+  height: var(--tab); z-index: 56; display: flex; align-items: stretch;
+  background: var(--bg); border-bottom: 1px solid var(--hair); }
+.doctab { display: inline-flex; align-items: center; gap: 10px; max-width: 100%;
+  padding: 0 15px; background: var(--raised);
+  border-right: 1px solid var(--hair); font-size: 12.5px; }
 .doctab-x { color: var(--faint); font-size: 14px; line-height: 1; }
 .doctab-name { color: var(--text); font-variation-settings: "wdth" 104, "wght" 650;
   white-space: nowrap; }
@@ -276,7 +280,7 @@ code { font-family: var(--mono); font-size: .92em; color: var(--dim); }
   .app { grid-template-columns: 1fr; }
   .rulers { inset: calc(var(--hdr) + var(--tab)) 0 0 0; }
   .lp-toggle { display: block; }
-  .doctab { display: none; }
+  .doctab-bar { display: none; }
   .doc { padding-top: clamp(14px, 2vw, 20px); }
   .lp { position: fixed; inset: var(--hdr) auto 0 0; width: 262px; z-index: 60;
     height: auto;
