@@ -29,18 +29,6 @@ export default function Compare({ before, after, label, views, ratio = '16 / 9' 
 
   return (
     <figure className="cmp">
-      {views && (
-        <div className="cmp-badge">
-          <svg width="18" height="18" viewBox="0 0 16 16" fill="none"
-               stroke="currentColor" strokeWidth="1.3" strokeLinejoin="round"
-               aria-hidden="true">
-            <rect x="1.4" y="3.4" width="13.2" height="9.2" rx="2.6" />
-            <path d="M6.7 6.2l3.5 1.8-3.5 1.8z" fill="currentColor" stroke="none" />
-          </svg>
-          <b>{views}</b>
-          <i>views</i>
-        </div>
-      )}
       <div
         className="cmp-box"
         ref={boxRef}
@@ -56,9 +44,6 @@ export default function Compare({ before, after, label, views, ratio = '16 / 9' 
       >
         <img className="cmp-after" src={after} alt={`${label || 'Thumbnail'} — after`} loading="lazy" />
         <img className="cmp-before" src={before} alt={`${label || 'Thumbnail'} — before`} loading="lazy" />
-
-        <span className="cmp-tag cmp-tag-l">BEFORE</span>
-        <span className="cmp-tag cmp-tag-r">AFTER</span>
 
         <div
           className="cmp-handle"
@@ -78,6 +63,19 @@ export default function Compare({ before, after, label, views, ratio = '16 / 9' 
             </svg>
           </span>
         </div>
+
+        {views && (
+          <span className="cmp-count">
+            <svg width="15" height="15" viewBox="0 0 16 16" fill="none"
+                 stroke="currentColor" strokeWidth="1.3" strokeLinejoin="round"
+                 aria-hidden="true">
+              <rect x="1.4" y="3.4" width="13.2" height="9.2" rx="2.6" />
+              <path d="M6.7 6.2l3.5 1.8-3.5 1.8z" fill="currentColor" stroke="none" />
+            </svg>
+            <b>{views}</b>
+            <i>views</i>
+          </span>
+        )}
       </div>
       {label && <figcaption><span className="cmp-title">{label}</span></figcaption>}
     </figure>
