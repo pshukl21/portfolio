@@ -83,42 +83,48 @@ function page(status, payload) {
 <body style="font:14px system-ui;padding:2rem;color:#333">
 <p id="state">${status === 'success' ? 'Signing in…' : 'Sign-in failed.'}</p>
 ${detail}
-<p id="manual" style="display:none">
-  The CMS window didn't pick this up automatically.
-  <button id="again" style="font:inherit;padding:6px 12px">Send again</button>
-</p>
 <script>
   (function () {
+    var payload = ${JSON.stringify(payload)};
     var msg = ${JSON.stringify(message)};
-    var opener = window.opener;
-    if (!opener) {
-      document.getElementById('state').textContent =
-        'Open this from the CMS sign-in button, not directly.';
+    var ok = ${status === 'success'};
+    var el = document.getElementById('state');
+
+    if (!ok) return;
+
+    // This page and the CMS are the same origin, so write the session
+    // straight to localStorage. postMessage depends on both sides agreeing
+    // on an exact origin, which a bare-to-www redirect keeps breaking.
+    try {
+      var user = JSON.stringify({ token: payload.token, backendName: 'github' });
+      localStorage.setItem('decap-cms-user', user);
+      localStorage.setItem('netlify-cms-user', user);
+    } catch (e) {
+      el.textContent = 'Could not save the session: ' + e.message;
       return;
     }
 
-    // Decap's handshake is: we announce ourselves, it replies, we hand over
-    // the token. If its reply never arrives we push the token anyway — the
-    // code is already spent, so a retry means starting over.
-    function hand(origin) { try { opener.postMessage(msg, origin || '*'); } catch (e) {} }
+    // Still offer the handshake, in case this Decap build wants it.
+    if (window.opener) {
+      try {
+        window.addEventListener('message', function (e) {
+          window.opener.postMessage(msg, e.origin);
+        }, false);
+        window.opener.postMessage('authorizing:github', '*');
+      } catch (e) {}
+    }
 
-    window.addEventListener('message', function (e) { hand(e.origin); }, false);
-    opener.postMessage('authorizing:github', '*');
-
-    var tries = 0;
-    var timer = setInterval(function () {
-      tries++;
-      hand('*');
-      if (tries > 8) {
-        clearInterval(timer);
-        document.getElementById('manual').style.display = 'block';
-      }
-      if (window.closed) clearInterval(timer);
-    }, 600);
-
-    document.getElementById('again').addEventListener('click', function () {
-      hand('*');
-    });
+    el.textContent = 'Signed in. Reopening the CMS…';
+    setTimeout(function () {
+      try {
+        if (window.opener && !window.opener.closed) {
+          window.opener.location.href = '/admin/';
+          window.close();
+          return;
+        }
+      } catch (e) {}
+      location.href = '/admin/';
+    }, 700);
   })();
 </script>
 </body>`
