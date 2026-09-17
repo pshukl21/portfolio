@@ -3,6 +3,10 @@
   "featured_label": "Featured in",
   "chips": [
     {
+      "strong": "14",
+      "rest": "years"
+    },
+    {
       "strong": "200+",
       "rest": "clients"
     },
