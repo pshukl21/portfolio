@@ -276,10 +276,10 @@ code { font-family: var(--mono); font-size: .92em; color: var(--dim); }
 .dc-info { display: block; flex: 1; padding: 11px 13px 13px; }
 .dc-title { display: block; color: #15151A; font-size: 16px; line-height: 1.2;
   font-variation-settings: "wdth" 108, "wght" 700; letter-spacing: -.015em; }
-.dc-stats { display: flex; align-items: center; gap: 8px; margin-top: 5px;
+.dc-stats { display: flex; align-items: center; gap: 7px; margin-top: 5px;
   color: #6A6A73; font-size: 12.5px; }
+.dc-stats svg { flex: none; }
 .dc-stat { display: flex; align-items: center; gap: 6px; }
-.dc-sep { color: #B4B4BC; }
 .dc-by { display: block; margin-top: 6px; color: var(--accent); font-size: 12.5px;
   font-variation-settings: "wght" 600; }
 

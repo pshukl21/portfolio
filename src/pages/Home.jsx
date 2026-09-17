@@ -3,7 +3,7 @@ import DocCard from '../components/DocCard'
 import Featured from '../components/Featured'
 import { projects } from '../projects'
 import { usedCategories } from '../categories'
-import { coverFor, countFor } from '../assets'
+import { coverFor } from '../assets'
 
 /** Filename-safe slug, so a card reads like a real document. */
 const psd = (title) =>
@@ -42,7 +42,6 @@ export default function Home() {
             file={psd(p.title)}
             title={p.title}
             cover={coverFor(p.id)}
-            layers={countFor(p.id)}
             year={p.year}
             client={p.meta}
           />
