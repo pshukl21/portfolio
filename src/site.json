@@ -1,6 +1,7 @@
 {
   "youtube": "https://youtube.com/parthcreations",
   "featured_label": "Featured in",
+  "portrait_alt": "Parth Shukla",
   "chips": [
     {
       "strong": "6",
@@ -57,14 +58,13 @@
       "url": ""
     }
   ],
-  "about_lead": "Posters • Thumbnails • Social Design",
+  "about_lead": "Artist.",
   "instagram": "https://instagram.com/parthcreations",
-  "about_body": "Emmy-credited graphic designer with 10+ years experience.",
+  "about_body": "Emmy-credited graphic designer with 6 years client and professional experience.",
   "role": "Artist.",
   "wordmark": "Parth Creations",
   "tiktok": "https://tiktok.com/@parth_creations",
   "tools": "Photoshop, After Effects, Illustrator",
-  "email": "parthcreations1@gmail.com",
   "portrait": "/assets/about/parth.webp",
-  "portrait_alt": "Parth Shukla"
+  "email": "parthcreations1@gmail.com"
 }
