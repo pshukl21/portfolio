@@ -7,6 +7,182 @@
   <title>Content Manager — Parth Creations</title>
 </head>
 <body>
+  <!--
+    The config is defined here rather than fetched from config.yml.
+
+    A separate config.yml has to be found over the network at a path Decap
+    guesses from the current URL — which breaks whenever the file doesn't
+    reach the build, or the bare domain redirects to www, or a stale copy is
+    cached. Embedded, there is no request to fail.
+  -->
+  <script>window.CMS_MANUAL_INIT = true</script>
   <script src="https://unpkg.com/decap-cms@^3.3.3/dist/decap-cms.js"></script>
+  <script>
+    CMS.init({
+      config: {
+        backend: {
+          name: 'github',
+          repo: 'pshukl21/portfolio',
+          branch: 'main',
+          // OAuth handled by the serverless functions in /api of this project.
+          // Must match the GitHub OAuth app's callback URL, www included.
+          base_url: 'https://www.parthcreations.art',
+          auth_endpoint: 'api/auth',
+        },
+
+        // Lets the CMS run against local files during development:
+        //   npx decap-server      (in a second terminal)
+        //   then open http://localhost:5173/admin/
+        local_backend: true,
+
+        media_folder: 'public/assets/uploads',
+        public_folder: '/assets/uploads',
+
+        collections: [
+          {
+            name: 'site',
+            label: 'Site',
+            files: [{
+              name: 'settings',
+              label: 'Header, About & Contact',
+              file: 'src/site.json',
+              fields: [
+                { name: 'wordmark', label: 'Name in header', widget: 'string' },
+                { name: 'role', label: 'Role line', widget: 'string' },
+                {
+                  name: 'chips', label: 'Header stats', widget: 'list', max: 4,
+                  summary: '{{fields.strong}} {{fields.rest}}',
+                  fields: [
+                    { name: 'strong', label: 'Bold part', widget: 'string' },
+                    { name: 'rest', label: 'Rest', widget: 'string' },
+                  ],
+                },
+                { name: 'featured_label', label: 'Featured band heading', widget: 'string' },
+                {
+                  name: 'featured', label: 'Featured in', label_singular: 'Logo',
+                  widget: 'list', required: false, summary: '{{fields.name}}',
+                  hint: 'Upload a white PNG on a transparent background.',
+                  fields: [
+                    { name: 'name', label: 'Name', widget: 'string' },
+                    { name: 'logo', label: 'Logo', widget: 'image' },
+                    { name: 'url', label: 'Link (optional)', widget: 'string', required: false },
+                  ],
+                },
+                { name: 'email', label: 'Email', widget: 'string' },
+                { name: 'instagram', label: 'Instagram URL', widget: 'string' },
+                { name: 'tiktok', label: 'TikTok URL', widget: 'string' },
+                { name: 'youtube', label: 'YouTube URL', widget: 'string' },
+                { name: 'portrait', label: 'About photo', widget: 'image', required: false },
+                { name: 'portrait_alt', label: 'About photo alt text', widget: 'string', required: false },
+                { name: 'about_lead', label: 'About — opening line', widget: 'text' },
+                {
+                  name: 'about_body', label: 'About — body', widget: 'text',
+                  hint: 'Leave a blank line between paragraphs.',
+                },
+                { name: 'tools', label: 'Tools', widget: 'string' },
+              ],
+            }],
+          },
+
+          {
+            name: 'projects',
+            label: 'Projects',
+            files: [{
+              name: 'list',
+              label: 'All projects',
+              file: 'src/projects.json',
+              fields: [{
+                name: 'projects', label: 'Projects', label_singular: 'Project',
+                widget: 'list', summary: '{{fields.title}} ({{fields.year}})',
+                fields: [
+                  {
+                    name: 'id', label: 'ID', widget: 'string',
+                    hint: 'Used in the URL, and must match the ID under Captions. Avoid changing.',
+                  },
+                  { name: 'title', label: 'Title', widget: 'string' },
+                  { name: 'year', label: 'Year', widget: 'string' },
+                  {
+                    name: 'category', label: 'Category', widget: 'select',
+                    options: ['Sports', 'Creators', 'Film & TV', 'Music', 'Product & Brand'],
+                    default: 'Creators',
+                    hint: 'Groups the project in the Layers panel and the filter row.',
+                  },
+                  { name: 'meta', label: 'Client / role line', widget: 'string' },
+                  { name: 'lead', label: 'Lead sentence', widget: 'text' },
+                  { name: 'body', label: 'Body', widget: 'text', required: false },
+                  { name: 'link_url', label: 'Header link URL', widget: 'string', required: false },
+                  {
+                    name: 'link_label', label: 'Header link text', widget: 'string', required: false,
+                    hint: "Shown as a button under the project intro, e.g. 'Watch the full playlist'.",
+                  },
+                  {
+                    name: 'cover', label: 'Card cover', widget: 'image',
+                    required: false, allow_multiple: false,
+                    hint: 'Shown on the Work page. Falls back to the first image if empty.',
+                  },
+                ],
+              }],
+            }],
+          },
+
+          {
+            name: 'captions',
+            label: 'Captions & images',
+            files: [{
+              name: 'content',
+              label: 'Groups & images',
+              file: 'src/content.json',
+              fields: [{
+                name: 'content', label: 'Projects', widget: 'list',
+                summary: '{{fields.id}}',
+                fields: [
+                  { name: 'id', label: 'Project ID', widget: 'string' },
+                  { name: 'sequence', label: 'Number the groups', widget: 'boolean', default: false },
+                  {
+                    name: 'compact', label: 'Compact layout', widget: 'boolean', default: false,
+                    hint: 'Headings become a list and all images share one gallery. Good for long projects.',
+                  },
+                  {
+                    name: 'groups', label: 'Groups', label_singular: 'Group',
+                    widget: 'list', summary: '{{fields.title}}',
+                    fields: [
+                      { name: 'title', label: 'Heading', widget: 'string' },
+                      { name: 'note', label: 'Note', widget: 'text', required: false },
+                      {
+                        name: 'images', label: 'Images', widget: 'image',
+                        required: false, allow_multiple: true,
+                        media_library: { config: { multiple: true } },
+                        hint: 'Drag to reorder. Upload new ones or pick from the media library.',
+                      },
+                      {
+                        name: 'compare', label: 'Before / after sliders', widget: 'list',
+                        required: false, summary: '{{fields.label}}',
+                        fields: [
+                          { name: 'label', label: 'Caption', widget: 'string', required: false },
+                          {
+                            name: 'views', label: 'Views', widget: 'string', required: false,
+                            hint: "Just the number, e.g. 1.6M or 240K — 'views' is added for you.",
+                          },
+                          {
+                            name: 'before', label: 'Before image', widget: 'image',
+                            hint: "Both images are required — delete the row if you're not using it.",
+                          },
+                          { name: 'after', label: 'After image', widget: 'image' },
+                        ],
+                      },
+                      {
+                        name: 'embed', label: 'Instagram post', widget: 'string', required: false,
+                        hint: 'Paste a post or reel URL to show a link card under this group.',
+                      },
+                    ],
+                  },
+                ],
+              }],
+            }],
+          },
+        ],
+      },
+    })
+  </script>
 </body>
 </html>
