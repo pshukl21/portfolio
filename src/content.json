@@ -1,6 +1,19 @@
 {
   "content": [
     {
+      "sequence": false,
+      "compact": false,
+      "id": "atldream",
+      "groups": [
+        {
+          "images": [
+            "/assets/uploads/angelreese-design-updated.png"
+          ],
+          "title": "T-Shirt Design"
+        }
+      ]
+    },
+    {
       "id": "layerremix",
       "sequence": true,
       "compact": true,
@@ -32,19 +45,6 @@
           "images": [
             "/assets/layerremix/05.webp"
           ]
-        }
-      ]
-    },
-    {
-      "sequence": false,
-      "compact": false,
-      "id": "atldeream",
-      "groups": [
-        {
-          "images": [
-            "/assets/uploads/angelreese-design-updated.png"
-          ],
-          "title": "T-Shirt Design"
         }
       ]
     },
