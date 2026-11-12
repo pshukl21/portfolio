@@ -36,6 +36,19 @@
       ]
     },
     {
+      "sequence": false,
+      "compact": false,
+      "id": "atldeream",
+      "groups": [
+        {
+          "images": [
+            "/assets/uploads/angelreese-design-updated.png"
+          ],
+          "title": "T-Shirt Design"
+        }
+      ]
+    },
+    {
       "id": "nba",
       "sequence": false,
       "compact": false,
@@ -518,19 +531,6 @@
           "images": [
             "/assets/uploads/w-i92mt_o7q.jpg"
           ]
-        }
-      ]
-    },
-    {
-      "sequence": false,
-      "compact": false,
-      "id": "atldeream",
-      "groups": [
-        {
-          "images": [
-            "/assets/uploads/angelreese-design-updated.png"
-          ],
-          "title": "T-Shirt Design"
         }
       ]
     }
