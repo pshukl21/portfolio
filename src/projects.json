@@ -1,6 +1,16 @@
 {
   "projects": [
     {
+      "category": "Sports",
+      "title": "Atlanta Dream",
+      "year": "2026",
+      "meta": "Atlanta Dream",
+      "lead": "Design sold to the Atlanta Dream for sale on T-shirts",
+      "body": "",
+      "cover": "/assets/uploads/angelreese-design-tshirtdesign.png",
+      "id": "atldream"
+    },
+    {
       "id": "nba",
       "cover": "/assets/uploads/nba-cover.png",
       "title": "NBA",
