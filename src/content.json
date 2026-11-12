@@ -520,6 +520,19 @@
           ]
         }
       ]
+    },
+    {
+      "sequence": false,
+      "compact": false,
+      "id": "atldeream",
+      "groups": [
+        {
+          "images": [
+            "/assets/uploads/angelreese-design-updated.png"
+          ],
+          "title": "T-Shirt Design"
+        }
+      ]
     }
   ]
 }
