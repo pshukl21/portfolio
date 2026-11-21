@@ -1,7 +1,6 @@
 {
-  "youtube": "https://youtube.com/parthcreations",
-  "featured_label": "Featured in",
-  "portrait_alt": "Parth Shukla",
+  "wordmark": "Parth Creations",
+  "role": "Artist.",
   "chips": [
     {
       "strong": "6",
@@ -16,15 +15,20 @@
       "rest": "views"
     }
   ],
+  "featured_label": "Featured in",
   "featured": [
-    {
-      "name": "Houston Rockets",
-      "logo": "/assets/logos/houston-rockets.png",
-      "url": ""
-    },
     {
       "name": "Dallas Mavericks",
       "logo": "/assets/logos/dallas-mavericks.png",
+      "url": ""
+    },
+    {
+      "name": "Atlanta Dream",
+      "logo": "/assets/uploads/atlanta-dream-outline.png"
+    },
+    {
+      "name": "Houston Rockets",
+      "logo": "/assets/logos/houston-rockets.png",
       "url": ""
     },
     {
@@ -58,13 +62,13 @@
       "url": ""
     }
   ],
-  "about_lead": "Artist.",
+  "email": "parthcreations1@gmail.com",
   "instagram": "https://instagram.com/parthcreations",
-  "about_body": "Emmy-credited graphic designer with 6 years client and professional experience.",
-  "role": "Artist.",
-  "wordmark": "Parth Creations",
   "tiktok": "https://tiktok.com/@parth_creations",
-  "tools": "Photoshop, After Effects, Illustrator",
+  "youtube": "https://youtube.com/parthcreations",
   "portrait": "/assets/about/parth.webp",
-  "email": "parthcreations1@gmail.com"
+  "portrait_alt": "Parth Shukla",
+  "about_lead": "Artist.",
+  "about_body": "Emmy-credited graphic designer with 6 years client and professional experience.",
+  "tools": "Photoshop, After Effects, Illustrator"
 }
